@@ -1,0 +1,322 @@
+csa.hood.name,population,mapla.region.slug,top.region.pct.csa
+Figueroa Park Square,8721,south-la,1.0048170610543778
+West Carson,22086,harbor,1.0017472697606795
+Melrose,77696,central-la,1.0014436973657053
+Chinatown,8021,central-la,1.0013728906140869
+Thai Town,9809,central-la,1.001241292915706
+El Camino Village,8791,south-bay,1.0011440856571587
+Universal City,0,san-fernando-valley,1.000961533777414
+Park La Brea,13580,central-la,1.0009561349210943
+West Puente Valley,9835,san-gabriel-valley,1.0009365941119577
+Westlake,59355,central-la,1.0008830069171728
+Avocado Heights,6775,san-gabriel-valley,1.0008035015934031
+East Hollywood,29287,central-la,1.000702044087612
+Vermont Vista,41186,south-la,1.0006779080179005
+Lafayette Square,4559,central-la,1.0006568897550436
+Northeast San Gabriel,24036,san-gabriel-valley,1.0006247487336184
+South Park,37961,south-la,1.0005970451171622
+Mission Hills,24124,san-fernando-valley,1.0005365828110995
+Miracle Mile,17985,central-la,1.0004933863985066
+Victoria Park,8399,central-la,1.0004458583502964
+Green Meadows,21505,south-la,1.0004085799345874
+Canoga Park,65289,san-fernando-valley,1.0003975343434939
+Lawndale,33614,south-bay,1.000383008135069
+Hawthorne,91301,south-bay,1.0003624544450551
+Reseda Ranch,4636,san-fernando-valley,1.000332425247725
+Norwalk,107622,southeast,1.0003178521896543
+Vermont Knolls,17200,south-la,1.0003067735273754
+Winnetka,51786,san-fernando-valley,1.0002683155026242
+Temple City,36455,san-gabriel-valley,1.000267850969825
+Littlerock,4021,antelope-valley,1.0002560642757317
+Harvard Park,37935,south-la,1.000253038239165
+Downey,114263,southeast,1.0002463904273375
+Panorama City,75250,san-fernando-valley,1.0002307428909163
+Manchester Square,8536,south-la,1.0001662479027251
+Cheviot Hills,9171,westside,1.0001511589097578
+Westlake Village,8360,santa-monica-mountains,1.0001319121863663
+San Gabriel,40954,san-gabriel-valley,1.00012503826362
+Century City,12792,westside,1.0001215992149304
+Harbor Pines,2409,harbor,1.0000923216753268
+Sun Village,6036,antelope-valley,1.0000877999432696
+Reseda,76617,san-fernando-valley,1.000071208600291
+Quartz Hill,12906,antelope-valley,1.0000503927406366
+North Whittier,8360,san-gabriel-valley,1.0000497787232774
+West LA,952,westside,1.0000466033819193
+Irwindale,1459,san-gabriel-valley,1.0000410461961193
+West Covina,108235,san-gabriel-valley,1.0000358142346044
+Northridge,69797,san-fernando-valley,1.0000328280859367
+Anaverde,1508,antelope-valley,1.0000258551068257
+Temple-Beaudry,39482,central-la,1.0000257878746819
+Little Armenia,8025,central-la,1.000014758592726
+Pacoima,76979,san-fernando-valley,1.0000134660419855
+La Habra Heights,5455,san-gabriel-valley,1.000013012579937
+Toluca Woods,1858,san-fernando-valley,1.0000103044274447
+Central,38992,south-la,1.0000099385874877
+South Gate,98155,southeast,1.0000090286028538
+Bassett,14817,san-gabriel-valley,1.000003637444062
+Littlerock/Pearblossom,3569,antelope-valley,1.000003493852585
+Lake Los Angeles,12994,antelope-valley,1.0000023775034108
+San Francisquito Canyon/Bouquet Canyon,0,northwest-county,1.0000020409834742
+Wiseburn,6027,south-bay,1.0000000609337625
+Echo Park,14256,central-la,1.0000000279462957
+Harvard Heights,18035,central-la,1.0000000000000346
+Valencia,3072,northwest-county,1.0000000000000262
+Exposition,3326,south-la,1.0000000000000255
+Littlerock/Juniper Hills,1297,antelope-valley,1.0000000000000198
+West Rancho Dominguez,1359,southeast,1.0000000000000144
+East Lancaster,114,antelope-valley,1.0000000000000135
+Brookside,581,central-la,1
+Charter Oak,0,san-gabriel-valley,1
+East Covina,329,san-gabriel-valley,1
+La Rambla,2075,harbor,1
+Little Bangladesh,28343,central-la,1
+Little Tokyo,3133,central-la,1
+Padua Hills,0,pomona-valley,1
+Palos Verdes Peninsula,621,south-bay,1
+Rosewood,1286,southeast,1
+Saugus,155,northwest-county,1
+Saugus/Canyon Country,356,northwest-county,1
+St Elmo Village,4584,central-la,1
+Sycamore Square,647,central-la,1
+Vermont Square,7657,south-la,1
+Southeast Antelope Valley,781,antelope-valley,0.9999999999999896
+Franklin Canyon,0,westside,0.9999999999999882
+Rolling Hills,1940,south-bay,0.9999999999999423
+Bandini Islands,0,southeast,0.9999999999998042
+Crenshaw District,13829,south-la,0.9999988220777207
+Lake Hughes,668,northwest-county,0.9999967297403806
+Roosevelt,931,antelope-valley,0.9999927062210217
+El Monte,117414,san-gabriel-valley,0.9999910195362168
+Lancaster,161570,antelope-valley,0.9999898069117977
+Bell Gardens,43071,southeast,0.9999891078036487
+Van Nuys,93194,san-fernando-valley,0.9999874299340318
+South El Monte,22680,san-gabriel-valley,0.9999771523944224
+Bradbury,1177,san-gabriel-valley,0.9999760604316813
+Palmdale,159810,antelope-valley,0.9999607880879539
+Toluca Terrace,1306,san-fernando-valley,0.9999600278546377
+Culver City,39865,westside,0.9999532811375166
+East Rancho Dominguez,15308,southeast,0.999948675979975
+North Hollywood,151421,san-fernando-valley,0.9999484167135324
+Arcadia,65735,san-gabriel-valley,0.9999481817618849
+Rancho Park,6560,westside,0.9999457613435703
+Lennox,22542,south-bay,0.9999438923678123
+Covina,65851,san-gabriel-valley,0.9999418302300208
+Hacienda Heights,55926,san-gabriel-valley,0.9999356717769713
+Artesia,16795,southeast,0.999935261453064
+Altadena,43620,verdugos,0.9999316451878745
+Pearblossom/Llano,1956,antelope-valley,0.99992729440779
+Manhattan Beach,35999,south-bay,0.9999267205402269
+Huntington Park,59484,southeast,0.9999201441766777
+Silverlake,44083,central-la,0.9999183523464275
+Porter Ranch,35588,san-fernando-valley,0.999913116231562
+Toluca Lake,8704,san-fernando-valley,0.9999098212936164
+North Hills,61575,san-fernando-valley,0.9998994594073735
+Mandeville Canyon,3124,westside,0.99989602028871
+Pellissier Village,619,san-gabriel-valley,0.9998897045752632
+Wilshire Center,50170,central-la,0.9998850634509123
+San Jose Hills,20221,san-gabriel-valley,0.9998792952223104
+Valley Glen,30016,san-fernando-valley,0.9998748917236316
+White Fence Farms,3683,antelope-valley,0.9998744698675205
+Lake Balboa,42206,san-fernando-valley,0.9998686138986203
+Paramount,56023,southeast,0.999867732174143
+Granada Hills,58191,san-fernando-valley,0.9998617297657671
+Santa Monica Mountains,18621,santa-monica-mountains,0.9998381172797769
+Gramercy Place,10764,south-la,0.9998379310249329
+Century Palms/Cove,33766,south-la,0.9998355331668441
+Signal Hill,11797,harbor,0.9998320499101816
+Monrovia,42681,san-gabriel-valley,0.9998311304845963
+Shadow Hills,4442,san-fernando-valley,0.9998223867596377
+Rosemead,55350,san-gabriel-valley,0.9998223516924319
+Lynwood,72047,southeast,0.999820054801982
+Carson,93846,harbor,0.9998185572744558
+Mid-city,15030,central-la,0.9998170904141847
+Baldwin Park,76769,san-gabriel-valley,0.9998155802152554
+Sierra Madre,10989,san-gabriel-valley,0.99980543651875
+Hancock Park,17039,central-la,0.9997991168675074
+Llano,877,antelope-valley,0.9997915308776537
+North Lancaster,1198,antelope-valley,0.9997849303292823
+Vernon Central,51998,south-la,0.9997798183212435
+Brentwood,30955,westside,0.999766463788692
+Duarte,26444,san-gabriel-valley,0.9997663963079962
+Del Rey,30254,westside,0.9997645477457464
+Industry,437,san-gabriel-valley,0.9997611970847518
+Palms,43877,westside,0.9997291493187422
+La Puente,40697,san-gabriel-valley,0.9997210617420671
+Bel Air,8429,westside,0.9997176497603338
+Inglewood,113582,south-bay,0.9997106954307012
+Tarzana,30876,san-fernando-valley,0.9996607694981603
+Santa Fe Springs,18364,southeast,0.9996325710631695
+View Park/Windsor Hills,11635,south-la,0.9996271912230121
+Hollywood,68254,central-la,0.9996260540665849
+Rosewood/West Rancho Dominguez,3361,southeast,0.9996247994062224
+Kagel/Lopez Canyons,1412,angeles-forest,0.9996188175066966
+Westfield/Academy Hills,1300,south-bay,0.9996159323376069
+Beverly Hills,34520,westside,0.9996123143638282
+Newhall,0,northwest-county,0.9995917091810775
+Woodland Hills,68055,san-fernando-valley,0.9995878236409942
+Westwood,54109,westside,0.9995874929233608
+Sherman Oaks,87254,san-fernando-valley,0.9995873826385953
+La Crescenta-Montrose,19801,verdugos,0.9995805899789102
+Bell,36332,southeast,0.99957011247596
+Gardena,61310,south-bay,0.9995528255846056
+Agoura Hills,20883,santa-monica-mountains,0.9995501492899472
+Boyle Heights,86884,eastside,0.9995465758216239
+Regent Square,2780,central-la,0.9995257564794373
+Sunrise Village,1296,san-gabriel-valley,0.9995193085361372
+Calabasas,24323,santa-monica-mountains,0.9994976477067059
+West Hollywood,36951,central-la,0.9994948072894699
+Arleta,34370,san-fernando-valley,0.9994899076926523
+Maywood,28049,southeast,0.9994776873156945
+Exposition Park,44917,south-la,0.999474008720071
+Del Aire,4393,south-bay,0.9994414142608913
+Country Club Park,15153,central-la,0.9994220392708093
+Torrance,149268,south-bay,0.9994201777323832
+Historic Filipinotown,13870,central-la,0.9993912362583727
+South San Gabriel,8848,san-gabriel-valley,0.9993507515949215
+Koreatown,51693,central-la,0.9993373198448582
+Rolling Hills Estates,8113,south-bay,0.999327821789415
+Valinda,23371,san-gabriel-valley,0.9993140866456259
+Carthay,14363,central-la,0.9993036923593511
+Mar Vista,42471,westside,0.9992924364427489
+Pico-Union,41842,central-la,0.9992736745264236
+Studio City,22440,san-fernando-valley,0.999212084177347
+Malibu,12961,santa-monica-mountains,0.9992119941614446
+West Vernon,53644,south-la,0.9991884967247061
+Watts,42674,south-la,0.9991659585487437
+San Marino,13277,san-gabriel-valley,0.9991462868215866
+Tujunga,27810,verdugos,0.9991259904983398
+Beverlywood,13173,westside,0.9990757752592878
+Cudahy,24347,southeast,0.9990724030477199
+West Hills,40545,san-fernando-valley,0.9990643125689254
+Jefferson Park,8073,south-la,0.9990625539454387
+Valley Village,24720,san-fernando-valley,0.9990604682071635
+San Fernando,24612,san-fernando-valley,0.9989825665558737
+East La Mirada,5292,san-gabriel-valley,0.9989818618351862
+Playa Vista,10947,westside,0.9989732065962542
+San Dimas,34516,san-gabriel-valley,0.9988727543858789
+Vernon,209,southeast,0.9988707550090844
+Angelino Heights,2502,central-la,0.9988698963872389
+West Chatsworth,0,san-fernando-valley,0.9988626481768617
+Covina (Charter Oak),13144,san-gabriel-valley,0.9988499159287307
+Glassell Park,31604,northeast-la,0.9988209648106907
+University Hills,3429,eastside,0.99882045652407
+West Los Angeles,37636,westside,0.9987959601644752
+Wilmington,56487,harbor,0.9987568981434921
+Sylmar,82398,san-fernando-valley,0.9986986823272781
+Eagle Rock,39589,northeast-la,0.9986704271206975
+Stevenson Ranch,20966,northwest-county,0.9986654874557347
+Florence-Firestone,112150,south-la,0.9986585885708428
+Del Sur,2415,antelope-valley,0.9986383838776082
+El Segundo,16786,south-bay,0.9986143522234685
+South Whittier,59222,southeast,0.9986078410832828
+Westchester,51603,south-bay,0.9986037796985187
+Walnut Park,16143,southeast,0.9986013560244915
+Bellflower,77735,southeast,0.9985943948457622
+Highland Park,48391,northeast-la,0.9984374505315766
+Rowland Heights,51022,san-gabriel-valley,0.9983674765310104
+Montebello,64375,southeast,0.9983290729852407
+East Whittier,5306,san-gabriel-valley,0.9982842007211948
+Rancho Palos Verdes,42747,south-bay,0.9982831132684579
+Athens Village,4897,south-la,0.998281666813132
+South Pasadena,26053,san-gabriel-valley,0.9982713871762302
+Alhambra,86724,san-gabriel-valley,0.9982406036762723
+Avalon,3723,harbor,0.9982140070319443
+Compton,99904,southeast,0.9981978123081378
+View Heights,3694,south-la,0.9981704712778244
+Adams-Normandie,8202,south-la,0.9981702906714472
+Burbank,107180,san-fernando-valley,0.9980907728116779
+Pasadena,138101,verdugos,0.9980743364955079
+Leimert Park,15235,south-la,0.9980357749674315
+Rosewood/East Gardena,1193,southeast,0.9979523479527835
+Cadillac-Corning,7121,central-la,0.9979504601711254
+Palos Verdes Estates,13522,south-bay,0.9979199529584036
+La Mirada,49599,southeast,0.9978593058205585
+Glendale,206493,verdugos,0.9978252425674682
+Lomita,20729,south-bay,0.9977973476609968
+Faircrest Heights,3600,central-la,0.9977963033818924
+East Los Angeles,125269,eastside,0.9977870285169248
+Santa Catalina Island,267,harbor,0.9976611597614945
+Monterey Park,62262,san-gabriel-valley,0.9974840312133664
+Harbor City,29070,harbor,0.9974479700960904
+Desert View Highlands,2493,antelope-valley,0.9974135659297939
+Elysian Park,5712,central-la,0.9973064461114622
+La Canada Flintridge,20693,verdugos,0.9972406871838846
+Whittier,91216,san-gabriel-valley,0.9971561975497891
+Encino,45172,san-fernando-valley,0.9971193565988579
+Hi Vista,1098,antelope-valley,0.9971132338661003
+Ladera Heights,7071,westside,0.9967541098339051
+Redondo Beach,68697,south-bay,0.9965976057538118
+Athens-Westmont,42442,south-la,0.9961244578537718
+Chatsworth,37061,san-fernando-valley,0.9960278354490301
+Cerritos,50654,southeast,0.9959711124375139
+Los Feliz,21608,central-la,0.9959279824963846
+Castaic,27191,northwest-county,0.9958963326612467
+Commerce,13069,southeast,0.9958927105824489
+Hyde Park,28541,south-la,0.9955731785450005
+Harbor Gateway,43600,harbor,0.9955416538723293
+Diamond Bar,57515,san-gabriel-valley,0.9955038196257254
+Palisades Highlands,3846,westside,0.9954991396994531
+Sand Canyon,0,angeles-forest,0.9951373932739531
+La Verne,35322,pomona-valley,0.9951012964165054
+South Edwards,0,antelope-valley,0.9948791176118266
+Willowbrook,34913,south-la,0.9948298275223987
+Rancho Dominguez,2661,harbor,0.9945378388507902
+Lakewood,80362,harbor,0.994402854983788
+Playa Del Rey,3196,south-bay,0.9942884503417225
+Hidden Hills,1890,santa-monica-mountains,0.9937610783533177
+Alsace,12445,south-la,0.9934310898581539
+Baldwin Hills,31125,south-la,0.9930302829408628
+Walnut,30532,san-gabriel-valley,0.9929981149721893
+Pomona,157869,pomona-valley,0.9926627454317098
+Twin Lakes/Oat Mountain,1658,northwest-county,0.9925031651304137
+Hermosa Beach,19670,south-bay,0.9924493192853862
+Lakeview Terrace,13133,san-fernando-valley,0.9922998149818478
+Azusa,65963,san-gabriel-valley,0.9922613861151821
+Pico Rivera,64284,southeast,0.9916058891302474
+Hawaiian Gardens,14676,harbor,0.991410633939225
+Val Verde,3309,northwest-county,0.9913618472530769
+West Whittier/Los Nietos,26925,southeast,0.9896672213267127
+Westhills,839,san-fernando-valley,0.9894894908542916
+Lake Manor,1643,san-fernando-valley,0.9887485435333834
+San Pasqual,2035,san-gabriel-valley,0.9880245405663671
+Venice,33885,westside,0.9850757486940899
+Pacific Palisades,21291,westside,0.98367837975722
+Long Beach,467354,harbor,0.9814600797867777
+Glendora,53424,san-gabriel-valley,0.9803086843902393
+Whittier Narrows,0,san-gabriel-valley,0.9789356653025594
+Mt. Washington,24145,northeast-la,0.9788423075173913
+University Park,27456,south-la,0.976128112831785
+Santa Monica,92446,westside,0.9739874668755812
+Atwater Village,14666,northeast-la,0.9724928903306147
+Marina del Rey,9411,westside,0.9716584968757622
+Placerita Canyon,460,angeles-forest,0.9712531353892524
+Sun Valley,52483,san-fernando-valley,0.9694454799367956
+Santa Clarita,220424,northwest-county,0.9593359780936429
+Marina Peninsula,4360,westside,0.9447930625637742
+Bouquet Canyon,1073,northwest-county,0.9437207648996354
+Claremont,37186,pomona-valley,0.9386278180088197
+Beverly Crest,12525,westside,0.9372988105396467
+El Sereno,41808,eastside,0.9321758674582766
+Hollywood Hills,29434,central-la,0.9267414428915207
+Downtown,27507,central-la,0.9167496342260617
+Cloverdale/Cochran,14553,central-la,0.9003683624293619
+Angeles National Forest,1245,angeles-forest,0.8855872537821405
+Agua Dulce,4158,northwest-county,0.8750307196356552
+Canyon Country,7728,northwest-county,0.8704391734136752
+San Pedro,78038,harbor,0.866731664686113
+Leona Valley,1751,antelope-valley,0.8633200851879387
+South Antelope Valley,455,antelope-valley,0.8550992266375081
+Elysian Valley,10171,central-la,0.7640744827908503
+Longwood,4304,central-la,0.6874791215913533
+West Antelope Valley,1511,antelope-valley,0.6717832832753096
+Wholesale District,36129,central-la,0.6507844376102565
+West Adams,27630,south-la,0.6415224636791067
+Reynier Village,4228,central-la,0.6378715702720804
+Crestview,11368,westside,0.6149809378753855
+Elizabeth Lake,1661,antelope-valley,0.6083025702742495
+Acton,7971,antelope-valley,0.6068255791382051
+Wellington Square,4915,central-la,0.5909570675579732
+Lincoln Heights,32597,eastside,0.5641232410933699
+South Carthay,10595,central-la,0.537164629763183
+East Pasadena,6403,verdugos,0.5354913617087627
+Sunland,20408,san-fernando-valley,0.5309180075351474
