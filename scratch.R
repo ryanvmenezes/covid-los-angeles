@@ -1,3 +1,20 @@
+library(tidyverse)
+
+region.daily = read_csv('processed/region-daily-calcs.csv')
+
+
+westside.split = region.daily %>% 
+  mutate(region = if_else(mapla.region.slug == 'westside', 'westside', 'not-westside')) %>% 
+  group_by(region, date) %>% 
+  summarise(
+    confirmed.cases = sum(confirmed.cases),
+    population = sum(population),
+    case.rate.100k = confirmed.cases / population * 100000
+  )
+
+westside.split %>%
+  ggplot(aes(date, case.rate.100k, color = region)) +
+  geom_line()
 
 # # csa days since rates ----------------------------------------------------
 # 
