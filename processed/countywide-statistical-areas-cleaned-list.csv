@@ -1,0 +1,323 @@
+csa.hood.name,has.la.hood,has.uninc.hood,has.inc.city,count.original,original.labels,population,hood.type,mapla.region.slug
+Acton,FALSE,TRUE,FALSE,1,Unincorporated - Acton,7971,unincorporated-area,antelope-valley
+Adams-Normandie,TRUE,FALSE,FALSE,1,Los Angeles - Adams-Normandie,8202,segment-of-a-city,south-la
+Agoura Hills,FALSE,FALSE,TRUE,1,City of Agoura Hills,20883,standalone-city,santa-monica-mountains
+Agua Dulce,FALSE,TRUE,FALSE,1,Unincorporated - Agua Dulce,4158,unincorporated-area,northwest-county
+Alhambra,FALSE,FALSE,TRUE,1,City of Alhambra,86724,standalone-city,san-gabriel-valley
+Alsace,TRUE,FALSE,FALSE,1,Los Angeles - Alsace,12445,segment-of-a-city,south-la
+Altadena,FALSE,TRUE,FALSE,1,Unincorporated - Altadena,43620,unincorporated-area,verdugos
+Anaverde,FALSE,TRUE,FALSE,1,Unincorporated - Anaverde,1508,unincorporated-area,antelope-valley
+Angeles National Forest,TRUE,TRUE,FALSE,2,Los Angeles - Angeles National Forest | Unincorporated - Angeles National Forest,1245,segment-of-a-city,angeles-forest
+Angelino Heights,TRUE,FALSE,FALSE,1,Los Angeles - Angelino Heights,2502,segment-of-a-city,central-la
+Arcadia,FALSE,TRUE,TRUE,2,City of Arcadia | Unincorporated - Arcadia,65735,standalone-city,san-gabriel-valley
+Arleta,TRUE,FALSE,FALSE,1,Los Angeles - Arleta,34370,segment-of-a-city,san-fernando-valley
+Artesia,FALSE,FALSE,TRUE,1,City of Artesia,16795,standalone-city,southeast
+Athens Village,FALSE,TRUE,FALSE,1,Unincorporated - Athens Village,4897,unincorporated-area,south-la
+Athens-Westmont,FALSE,TRUE,FALSE,1,Unincorporated - Athens-Westmont,42442,unincorporated-area,south-la
+Atwater Village,TRUE,FALSE,FALSE,1,Los Angeles - Atwater Village,14666,segment-of-a-city,northeast-la
+Avalon,FALSE,FALSE,TRUE,1,City of Avalon,3723,standalone-city,harbor
+Avocado Heights,FALSE,TRUE,FALSE,1,Unincorporated - Avocado Heights,6775,unincorporated-area,san-gabriel-valley
+Azusa,FALSE,TRUE,TRUE,2,City of Azusa | Unincorporated - Azusa,65963,standalone-city,san-gabriel-valley
+Baldwin Hills,TRUE,FALSE,FALSE,1,Los Angeles - Baldwin Hills,31125,segment-of-a-city,south-la
+Baldwin Park,FALSE,FALSE,TRUE,1,City of Baldwin Park,76769,standalone-city,san-gabriel-valley
+Bandini Islands,FALSE,TRUE,FALSE,1,Unincorporated - Bandini Islands,0,unincorporated-area,southeast
+Bassett,FALSE,TRUE,FALSE,1,Unincorporated - Bassett,14817,unincorporated-area,san-gabriel-valley
+Bel Air,TRUE,FALSE,FALSE,1,Los Angeles - Bel Air,8429,segment-of-a-city,westside
+Bell,FALSE,FALSE,TRUE,1,City of Bell,36332,standalone-city,southeast
+Bell Gardens,FALSE,FALSE,TRUE,1,City of Bell Gardens,43071,standalone-city,southeast
+Bellflower,FALSE,FALSE,TRUE,1,City of Bellflower,77735,standalone-city,southeast
+Beverly Crest,TRUE,FALSE,FALSE,1,Los Angeles - Beverly Crest,12525,segment-of-a-city,westside
+Beverly Hills,FALSE,FALSE,TRUE,1,City of Beverly Hills,34520,standalone-city,westside
+Beverlywood,TRUE,FALSE,FALSE,1,Los Angeles - Beverlywood,13173,segment-of-a-city,westside
+Bouquet Canyon,FALSE,TRUE,FALSE,1,Unincorporated - Bouquet Canyon,1073,unincorporated-area,northwest-county
+Boyle Heights,TRUE,FALSE,FALSE,1,Los Angeles - Boyle Heights,86884,segment-of-a-city,eastside
+Bradbury,FALSE,TRUE,TRUE,2,Unincorporated - Bradbury | City of Bradbury,1177,standalone-city,san-gabriel-valley
+Brentwood,TRUE,FALSE,FALSE,1,Los Angeles - Brentwood,30955,segment-of-a-city,westside
+Brookside,TRUE,FALSE,FALSE,1,Los Angeles - Brookside,581,segment-of-a-city,central-la
+Burbank,FALSE,FALSE,TRUE,1,City of Burbank,107180,standalone-city,san-fernando-valley
+Cadillac-Corning,TRUE,FALSE,FALSE,1,Los Angeles - Cadillac-Corning,7121,segment-of-a-city,central-la
+Calabasas,FALSE,FALSE,TRUE,1,City of Calabasas,24323,standalone-city,santa-monica-mountains
+Canoga Park,TRUE,FALSE,FALSE,1,Los Angeles - Canoga Park,65289,segment-of-a-city,san-fernando-valley
+Canyon Country,FALSE,TRUE,FALSE,1,Unincorporated - Canyon Country,7728,unincorporated-area,northwest-county
+Carson,FALSE,FALSE,TRUE,1,City of Carson,93846,standalone-city,harbor
+Carthay,TRUE,FALSE,FALSE,1,Los Angeles - Carthay,14363,segment-of-a-city,central-la
+Castaic,FALSE,TRUE,FALSE,1,Unincorporated - Castaic,27191,unincorporated-area,northwest-county
+Central,TRUE,FALSE,FALSE,1,Los Angeles - Central,38992,segment-of-a-city,south-la
+Century City,TRUE,FALSE,FALSE,1,Los Angeles - Century City,12792,segment-of-a-city,westside
+Century Palms/Cove,TRUE,FALSE,FALSE,1,Los Angeles - Century Palms/Cove,33766,segment-of-a-city,south-la
+Cerritos,FALSE,TRUE,TRUE,2,City of Cerritos | Unincorporated - Cerritos,50654,standalone-city,southeast
+Charter Oak,FALSE,TRUE,FALSE,1,Unincorporated - Charter Oak,0,unincorporated-area,san-gabriel-valley
+Chatsworth,TRUE,FALSE,FALSE,1,Los Angeles - Chatsworth,37061,segment-of-a-city,san-fernando-valley
+Cheviot Hills,TRUE,FALSE,FALSE,1,Los Angeles - Cheviot Hills,9171,segment-of-a-city,westside
+Chinatown,TRUE,FALSE,FALSE,1,Los Angeles - Chinatown,8021,segment-of-a-city,central-la
+Claremont,FALSE,TRUE,TRUE,2,City of Claremont | Unincorporated - Claremont,37186,standalone-city,pomona-valley
+Cloverdale/Cochran,TRUE,FALSE,FALSE,1,Los Angeles - Cloverdale/Cochran,14553,segment-of-a-city,central-la
+Commerce,FALSE,FALSE,TRUE,1,City of Commerce,13069,standalone-city,southeast
+Compton,FALSE,FALSE,TRUE,1,City of Compton,99904,standalone-city,southeast
+Country Club Park,TRUE,FALSE,FALSE,1,Los Angeles - Country Club Park,15153,segment-of-a-city,central-la
+Covina,FALSE,TRUE,TRUE,2,City of Covina | Unincorporated - Covina,65851,standalone-city,san-gabriel-valley
+Covina (Charter Oak),FALSE,TRUE,FALSE,1,Unincorporated - Covina (Charter Oak),13144,unincorporated-area,san-gabriel-valley
+Crenshaw District,TRUE,FALSE,FALSE,1,Los Angeles - Crenshaw District,13829,segment-of-a-city,south-la
+Crestview,TRUE,FALSE,FALSE,1,Los Angeles - Crestview,11368,segment-of-a-city,westside
+Cudahy,FALSE,FALSE,TRUE,1,City of Cudahy,24347,standalone-city,southeast
+Culver City,FALSE,FALSE,TRUE,1,City of Culver City,39865,standalone-city,westside
+Del Aire,FALSE,TRUE,FALSE,1,Unincorporated - Del Aire,4393,unincorporated-area,south-bay
+Del Rey,TRUE,TRUE,FALSE,2,Los Angeles - Del Rey | Unincorporated - Del Rey,30254,segment-of-a-city,westside
+Del Sur,FALSE,TRUE,FALSE,1,Unincorporated - Del Sur,2415,unincorporated-area,antelope-valley
+Desert View Highlands,FALSE,TRUE,FALSE,1,Unincorporated - Desert View Highlands,2493,unincorporated-area,antelope-valley
+Diamond Bar,FALSE,FALSE,TRUE,1,City of Diamond Bar,57515,standalone-city,san-gabriel-valley
+Downey,FALSE,FALSE,TRUE,1,City of Downey,114263,standalone-city,southeast
+Downtown,TRUE,FALSE,FALSE,1,Los Angeles - Downtown,27507,segment-of-a-city,central-la
+Duarte,FALSE,TRUE,TRUE,2,City of Duarte | Unincorporated - Duarte,26444,standalone-city,san-gabriel-valley
+Eagle Rock,TRUE,FALSE,FALSE,1,Los Angeles - Eagle Rock,39589,segment-of-a-city,northeast-la
+East Covina,FALSE,TRUE,FALSE,1,Unincorporated - East Covina,329,unincorporated-area,san-gabriel-valley
+East Hollywood,TRUE,FALSE,FALSE,1,Los Angeles - East Hollywood,29287,segment-of-a-city,central-la
+East La Mirada,FALSE,TRUE,FALSE,1,Unincorporated - East La Mirada,5292,unincorporated-area,san-gabriel-valley
+East Lancaster,FALSE,TRUE,FALSE,1,Unincorporated - East Lancaster,114,unincorporated-area,antelope-valley
+East Los Angeles,FALSE,TRUE,FALSE,1,Unincorporated - East Los Angeles,125269,unincorporated-area,eastside
+East Pasadena,FALSE,TRUE,FALSE,1,Unincorporated - East Pasadena,6403,unincorporated-area,verdugos
+East Rancho Dominguez,FALSE,TRUE,FALSE,1,Unincorporated - East Rancho Dominguez,15308,unincorporated-area,southeast
+East Whittier,FALSE,TRUE,FALSE,1,Unincorporated - East Whittier,5306,unincorporated-area,san-gabriel-valley
+Echo Park,TRUE,FALSE,FALSE,1,Los Angeles - Echo Park,14256,segment-of-a-city,central-la
+El Camino Village,FALSE,TRUE,FALSE,1,Unincorporated - El Camino Village,8791,unincorporated-area,south-bay
+El Monte,FALSE,TRUE,TRUE,2,City of El Monte | Unincorporated - El Monte,117414,standalone-city,san-gabriel-valley
+El Segundo,FALSE,FALSE,TRUE,1,City of El Segundo,16786,standalone-city,south-bay
+El Sereno,TRUE,FALSE,FALSE,1,Los Angeles - El Sereno,41808,segment-of-a-city,eastside
+Elizabeth Lake,FALSE,TRUE,FALSE,1,Unincorporated - Elizabeth Lake,1661,unincorporated-area,antelope-valley
+Elysian Park,TRUE,FALSE,FALSE,1,Los Angeles - Elysian Park,5712,segment-of-a-city,central-la
+Elysian Valley,TRUE,FALSE,FALSE,1,Los Angeles - Elysian Valley,10171,segment-of-a-city,central-la
+Encino,TRUE,FALSE,FALSE,1,Los Angeles - Encino,45172,segment-of-a-city,san-fernando-valley
+Exposition,TRUE,FALSE,FALSE,1,Los Angeles - Exposition,3326,segment-of-a-city,south-la
+Exposition Park,TRUE,FALSE,FALSE,1,Los Angeles - Exposition Park,44917,segment-of-a-city,south-la
+Faircrest Heights,TRUE,FALSE,FALSE,1,Los Angeles - Faircrest Heights,3600,segment-of-a-city,central-la
+Figueroa Park Square,TRUE,FALSE,FALSE,1,Los Angeles - Figueroa Park Square,8721,segment-of-a-city,south-la
+Florence-Firestone,TRUE,TRUE,FALSE,2,Los Angeles - Florence-Firestone | Unincorporated - Florence-Firestone,112150,segment-of-a-city,south-la
+Franklin Canyon,FALSE,TRUE,FALSE,1,Unincorporated - Franklin Canyon,0,unincorporated-area,westside
+Gardena,FALSE,FALSE,TRUE,1,City of Gardena,61310,standalone-city,south-bay
+Glassell Park,TRUE,FALSE,FALSE,1,Los Angeles - Glassell Park,31604,segment-of-a-city,northeast-la
+Glendale,FALSE,FALSE,TRUE,1,City of Glendale,206493,standalone-city,verdugos
+Glendora,FALSE,TRUE,TRUE,2,City of Glendora | Unincorporated - Glendora,53424,standalone-city,san-gabriel-valley
+Gramercy Place,TRUE,FALSE,FALSE,1,Los Angeles - Gramercy Place,10764,segment-of-a-city,south-la
+Granada Hills,TRUE,FALSE,FALSE,1,Los Angeles - Granada Hills,58191,segment-of-a-city,san-fernando-valley
+Green Meadows,TRUE,FALSE,FALSE,1,Los Angeles - Green Meadows,21505,segment-of-a-city,south-la
+Hacienda Heights,FALSE,TRUE,FALSE,1,Unincorporated - Hacienda Heights,55926,unincorporated-area,san-gabriel-valley
+Hancock Park,TRUE,FALSE,FALSE,1,Los Angeles - Hancock Park,17039,segment-of-a-city,central-la
+Harbor City,TRUE,FALSE,FALSE,1,Los Angeles - Harbor City,29070,segment-of-a-city,harbor
+Harbor Gateway,TRUE,TRUE,FALSE,2,Los Angeles - Harbor Gateway | Unincorporated - Harbor Gateway,43600,segment-of-a-city,harbor
+Harbor Pines,TRUE,FALSE,FALSE,1,Los Angeles - Harbor Pines,2409,segment-of-a-city,harbor
+Harvard Heights,TRUE,FALSE,FALSE,1,Los Angeles - Harvard Heights,18035,segment-of-a-city,central-la
+Harvard Park,TRUE,FALSE,FALSE,1,Los Angeles - Harvard Park,37935,segment-of-a-city,south-la
+Hawaiian Gardens,FALSE,FALSE,TRUE,1,City of Hawaiian Gardens,14676,standalone-city,harbor
+Hawthorne,FALSE,TRUE,TRUE,2,City of Hawthorne | Unincorporated - Hawthorne,91301,standalone-city,south-bay
+Hermosa Beach,FALSE,FALSE,TRUE,1,City of Hermosa Beach,19670,standalone-city,south-bay
+Hi Vista,FALSE,TRUE,FALSE,1,Unincorporated - Hi Vista,1098,unincorporated-area,antelope-valley
+Hidden Hills,FALSE,FALSE,TRUE,1,City of Hidden Hills,1890,standalone-city,santa-monica-mountains
+Highland Park,TRUE,FALSE,FALSE,1,Los Angeles - Highland Park,48391,segment-of-a-city,northeast-la
+Historic Filipinotown,TRUE,FALSE,FALSE,1,Los Angeles - Historic Filipinotown,13870,segment-of-a-city,central-la
+Hollywood,TRUE,FALSE,FALSE,1,Los Angeles - Hollywood,68254,segment-of-a-city,central-la
+Hollywood Hills,TRUE,FALSE,FALSE,1,Los Angeles - Hollywood Hills,29434,segment-of-a-city,central-la
+Huntington Park,FALSE,FALSE,TRUE,1,City of Huntington Park,59484,standalone-city,southeast
+Hyde Park,TRUE,FALSE,FALSE,1,Los Angeles - Hyde Park,28541,segment-of-a-city,south-la
+Industry,FALSE,FALSE,TRUE,1,City of Industry,437,standalone-city,san-gabriel-valley
+Inglewood,FALSE,FALSE,TRUE,1,City of Inglewood,113582,standalone-city,south-bay
+Irwindale,FALSE,FALSE,TRUE,1,City of Irwindale,1459,standalone-city,san-gabriel-valley
+Jefferson Park,TRUE,FALSE,FALSE,1,Los Angeles - Jefferson Park,8073,segment-of-a-city,south-la
+Kagel/Lopez Canyons,FALSE,TRUE,FALSE,1,Unincorporated - Kagel/Lopez Canyons,1412,unincorporated-area,angeles-forest
+Koreatown,TRUE,FALSE,FALSE,1,Los Angeles - Koreatown,51693,segment-of-a-city,central-la
+La Canada Flintridge,FALSE,FALSE,TRUE,1,City of La Canada Flintridge,20693,standalone-city,verdugos
+La Crescenta-Montrose,FALSE,TRUE,FALSE,1,Unincorporated - La Crescenta-Montrose,19801,unincorporated-area,verdugos
+La Habra Heights,FALSE,TRUE,TRUE,2,City of La Habra Heights | Unincorporated - La Habra Heights,5455,standalone-city,san-gabriel-valley
+La Mirada,FALSE,FALSE,TRUE,1,City of La Mirada,49599,standalone-city,southeast
+La Puente,FALSE,FALSE,TRUE,1,City of La Puente,40697,standalone-city,san-gabriel-valley
+La Rambla,FALSE,TRUE,FALSE,1,Unincorporated - La Rambla,2075,unincorporated-area,harbor
+La Verne,FALSE,TRUE,TRUE,2,City of La Verne | Unincorporated - La Verne,35322,standalone-city,pomona-valley
+Ladera Heights,FALSE,TRUE,FALSE,1,Unincorporated - Ladera Heights,7071,unincorporated-area,westside
+Lafayette Square,TRUE,FALSE,FALSE,1,Los Angeles - Lafayette Square,4559,segment-of-a-city,central-la
+Lake Balboa,TRUE,FALSE,FALSE,1,Los Angeles - Lake Balboa,42206,segment-of-a-city,san-fernando-valley
+Lake Hughes,FALSE,TRUE,FALSE,1,Unincorporated - Lake Hughes,668,unincorporated-area,northwest-county
+Lake Los Angeles,FALSE,TRUE,FALSE,1,Unincorporated - Lake Los Angeles,12994,unincorporated-area,antelope-valley
+Lake Manor,FALSE,TRUE,FALSE,1,Unincorporated - Lake Manor,1643,unincorporated-area,san-fernando-valley
+Lakeview Terrace,TRUE,FALSE,FALSE,1,Los Angeles - Lakeview Terrace,13133,segment-of-a-city,san-fernando-valley
+Lakewood,FALSE,TRUE,TRUE,2,City of Lakewood | Unincorporated - Lakewood,80362,standalone-city,harbor
+Lancaster,FALSE,FALSE,TRUE,1,City of Lancaster,161570,standalone-city,antelope-valley
+Lawndale,FALSE,FALSE,TRUE,1,City of Lawndale,33614,standalone-city,south-bay
+Leimert Park,TRUE,FALSE,FALSE,1,Los Angeles - Leimert Park,15235,segment-of-a-city,south-la
+Lennox,FALSE,TRUE,FALSE,1,Unincorporated - Lennox,22542,unincorporated-area,south-bay
+Leona Valley,FALSE,TRUE,FALSE,1,Unincorporated - Leona Valley,1751,unincorporated-area,antelope-valley
+Lincoln Heights,TRUE,FALSE,FALSE,1,Los Angeles - Lincoln Heights,32597,segment-of-a-city,eastside
+Little Armenia,TRUE,FALSE,FALSE,1,Los Angeles - Little Armenia,8025,segment-of-a-city,central-la
+Little Bangladesh,TRUE,FALSE,FALSE,1,Los Angeles - Little Bangladesh,28343,segment-of-a-city,central-la
+Little Tokyo,TRUE,FALSE,FALSE,1,Los Angeles - Little Tokyo,3133,segment-of-a-city,central-la
+Littlerock,FALSE,TRUE,FALSE,1,Unincorporated - Littlerock,4021,unincorporated-area,antelope-valley
+Littlerock/Juniper Hills,FALSE,TRUE,FALSE,1,Unincorporated - Littlerock/Juniper Hills,1297,unincorporated-area,antelope-valley
+Littlerock/Pearblossom,FALSE,TRUE,FALSE,1,Unincorporated - Littlerock/Pearblossom,3569,unincorporated-area,antelope-valley
+Llano,FALSE,TRUE,FALSE,1,Unincorporated - Llano,877,unincorporated-area,antelope-valley
+Lomita,FALSE,FALSE,TRUE,1,City of Lomita,20729,standalone-city,south-bay
+Long Beach,FALSE,TRUE,TRUE,2,City of Long Beach | Unincorporated - Long Beach,467354,standalone-city,harbor
+Longwood,TRUE,FALSE,FALSE,1,Los Angeles - Longwood,4304,segment-of-a-city,central-la
+Los Feliz,TRUE,FALSE,FALSE,1,Los Angeles - Los Feliz,21608,segment-of-a-city,central-la
+Lynwood,FALSE,TRUE,TRUE,2,City of Lynwood | Unincorporated - Lynwood,72047,standalone-city,southeast
+Malibu,FALSE,FALSE,TRUE,1,City of Malibu,12961,standalone-city,santa-monica-mountains
+Manchester Square,TRUE,FALSE,FALSE,1,Los Angeles - Manchester Square,8536,segment-of-a-city,south-la
+Mandeville Canyon,TRUE,FALSE,FALSE,1,Los Angeles - Mandeville Canyon,3124,segment-of-a-city,westside
+Manhattan Beach,FALSE,FALSE,TRUE,1,City of Manhattan Beach,35999,standalone-city,south-bay
+Mar Vista,TRUE,FALSE,FALSE,1,Los Angeles - Mar Vista,42471,segment-of-a-city,westside
+Marina del Rey,FALSE,TRUE,FALSE,1,Unincorporated - Marina del Rey,9411,unincorporated-area,westside
+Marina Peninsula,TRUE,FALSE,FALSE,1,Los Angeles - Marina Peninsula,4360,segment-of-a-city,westside
+Maywood,FALSE,FALSE,TRUE,1,City of Maywood,28049,standalone-city,southeast
+Melrose,TRUE,FALSE,FALSE,1,Los Angeles - Melrose,77696,segment-of-a-city,central-la
+Mid-city,TRUE,FALSE,FALSE,1,Los Angeles - Mid-city,15030,segment-of-a-city,central-la
+Miracle Mile,TRUE,TRUE,FALSE,2,Los Angeles - Miracle Mile | Unincorporated - Miracle Mile,17985,segment-of-a-city,central-la
+Mission Hills,TRUE,FALSE,FALSE,1,Los Angeles - Mission Hills,24124,segment-of-a-city,san-fernando-valley
+Monrovia,FALSE,TRUE,TRUE,2,Unincorporated - Monrovia | City of Monrovia,42681,standalone-city,san-gabriel-valley
+Montebello,FALSE,FALSE,TRUE,1,City of Montebello,64375,standalone-city,southeast
+Monterey Park,FALSE,FALSE,TRUE,1,City of Monterey Park,62262,standalone-city,san-gabriel-valley
+Mt. Washington,TRUE,FALSE,FALSE,1,Los Angeles - Mt. Washington,24145,segment-of-a-city,northeast-la
+Newhall,FALSE,TRUE,FALSE,1,Unincorporated - Newhall,0,unincorporated-area,northwest-county
+North Hills,TRUE,FALSE,FALSE,1,Los Angeles - North Hills,61575,segment-of-a-city,san-fernando-valley
+North Hollywood,TRUE,FALSE,FALSE,1,Los Angeles - North Hollywood,151421,segment-of-a-city,san-fernando-valley
+North Lancaster,FALSE,TRUE,FALSE,1,Unincorporated - North Lancaster,1198,unincorporated-area,antelope-valley
+North Whittier,FALSE,TRUE,FALSE,1,Unincorporated - North Whittier,8360,unincorporated-area,san-gabriel-valley
+Northeast San Gabriel,FALSE,TRUE,FALSE,1,Unincorporated - Northeast San Gabriel,24036,unincorporated-area,san-gabriel-valley
+Northridge,TRUE,FALSE,FALSE,1,Los Angeles - Northridge,69797,segment-of-a-city,san-fernando-valley
+Norwalk,FALSE,FALSE,TRUE,1,City of Norwalk,107622,standalone-city,southeast
+Pacific Palisades,TRUE,FALSE,FALSE,1,Los Angeles - Pacific Palisades,21291,segment-of-a-city,westside
+Pacoima,TRUE,FALSE,FALSE,1,Los Angeles - Pacoima,76979,segment-of-a-city,san-fernando-valley
+Padua Hills,FALSE,TRUE,FALSE,1,Unincorporated - Padua Hills,0,unincorporated-area,pomona-valley
+Palisades Highlands,TRUE,FALSE,FALSE,1,Los Angeles - Palisades Highlands,3846,segment-of-a-city,westside
+Palmdale,FALSE,TRUE,TRUE,2,City of Palmdale | Unincorporated - Palmdale,159810,standalone-city,antelope-valley
+Palms,TRUE,FALSE,FALSE,1,Los Angeles - Palms,43877,segment-of-a-city,westside
+Palos Verdes Estates,FALSE,FALSE,TRUE,1,City of Palos Verdes Estates,13522,standalone-city,south-bay
+Palos Verdes Peninsula,FALSE,TRUE,FALSE,1,Unincorporated - Palos Verdes Peninsula,621,unincorporated-area,south-bay
+Panorama City,TRUE,FALSE,FALSE,1,Los Angeles - Panorama City,75250,segment-of-a-city,san-fernando-valley
+Paramount,FALSE,FALSE,TRUE,1,City of Paramount,56023,standalone-city,southeast
+Park La Brea,TRUE,FALSE,FALSE,1,Los Angeles - Park La Brea,13580,segment-of-a-city,central-la
+Pasadena,FALSE,FALSE,TRUE,1,City of Pasadena,138101,standalone-city,verdugos
+Pearblossom/Llano,FALSE,TRUE,FALSE,1,Unincorporated - Pearblossom/Llano,1956,unincorporated-area,antelope-valley
+Pellissier Village,FALSE,TRUE,FALSE,1,Unincorporated - Pellissier Village,619,unincorporated-area,san-gabriel-valley
+Pico Rivera,FALSE,FALSE,TRUE,1,City of Pico Rivera,64284,standalone-city,southeast
+Pico-Union,TRUE,FALSE,FALSE,1,Los Angeles - Pico-Union,41842,segment-of-a-city,central-la
+Placerita Canyon,FALSE,TRUE,FALSE,1,Unincorporated - Placerita Canyon,460,unincorporated-area,angeles-forest
+Playa Del Rey,TRUE,FALSE,FALSE,1,Los Angeles - Playa Del Rey,3196,segment-of-a-city,south-bay
+Playa Vista,TRUE,FALSE,FALSE,1,Los Angeles - Playa Vista,10947,segment-of-a-city,westside
+Pomona,FALSE,TRUE,TRUE,2,Unincorporated - Pomona | City of Pomona,157869,standalone-city,pomona-valley
+Porter Ranch,TRUE,FALSE,FALSE,1,Los Angeles - Porter Ranch,35588,segment-of-a-city,san-fernando-valley
+Quartz Hill,FALSE,TRUE,FALSE,1,Unincorporated - Quartz Hill,12906,unincorporated-area,antelope-valley
+Rancho Dominguez,FALSE,TRUE,FALSE,1,Unincorporated - Rancho Dominguez,2661,unincorporated-area,harbor
+Rancho Palos Verdes,FALSE,FALSE,TRUE,1,City of Rancho Palos Verdes,42747,standalone-city,south-bay
+Rancho Park,TRUE,FALSE,FALSE,1,Los Angeles - Rancho Park,6560,segment-of-a-city,westside
+Redondo Beach,FALSE,FALSE,TRUE,1,City of Redondo Beach,68697,standalone-city,south-bay
+Regent Square,TRUE,FALSE,FALSE,1,Los Angeles - Regent Square,2780,segment-of-a-city,central-la
+Reseda,TRUE,FALSE,FALSE,1,Los Angeles - Reseda,76617,segment-of-a-city,san-fernando-valley
+Reseda Ranch,TRUE,FALSE,FALSE,1,Los Angeles - Reseda Ranch,4636,segment-of-a-city,san-fernando-valley
+Reynier Village,TRUE,FALSE,FALSE,1,Los Angeles - Reynier Village,4228,segment-of-a-city,central-la
+Rolling Hills,FALSE,FALSE,TRUE,1,City of Rolling Hills,1940,standalone-city,south-bay
+Rolling Hills Estates,FALSE,FALSE,TRUE,1,City of Rolling Hills Estates,8113,standalone-city,south-bay
+Roosevelt,FALSE,TRUE,FALSE,1,Unincorporated - Roosevelt,931,unincorporated-area,antelope-valley
+Rosemead,FALSE,FALSE,TRUE,1,City of Rosemead,55350,standalone-city,san-gabriel-valley
+Rosewood,FALSE,TRUE,FALSE,1,Unincorporated - Rosewood,1286,unincorporated-area,southeast
+Rosewood/East Gardena,FALSE,TRUE,FALSE,1,Unincorporated - Rosewood/East Gardena,1193,unincorporated-area,southeast
+Rosewood/West Rancho Dominguez,FALSE,TRUE,FALSE,1,Unincorporated - Rosewood/West Rancho Dominguez,3361,unincorporated-area,southeast
+Rowland Heights,FALSE,TRUE,FALSE,1,Unincorporated - Rowland Heights,51022,unincorporated-area,san-gabriel-valley
+San Clemente Island,FALSE,TRUE,FALSE,1,Unincorporated - San Clemente Island,0,unincorporated-area,
+San Dimas,FALSE,FALSE,TRUE,1,City of San Dimas,34516,standalone-city,san-gabriel-valley
+San Fernando,FALSE,FALSE,TRUE,1,City of San Fernando,24612,standalone-city,san-fernando-valley
+San Francisquito Canyon/Bouquet Canyon,FALSE,TRUE,FALSE,1,Unincorporated - San Francisquito Canyon/Bouquet Canyon,0,unincorporated-area,northwest-county
+San Gabriel,FALSE,FALSE,TRUE,1,City of San Gabriel,40954,standalone-city,san-gabriel-valley
+San Jose Hills,FALSE,TRUE,FALSE,1,Unincorporated - San Jose Hills,20221,unincorporated-area,san-gabriel-valley
+San Marino,FALSE,FALSE,TRUE,1,City of San Marino,13277,standalone-city,san-gabriel-valley
+San Pasqual,FALSE,TRUE,FALSE,1,Unincorporated - San Pasqual,2035,unincorporated-area,san-gabriel-valley
+San Pedro,TRUE,FALSE,FALSE,1,Los Angeles - San Pedro,78038,segment-of-a-city,harbor
+Sand Canyon,FALSE,TRUE,FALSE,1,Unincorporated - Sand Canyon,0,unincorporated-area,angeles-forest
+Santa Catalina Island,FALSE,TRUE,FALSE,1,Unincorporated - Santa Catalina Island,267,unincorporated-area,harbor
+Santa Clarita,FALSE,FALSE,TRUE,1,City of Santa Clarita,220424,standalone-city,northwest-county
+Santa Fe Springs,FALSE,FALSE,TRUE,1,City of Santa Fe Springs,18364,standalone-city,southeast
+Santa Monica,FALSE,FALSE,TRUE,1,City of Santa Monica,92446,standalone-city,westside
+Santa Monica Mountains,FALSE,TRUE,FALSE,1,Unincorporated - Santa Monica Mountains,18621,unincorporated-area,santa-monica-mountains
+Saugus,FALSE,TRUE,FALSE,1,Unincorporated - Saugus,155,unincorporated-area,northwest-county
+Saugus/Canyon Country,FALSE,TRUE,FALSE,1,Unincorporated - Saugus/Canyon Country,356,unincorporated-area,northwest-county
+Shadow Hills,TRUE,FALSE,FALSE,1,Los Angeles - Shadow Hills,4442,segment-of-a-city,san-fernando-valley
+Sherman Oaks,TRUE,FALSE,FALSE,1,Los Angeles - Sherman Oaks,87254,segment-of-a-city,san-fernando-valley
+Sierra Madre,FALSE,FALSE,TRUE,1,City of Sierra Madre,10989,standalone-city,san-gabriel-valley
+Signal Hill,FALSE,FALSE,TRUE,1,City of Signal Hill,11797,standalone-city,harbor
+Silverlake,TRUE,FALSE,FALSE,1,Los Angeles - Silverlake,44083,segment-of-a-city,central-la
+South Antelope Valley,FALSE,TRUE,FALSE,1,Unincorporated - South Antelope Valley,455,unincorporated-area,antelope-valley
+South Carthay,TRUE,FALSE,FALSE,1,Los Angeles - South Carthay,10595,segment-of-a-city,central-la
+South Edwards,FALSE,TRUE,FALSE,1,Unincorporated - South Edwards,0,unincorporated-area,antelope-valley
+South El Monte,FALSE,TRUE,TRUE,2,City of South El Monte | Unincorporated - South El Monte,22680,standalone-city,san-gabriel-valley
+South Gate,FALSE,FALSE,TRUE,1,City of South Gate,98155,standalone-city,southeast
+South Park,TRUE,FALSE,FALSE,1,Los Angeles - South Park,37961,segment-of-a-city,south-la
+South Pasadena,FALSE,FALSE,TRUE,1,City of South Pasadena,26053,standalone-city,san-gabriel-valley
+South San Gabriel,FALSE,TRUE,FALSE,1,Unincorporated - South San Gabriel,8848,unincorporated-area,san-gabriel-valley
+South Whittier,FALSE,TRUE,FALSE,1,Unincorporated - South Whittier,59222,unincorporated-area,southeast
+Southeast Antelope Valley,FALSE,TRUE,FALSE,1,Unincorporated - Southeast Antelope Valley,781,unincorporated-area,antelope-valley
+St Elmo Village,TRUE,FALSE,FALSE,1,Los Angeles - St Elmo Village,4584,segment-of-a-city,central-la
+Stevenson Ranch,FALSE,TRUE,FALSE,1,Unincorporated - Stevenson Ranch,20966,unincorporated-area,northwest-county
+Studio City,TRUE,FALSE,FALSE,1,Los Angeles - Studio City,22440,segment-of-a-city,san-fernando-valley
+Sun Valley,TRUE,FALSE,FALSE,1,Los Angeles - Sun Valley,52483,segment-of-a-city,san-fernando-valley
+Sun Village,FALSE,TRUE,FALSE,1,Unincorporated - Sun Village,6036,unincorporated-area,antelope-valley
+Sunland,TRUE,FALSE,FALSE,1,Los Angeles - Sunland,20408,segment-of-a-city,san-fernando-valley
+Sunrise Village,FALSE,TRUE,FALSE,1,Unincorporated - Sunrise Village,1296,unincorporated-area,san-gabriel-valley
+Sycamore Square,TRUE,FALSE,FALSE,1,Los Angeles - Sycamore Square,647,segment-of-a-city,central-la
+Sylmar,TRUE,FALSE,FALSE,1,Los Angeles - Sylmar,82398,segment-of-a-city,san-fernando-valley
+Tarzana,TRUE,FALSE,FALSE,1,Los Angeles - Tarzana,30876,segment-of-a-city,san-fernando-valley
+Temple City,FALSE,FALSE,TRUE,1,City of Temple City,36455,standalone-city,san-gabriel-valley
+Temple-Beaudry,TRUE,FALSE,FALSE,1,Los Angeles - Temple-Beaudry,39482,segment-of-a-city,central-la
+Thai Town,TRUE,FALSE,FALSE,1,Los Angeles - Thai Town,9809,segment-of-a-city,central-la
+Toluca Lake,TRUE,FALSE,FALSE,1,Los Angeles - Toluca Lake,8704,segment-of-a-city,san-fernando-valley
+Toluca Terrace,TRUE,FALSE,FALSE,1,Los Angeles - Toluca Terrace,1306,segment-of-a-city,san-fernando-valley
+Toluca Woods,TRUE,FALSE,FALSE,1,Los Angeles - Toluca Woods,1858,segment-of-a-city,san-fernando-valley
+Torrance,FALSE,FALSE,TRUE,1,City of Torrance,149268,standalone-city,south-bay
+Tujunga,TRUE,FALSE,FALSE,1,Los Angeles - Tujunga,27810,segment-of-a-city,verdugos
+Twin Lakes/Oat Mountain,FALSE,TRUE,FALSE,1,Unincorporated - Twin Lakes/Oat Mountain,1658,unincorporated-area,northwest-county
+Universal City,FALSE,TRUE,FALSE,1,Unincorporated - Universal City,0,unincorporated-area,san-fernando-valley
+University Hills,TRUE,FALSE,FALSE,1,Los Angeles - University Hills,3429,segment-of-a-city,eastside
+University Park,TRUE,FALSE,FALSE,1,Los Angeles - University Park,27456,segment-of-a-city,south-la
+Val Verde,FALSE,TRUE,FALSE,1,Unincorporated - Val Verde,3309,unincorporated-area,northwest-county
+Valencia,FALSE,TRUE,FALSE,1,Unincorporated - Valencia,3072,unincorporated-area,northwest-county
+Valinda,FALSE,TRUE,FALSE,1,Unincorporated - Valinda,23371,unincorporated-area,san-gabriel-valley
+Valley Glen,TRUE,FALSE,FALSE,1,Los Angeles - Valley Glen,30016,segment-of-a-city,san-fernando-valley
+Valley Village,TRUE,FALSE,FALSE,1,Los Angeles - Valley Village,24720,segment-of-a-city,san-fernando-valley
+Van Nuys,TRUE,FALSE,FALSE,1,Los Angeles - Van Nuys,93194,segment-of-a-city,san-fernando-valley
+Venice,TRUE,FALSE,FALSE,1,Los Angeles - Venice,33885,segment-of-a-city,westside
+Vermont Knolls,TRUE,FALSE,FALSE,1,Los Angeles - Vermont Knolls,17200,segment-of-a-city,south-la
+Vermont Square,TRUE,FALSE,FALSE,1,Los Angeles - Vermont Square,7657,segment-of-a-city,south-la
+Vermont Vista,TRUE,FALSE,FALSE,1,Los Angeles - Vermont Vista,41186,segment-of-a-city,south-la
+Vernon,FALSE,FALSE,TRUE,1,City of Vernon,209,standalone-city,southeast
+Vernon Central,TRUE,FALSE,FALSE,1,Los Angeles - Vernon Central,51998,segment-of-a-city,south-la
+Victoria Park,TRUE,FALSE,FALSE,1,Los Angeles - Victoria Park,8399,segment-of-a-city,central-la
+View Heights,TRUE,FALSE,FALSE,1,Los Angeles - View Heights,3694,segment-of-a-city,south-la
+View Park/Windsor Hills,FALSE,TRUE,FALSE,1,Unincorporated - View Park/Windsor Hills,11635,unincorporated-area,south-la
+Walnut,FALSE,TRUE,TRUE,2,City of Walnut | Unincorporated - Walnut,30532,standalone-city,san-gabriel-valley
+Walnut Park,FALSE,TRUE,FALSE,1,Unincorporated - Walnut Park,16143,unincorporated-area,southeast
+Watts,TRUE,FALSE,FALSE,1,Los Angeles - Watts,42674,segment-of-a-city,south-la
+Wellington Square,TRUE,FALSE,FALSE,1,Los Angeles - Wellington Square,4915,segment-of-a-city,central-la
+West Adams,TRUE,FALSE,FALSE,1,Los Angeles - West Adams,27630,segment-of-a-city,south-la
+West Antelope Valley,FALSE,TRUE,FALSE,1,Unincorporated - West Antelope Valley,1511,unincorporated-area,antelope-valley
+West Carson,FALSE,TRUE,FALSE,1,Unincorporated - West Carson,22086,unincorporated-area,harbor
+West Chatsworth,FALSE,TRUE,FALSE,1,Unincorporated - West Chatsworth,0,unincorporated-area,san-fernando-valley
+West Covina,FALSE,FALSE,TRUE,1,City of West Covina,108235,standalone-city,san-gabriel-valley
+West Hills,TRUE,FALSE,FALSE,1,Los Angeles - West Hills,40545,segment-of-a-city,san-fernando-valley
+West Hollywood,FALSE,FALSE,TRUE,1,City of West Hollywood,36951,standalone-city,central-la
+West LA,FALSE,TRUE,FALSE,1,Unincorporated - West LA,952,unincorporated-area,westside
+West Los Angeles,TRUE,FALSE,FALSE,1,Los Angeles - West Los Angeles,37636,segment-of-a-city,westside
+West Puente Valley,FALSE,TRUE,FALSE,1,Unincorporated - West Puente Valley,9835,unincorporated-area,san-gabriel-valley
+West Rancho Dominguez,FALSE,TRUE,FALSE,1,Unincorporated - West Rancho Dominguez,1359,unincorporated-area,southeast
+West Vernon,TRUE,FALSE,FALSE,1,Los Angeles - West Vernon,53644,segment-of-a-city,south-la
+West Whittier/Los Nietos,FALSE,TRUE,FALSE,1,Unincorporated - West Whittier/Los Nietos,26925,unincorporated-area,southeast
+Westchester,TRUE,FALSE,FALSE,1,Los Angeles - Westchester,51603,segment-of-a-city,south-bay
+Westfield/Academy Hills,FALSE,TRUE,FALSE,1,Unincorporated - Westfield/Academy Hills,1300,unincorporated-area,south-bay
+Westhills,FALSE,TRUE,FALSE,1,Unincorporated - Westhills,839,unincorporated-area,san-fernando-valley
+Westlake,TRUE,FALSE,FALSE,1,Los Angeles - Westlake,59355,segment-of-a-city,central-la
+Westlake Village,FALSE,FALSE,TRUE,1,City of Westlake Village,8360,standalone-city,santa-monica-mountains
+Westwood,TRUE,FALSE,FALSE,1,Los Angeles - Westwood,54109,segment-of-a-city,westside
+White Fence Farms,FALSE,TRUE,FALSE,1,Unincorporated - White Fence Farms,3683,unincorporated-area,antelope-valley
+Whittier,FALSE,TRUE,TRUE,2,City of Whittier | Unincorporated - Whittier,91216,standalone-city,san-gabriel-valley
+Whittier Narrows,FALSE,TRUE,FALSE,1,Unincorporated - Whittier Narrows,0,unincorporated-area,san-gabriel-valley
+Wholesale District,TRUE,FALSE,FALSE,1,Los Angeles - Wholesale District,36129,segment-of-a-city,central-la
+Willowbrook,FALSE,TRUE,FALSE,1,Unincorporated - Willowbrook,34913,unincorporated-area,south-la
+Wilmington,TRUE,FALSE,FALSE,1,Los Angeles - Wilmington,56487,segment-of-a-city,harbor
+Wilshire Center,TRUE,FALSE,FALSE,1,Los Angeles - Wilshire Center,50170,segment-of-a-city,central-la
+Winnetka,TRUE,FALSE,FALSE,1,Los Angeles - Winnetka,51786,segment-of-a-city,san-fernando-valley
+Wiseburn,FALSE,TRUE,FALSE,1,Unincorporated - Wiseburn,6027,unincorporated-area,south-bay
+Woodland Hills,TRUE,FALSE,FALSE,1,Los Angeles - Woodland Hills,68055,segment-of-a-city,san-fernando-valley

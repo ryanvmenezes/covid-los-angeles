@@ -2,27 +2,40 @@ library(sf)
 library(jsonlite)
 library(tidyverse)
 
-CSA = st_read('data/raw/la-county/los-angeles-countywide-statistical-areas.geojson', as_tibble = TRUE, stringsAsFactors = FALSE)
+# import ------------------------------------------------------------------
+
+## shapefile of countywide statistical areas
+
+CSA = st_read('raw/los-angeles-countywide-statistical-areas.geojson', as_tibble = TRUE, stringsAsFactors = FALSE)
 
 CSA
 
 # CSA %>% ggplot() + geom_sf()
 
-MAPLA = st_read('data/raw/la-county/la-county-neighborhoods-v6.geojson', as_tibble = TRUE, stringsAsFactors = FALSE)
+## shapefile of mapping la neighborhoods
+
+MAPLA = st_read('raw/la-county-neighborhoods-v6.geojson', as_tibble = TRUE, stringsAsFactors = FALSE)
 
 MAPLA
 
 # MAPLA %>% ggplot() + geom_sf()
 
-CSA.POP = read_csv('data/raw/la-county/city_community_table.csv')
+## a recent pull of covid data from the la county shiny dashboard
+## needed for neighborhood populations according to the county
+
+CSA.POP = read_csv('raw/city_community_table.csv')
 
 CSA.POP
 
-MAPLA.POP = read_csv('data/raw/la-county/mapla_race_2017.csv')
+## populations of mapping la neighborhoods (2017 ACS)
+
+MAPLA.POP = read_csv('raw/mapla_race_2017.csv')
 
 MAPLA.POP
 
-MAPLA.XWALK = read_csv('data/raw/la-county/nsa_list.csv')
+## crosswalk from mapping la neighborhood to mapping la region
+
+MAPLA.XWALK = read_csv('raw/nsa_list.csv')
 
 MAPLA.XWALK
 
@@ -47,14 +60,14 @@ mapla.region.pop = mapla.hood.pop %>%
   group_by(region.name, region.slug) %>% 
   summarise(population = sum(population))
 
-mapla.region.pop
+mapla.region.pop %>% arrange(-population)
 
 # clean up csa population file --------------------------------------------
 
 csa.pop = CSA.POP %>% 
   select(label = geo_merge, population) %>% 
   bind_rows(
-    # missing from population list
+    ## manually add these cities missing from population list
     tribble(
       ~label, ~population,
       'City of Long Beach', 467354,
@@ -81,7 +94,7 @@ mapla.hoods
 
 # mapla.hoods %>% ggplot() + geom_sf()
 
-# clean countywide statistical areas --------------------------------------
+# consolidate countywide statistical areas --------------------------------
 
 csa.name.xwalk = CSA %>% 
   st_set_geometry(NULL) %>% 
@@ -120,6 +133,8 @@ csa.hoods.list = csa.name.xwalk %>%
 
 csa.hoods.list
 
+## geospatial dissolve
+
 csa.hoods = CSA %>% 
   left_join(csa.pop) %>%
   mutate(
@@ -135,6 +150,8 @@ csa.hoods
 # csa.hoods %>% ggplot() + geom_sf()
 
 # spatial join ------------------------------------------------------------
+
+## reproject into meters to do area calculations
 
 mapla.hoods.m = mapla.hoods %>%
   st_transform(3311) %>% 
@@ -164,62 +181,7 @@ intersected = st_intersection(mapla.hoods.m, csa.hoods.m) %>%
 
 intersected
 
-# pick the region where more than 50% of the csa falls into 
-# can do 1:1 matches on region instead of apportioned matches
-
-csa.top.regions = intersected %>% 
-  st_set_geometry(NULL) %>% 
-  group_by(csa.hood.name) %>% 
-  nest() %>% 
-  left_join(
-    csa.hoods.list %>% 
-      select(csa.hood.name = hood.name, population)
-  ) %>% 
-  mutate(
-    top.region = map(
-      data,
-      ~.x %>% 
-        group_by(mapla.region.slug) %>% 
-        summarise(top.region.pct.csa = sum(pct.csa, na.rm = TRUE)) %>%
-        arrange(-top.region.pct.csa) %>% 
-        head(1)
-    )
-  ) %>% 
-  select(-data) %>%
-  unnest(c(top.region)) %>% 
-  arrange(-top.region.pct.csa) %>% 
-  ungroup()
-
-csa.top.regions
-
-csa.top.regions %>% filter(top.region.pct.csa < 0.5)
-
-region.pop.comparison = csa.top.regions %>% 
-  group_by(mapla.region.slug) %>% 
-  summarise(pop = sum(population)) %>% 
-  arrange(-pop) %>% 
-  full_join(mapla.region.pop, by = c('mapla.region.slug' = 'region.slug')) 
-
-region.pop.comparison
-
-# region.pop.comparison %>% 
-#   ggplot(aes(pop, population)) +
-#   geom_point() +
-#   geom_abline(slope = 1, intercept = 0) +
-#   geom_text(aes(label = mapla.region.slug))
-
-csa.hoods %>% 
-  st_write('los-angeles/countywide-statistical-areas-consolidated.geojson', delete_dsn = TRUE)
-
-intersected %>%
-  st_set_geometry(NULL) %>% 
-  write_csv('los-angeles/mapla-hood-csa-crosswalk.csv', na = '')
-
-csa.hoods.list %>% 
-  write_csv('los-angeles/countywide-statistical-areas-cleaned-list.csv', na = '')
-
-csa.top.regions %>% 
-  write_csv('los-angeles/mapla-region-csa-crosswalk.csv', na = '')
+## plot to compare differences in hoods under csa interpretation vs mapping la interpretation
 
 # hood = 'Los Feliz'
 # 
@@ -239,3 +201,73 @@ csa.top.regions %>%
 #   ggplot() +
 #   geom_sf(aes(fill = side))
 
+## pick the region where more than 50% of the csa falls into 
+## can do 1:1 matches on region instead of apportioned matches
+
+csa.top.region = intersected %>% 
+  st_set_geometry(NULL) %>% 
+  group_by(csa.hood.name, mapla.region.slug) %>% 
+  summarise(pct.csa = sum(pct.csa)) %>% 
+  arrange(csa.hood.name, mapla.region.slug) %>% 
+  group_by(csa.hood.name) %>% 
+  top_n(1, wt = pct.csa) %>%
+  rename(top.region.pct.csa = pct.csa) %>% 
+  arrange(-top.region.pct.csa) %>% 
+  ungroup() %>% 
+  left_join(
+    csa.hoods.list %>% 
+      select(csa.hood.name = hood.name, population)
+  )
+
+csa.top.region
+
+## anything that isn't 50% in one region?
+
+csa.top.region %>% filter(top.region.pct.csa < 0.5)
+
+## plot to compare region totals from csa combining vs. mapping la
+
+region.pop.comparison = csa.top.region %>% 
+  group_by(mapla.region.slug) %>% 
+  summarise(pop = sum(population)) %>% 
+  arrange(-pop) %>% 
+  full_join(mapla.region.pop, by = c('mapla.region.slug' = 'region.slug')) 
+
+region.pop.comparison
+
+# region.pop.comparison %>% 
+#   ggplot(aes(pop, population)) +
+#   geom_point() +
+#   geom_abline(slope = 1, intercept = 0) +
+#   geom_text(aes(label = mapla.region.slug))
+
+## join region names to master hoods list
+
+csa.hoods.list = csa.hoods.list %>% 
+  rename(csa.hood.name = hood.name) %>% 
+  left_join(csa.top.region %>% select(-population, -top.region.pct.csa))
+
+csa.hoods.list
+
+# export ------------------------------------------------------------------
+
+## consolidated shapefile 
+
+csa.hoods %>% 
+  st_write('processed/countywide-statistical-areas-consolidated.geojson', delete_dsn = TRUE)
+
+## master hoods list details consolidation and joining
+
+csa.hoods.list %>% 
+  write_csv('processed/countywide-statistical-areas-cleaned-list.csv', na = '')
+
+## crosswalk from csa to hood (could be used to apportionment)
+
+intersected %>%
+  st_set_geometry(NULL) %>% 
+  write_csv('processed/mapla-hood-csa-crosswalk.csv', na = '')
+
+## crosswalk from csa to region (1:1 assigment, no apportionment)
+
+csa.top.region %>% 
+  write_csv('processed/mapla-region-csa-crosswalk.csv', na = '')
