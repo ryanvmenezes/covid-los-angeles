@@ -29,7 +29,7 @@ regions.daily.latest = read_csv('processed/region-daily-calcs-latest.csv') %>%
   )
 
 max.date = as.Date('2020-06-01')
-max.days.since = 50
+max.days.since = 70
 
 # csa daily counts --------------------------------------------------------
 
@@ -262,7 +262,7 @@ plot.region.rates.dayssince = regions.daily %>%
     hjust = 'left',
     nudge_x = 0.25
   ) +
-  scale_x_continuous(limits = c(0, 40)) +
+  scale_x_continuous(limits = c(0, max.days.since)) +
   theme_minimal() +
   theme(legend.position = 'none') +
   xlab(glue('Days since case rate reached {case.rate.cutoff} case per 100K people')) +
@@ -309,7 +309,7 @@ plot.region.grid.counts.dayssince = csa.daily %>%
     nudge_x = 0.25,
     size = 3
   ) +
-  scale_x_continuous(limits = c(0, 60)) +
+  scale_x_continuous(limits = c(0, max.days.since)) +
   # coord_trans(y = 'log10') +
   facet_wrap(. ~ mapla.region.slug) +
   ggtitle('L.A. County regions (standardized curves)') +

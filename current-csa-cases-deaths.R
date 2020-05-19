@@ -84,7 +84,7 @@ csa.hoods.now %>%
   ggplot(aes(case.rate.100k, death.rate.100k, size = population)) +
   geom_point() +
   facet_wrap(. ~ top.group) +
-  scale_x_continuous(limits = c(0, 1000)) +
-  scale_y_continuous(limits = c(0, 150)) +
+  scale_x_continuous(limits = c(0, 750)) +
+  scale_y_continuous(limits = c(0, 100)) +
   # coord_trans(x = 'log10', y = 'log10') +
   theme_minimal()

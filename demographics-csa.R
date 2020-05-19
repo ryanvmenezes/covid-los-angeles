@@ -41,8 +41,8 @@ plot.race.cases = daily.by.hood.race %>%
   ggplot(aes(date, cases, color = top.race)) +
   geom_line() +
   labs(color = 'Top race\nin neighborhood\n(county total)') +
-  xlab('Cases') +
-  ylab('Date') +
+  ylab('Cases') +
+  xlab('Date') +
   theme_minimal()
 
 plot.race.cases
@@ -51,8 +51,8 @@ plot.race.case.rate = daily.by.hood.race %>%
   ggplot(aes(date, case.rate.100k, color = top.race)) +
   geom_line() +
   labs(color = 'Top race\nin neighborhood\n(county total)') +
-  xlab('Cases per 100K') +
-  ylab('Date') +
+  ylab('Cases per 100K') +
+  xlab('Date') +
   theme_minimal()
 
 plot.race.case.rate
