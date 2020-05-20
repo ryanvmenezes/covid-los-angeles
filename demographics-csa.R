@@ -68,13 +68,15 @@ csa.poverty %>%
 csa.poverty = csa.poverty %>% 
   mutate(
     poverty.bin = case_when(
-      pct.below.poverty >= 0.15 ~ 'high',
-      pct.below.poverty < 0.15 & pct.below.poverty >= 0.05 ~ 'medium',
-      pct.below.poverty < 0.05 ~ 'low',
+      pct.below.poverty >= 0.25 ~ 'high >25%',
+      pct.below.poverty < 0.25 & pct.below.poverty >= 0.05 ~ 'medium',
+      pct.below.poverty < 0.05 ~ 'low <5%',
     )
   )
 
 csa.poverty %>% count(poverty.bin)
+
+csa.poverty %>% group_by(poverty.bin) %>% summarise(pop = sum(total))
 
 daily.by.hood.poverty = csa.daily %>% 
   left_join(
@@ -118,7 +120,14 @@ plot.poverty.case.rate = daily.by.hood.poverty %>%
 
 plot.poverty.case.rate
 
+daily.by.hood.poverty %>% write_csv('processed/daily-poverty-groups.csv')
 
+daily.by.hood.poverty %>%
+  select(poverty.bin, date, case.rate.100k) %>% 
+  mutate(poverty.bin = as.character(poverty.bin)) %>% 
+  pivot_wider(names_from = 'date', values_from = 'case.rate.100k') %>% 
+  # mutate(poverty.bin = word(poverty.bin)) %>% 
+  write_csv('processed/daily-poverty-groups-wide.csv')
 
 ggsave(filename = 'plots/csa-daily-race-counts.png', plot = plot.race.cases, width = 11, height = 8)
 ggsave(filename = 'plots/csa-daily-race-rates.png', plot = plot.race.case.rate, width = 11, height = 8)

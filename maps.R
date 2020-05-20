@@ -59,7 +59,7 @@ top.both.dates = top.date.1 %>%
 top.both.dates
 
 
-plot.side.by.side.top.on.date = csa %>% 
+plot.side.by.side.top.on.date.race = csa %>% 
   mutate(top.date = freeze.date.1) %>% 
   rbind(
     csa %>% 
@@ -78,8 +78,27 @@ plot.side.by.side.top.on.date = csa %>%
   scale_fill_brewer(palette = 'Dark2') +
   ggtitle(glue('Top {ntop} neighborhoods by case rate on date')) +
   theme_minimal()
-  
 
-plot.side.by.side.top.on.date
+plot.side.by.side.top.on.date.race
+
+csa %>% 
+  mutate(top.date = freeze.date.1) %>% 
+  rbind(
+    csa %>% 
+      mutate(top.date = freeze.date.2)
+  ) %>% 
+  left_join(top.both.dates) %>% 
+  ggplot() +
+  geom_sf(color = 'grey', fill = 'grey') +
+  geom_sf(
+    data = . %>% 
+      filter(!is.na(top.group)),
+    fill = 'coral',
+    color = 'black'
+  ) +
+  facet_wrap(. ~ top.date) +
+  ggtitle(glue('Top {ntop} neighborhoods by case rate on date')) +
+  theme_minimal()
 
 ggsave('plots/map-comparison-top-neighborhoods.png', plot = plot.side.by.side.top.on.date, width = 11, height = 8)
+

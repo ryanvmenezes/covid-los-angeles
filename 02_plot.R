@@ -331,3 +331,10 @@ ggsave('plots/region-counts-dayssince.png', plot = plot.region.counts.dayssince,
 ggsave('plots/region-rates-dayssince.png', plot = plot.region.rates.dayssince, width = 12, height = 8)
 
 ggsave('plots/region-grid-counts-dayssince.png', plot = plot.region.grid.counts.dayssince, width = 12, height = 8)
+
+
+regions.daily %>% 
+  filter(mapla.region.slug %in% c('central-la', 'south-la', 'san-fernando-valley', 'eastside', 'westside', 'south-bay')) %>% 
+  select(mapla.region.slug, date, case.rate.100k) %>% 
+  pivot_wider(names_from = 'date', values_from = 'case.rate.100k') %>% 
+  write_csv('processed/chart-regions-daily-wide.csv')
