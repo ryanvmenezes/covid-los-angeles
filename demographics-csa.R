@@ -133,3 +133,11 @@ ggsave(filename = 'plots/csa-daily-race-counts.png', plot = plot.race.cases, wid
 ggsave(filename = 'plots/csa-daily-race-rates.png', plot = plot.race.case.rate, width = 11, height = 8)
 ggsave(filename = 'plots/csa-daily-poverty-counts.png', plot = plot.poverty.cases, width = 11, height = 8)
 ggsave(filename = 'plots/csa-daily-poverty-rates.png', plot = plot.poverty.case.rate, width = 11, height = 8)
+
+daily.by.hood.poverty %>%
+  mutate(poverty.bin = word(poverty.bin)) %>%
+  select(date, case.rate.100k, poverty.bin) %>% 
+  filter(poverty.bin != 'medium') %>% 
+  pivot_wider(names_from = 'poverty.bin', values_from = 'case.rate.100k') %>% 
+  mutate(low.higher = low > high) %>% 
+  arrange(date)
