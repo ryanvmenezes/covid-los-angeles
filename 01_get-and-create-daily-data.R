@@ -15,7 +15,18 @@ csa.list = read_csv('processed/countywide-statistical-areas-cleaned-list.csv')
 
 csa.list
 
-CSA.COUNTS = read_csv('raw/lat-la-csa-daily.csv', skip = 4)
+CSA.COUNTS = read_csv(
+  'raw/lat-la-csa-daily.csv',
+  skip = 4,
+  col_types = cols(
+    city = col_character(),
+    date = col_date(format = ""),
+    confirmed_cases = col_double(),
+    X4 = col_logical(),
+    X5 = col_logical(),
+    X6 = col_logical()
+  )
+)
 
 CSA.COUNTS
 
