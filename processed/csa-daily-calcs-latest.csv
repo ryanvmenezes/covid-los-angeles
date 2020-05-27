@@ -1,323 +1,331 @@
 csa.hood.name,mapla.region.slug,date,confirmed.cases,population,case.rate.100k,days.since.50.cases,days.since.100.cases.per.100k
-Acton,antelope-valley,2020-05-22,10,7971,125.45477355413374,,31
-Adams-Normandie,south-la,2020-05-22,41,8202,499.8780785174348,,49
-Agoura Hills,santa-monica-mountains,2020-05-22,33,20883,158.02327251831633,,38
-Agua Dulce,northwest-county,2020-05-22,6,4158,144.3001443001443,,1
-Alhambra,san-gabriel-valley,2020-05-22,170,86724,196.02416862690833,31,19
-Alsace,south-la,2020-05-22,45,12445,361.59100040176776,,31
-Altadena,verdugos,2020-05-22,132,43620,302.6134800550206,31,33
-Anaverde,antelope-valley,2020-05-22,1,1508,66.3129973474801,,
-Angeles National Forest,angeles-forest,2020-05-22,0,1245,0,,
-Angelino Heights,central-la,2020-05-22,14,2502,559.5523581135092,,30
-Arcadia,san-gabriel-valley,2020-05-22,77,65735,117.13698942724575,17,9
-Arleta,san-fernando-valley,2020-05-22,224,34370,651.7311608961304,32,36
-Artesia,southeast,2020-05-22,25,16795,148.85382554331647,,9
-Athens Village,south-la,2020-05-22,22,4897,449.2546457014498,,44
-Athens-Westmont,south-la,2020-05-22,193,42442,454.73823099759676,32,34
-Atwater Village,northeast-la,2020-05-22,46,14666,313.6506204827492,,32
-Avalon,harbor,2020-05-22,0,3723,0,,
-Avocado Heights,san-gabriel-valley,2020-05-22,20,6775,295.2029520295203,,30
-Azusa,san-gabriel-valley,2020-05-22,179,65963,271.3642496551097,29,25
-Baldwin Hills,south-la,2020-05-22,144,31125,462.6506024096385,28,39
-Baldwin Park,san-gabriel-valley,2020-05-22,235,76769,306.11314462869126,31,24
+Acton,antelope-valley,2020-05-27,0,7971,0,,36
+Adams-Normandie,south-la,2020-05-27,0,8202,0,,54
+Agoura Hills,santa-monica-mountains,2020-05-27,0,20883,0,,43
+Agua Dulce,northwest-county,2020-05-27,0,4158,0,,6
+Alhambra,san-gabriel-valley,2020-05-27,0,86724,0,36,24
+Alsace,south-la,2020-05-27,0,12445,0,,36
+Altadena,verdugos,2020-05-27,0,43620,0,36,38
+Anaverde,antelope-valley,2020-05-27,0,1508,0,,
+Angeles National Forest,angeles-forest,2020-05-27,0,1245,0,,
+Angelino Heights,central-la,2020-05-27,0,2502,0,,35
+Arcadia,san-gabriel-valley,2020-05-27,0,65735,0,22,14
+Arleta,san-fernando-valley,2020-05-27,0,34370,0,37,41
+Artesia,southeast,2020-05-27,0,16795,0,,14
+Athens Village,south-la,2020-05-27,0,4897,0,,49
+Athens-Westmont,south-la,2020-05-27,0,42442,0,37,39
+Atwater Village,northeast-la,2020-05-27,0,14666,0,,37
+Avalon,harbor,2020-05-27,0,3723,0,,
+Avocado Heights,san-gabriel-valley,2020-05-27,0,6775,0,,35
+Azusa,san-gabriel-valley,2020-05-27,0,65963,0,34,30
+Baldwin Hills,south-la,2020-05-27,0,31125,0,33,44
+Baldwin Park,san-gabriel-valley,2020-05-27,0,76769,0,36,29
 Bandini Islands,southeast,2020-05-08,0,0,NaN,,
-Bassett,san-gabriel-valley,2020-05-22,71,14817,479.1793210501451,3,32
-Bel Air,westside,2020-05-22,33,8429,391.50551666864396,,54
-Bell,southeast,2020-05-22,241,36332,663.3270945722779,38,41
-Bell Gardens,southeast,2020-05-22,204,43071,473.6365535975482,34,35
-Bellflower,southeast,2020-05-22,303,77735,389.7858107673506,41,31
-Beverly Crest,westside,2020-05-22,37,12525,295.40918163672654,,56
-Beverly Hills,westside,2020-05-22,128,34520,370.7995365005794,49,52
-Beverlywood,westside,2020-05-22,33,13173,250.5124117513095,,51
-Bouquet Canyon,northwest-county,2020-05-22,0,1073,0,,
-Boyle Heights,eastside,2020-05-22,504,86884,580.0837898807605,42,32
-Bradbury,san-gabriel-valley,2020-05-22,3,1177,254.88530161427357,,13
-Brentwood,westside,2020-05-22,74,30955,239.05669520271363,44,55
-Brookside,central-la,2020-05-22,0,581,0,,
-Burbank,san-fernando-valley,2020-05-22,368,107180,343.3476394849785,49,38
-Cadillac-Corning,central-la,2020-05-22,27,7121,379.16023030473247,,35
-Calabasas,santa-monica-mountains,2020-05-22,52,24323,213.7894174238375,6,39
-Canoga Park,san-fernando-valley,2020-05-22,443,65289,678.5216498950819,44,41
-Canyon Country,northwest-county,2020-05-22,34,7728,439.9585921325052,,47
-Carson,harbor,2020-05-22,363,93846,386.8039127932996,50,45
-Carthay,central-la,2020-05-22,72,14363,501.2880317482421,32,53
-Castaic,northwest-county,2020-05-22,292,27191,1073.8847412746866,14,14
-Central,south-la,2020-05-22,298,38992,764.259335248256,37,41
-Century City,westside,2020-05-22,31,12792,242.338961851157,,52
-Century Palms/Cove,south-la,2020-05-22,178,33766,527.1574957057395,31,34
-Cerritos,southeast,2020-05-22,100,50654,197.41777549650573,23,21
-Charter Oak,san-gabriel-valley,2020-05-22,0,0,NaN,,
-Chatsworth,san-fernando-valley,2020-05-22,165,37061,445.2119478697283,31,37
-Cheviot Hills,westside,2020-05-22,20,9171,218.0787264202377,,49
-Chinatown,central-la,2020-05-22,16,8021,199.47637451689315,,26
-Claremont,pomona-valley,2020-05-22,33,37186,88.74307535093853,,
-Cloverdale/Cochran,central-la,2020-05-22,53,14553,364.18607847179277,6,32
-Commerce,southeast,2020-05-22,42,13069,321.37118371719333,,16
-Compton,southeast,2020-05-22,428,99904,428.41127482383087,42,32
-Country Club Park,central-la,2020-05-22,83,15153,547.7463208605557,30,44
-Covina,san-gabriel-valley,2020-05-22,191,65851,290.0487464123552,41,37
-Covina (Charter Oak),san-gabriel-valley,2020-05-22,35,13144,266.28119293974436,,21
-Crenshaw District,south-la,2020-05-22,67,13829,484.48911707281803,17,41
-Crestview,westside,2020-05-22,80,11368,703.7297677691766,32,53
-Cudahy,southeast,2020-05-22,153,24347,628.4141783381936,29,36
-Culver City,westside,2020-05-22,135,39865,338.64291985450893,28,32
-Del Aire,south-bay,2020-05-22,12,4393,273.16184839517416,,46
-Del Rey,westside,2020-05-22,66,30254,218.1529715078998,21,42
-Del Sur,antelope-valley,2020-05-22,2,2415,82.81573498964804,,27
-Desert View Highlands,antelope-valley,2020-05-22,5,2493,200.56157240272765,,23
-Diamond Bar,san-gabriel-valley,2020-05-22,55,57515,95.62722767973573,3,
-Downey,southeast,2020-05-22,498,114263,435.83662252872756,48,35
-Downtown,central-la,2020-05-22,118,27507,428.98171374559206,26,35
-Duarte,san-gabriel-valley,2020-05-22,118,26444,446.225986991378,30,33
-Eagle Rock,northeast-la,2020-05-22,151,39589,381.4190810578696,35,38
-East Covina,san-gabriel-valley,2020-05-22,0,329,0,,
-East Hollywood,central-la,2020-05-22,205,29287,699.9692696418206,38,42
-East La Mirada,san-gabriel-valley,2020-05-22,13,5292,245.65381708238854,,35
-East Lancaster,antelope-valley,2020-05-22,0,114,0,,
-East Los Angeles,eastside,2020-05-22,680,125269,542.8318259106403,46,34
-East Pasadena,verdugos,2020-05-22,3,6403,46.85303763860691,,
-East Rancho Dominguez,southeast,2020-05-22,37,15308,241.70368434805332,,29
-East Whittier,san-gabriel-valley,2020-05-22,8,5306,150.77271013946475,,10
-Echo Park,central-la,2020-05-22,41,14256,287.5982042648709,,29
-El Camino Village,south-bay,2020-05-22,22,8791,250.25594357866,,23
-El Monte,san-gabriel-valley,2020-05-22,383,117414,326.19619466162465,34,27
-El Segundo,south-bay,2020-05-22,32,16786,190.63505302037413,,32
-El Sereno,eastside,2020-05-22,145,41808,346.82357443551473,34,37
-Elizabeth Lake,antelope-valley,2020-05-22,3,1661,180.6140878988561,,9
-Elysian Park,central-la,2020-05-22,16,5712,280.1120448179272,,34
-Elysian Valley,central-la,2020-05-22,43,10171,422.77062235768364,,32
-Encino,san-fernando-valley,2020-05-22,116,45172,256.7962454617905,40,42
-Exposition,south-la,2020-05-22,7,3326,210.46301864101022,,23
-Exposition Park,south-la,2020-05-22,214,44917,476.4343121757909,38,41
-Faircrest Heights,central-la,2020-05-22,4,3600,111.11111111111111,,16
-Figueroa Park Square,south-la,2020-05-22,33,8721,378.3969728242174,,37
-Florence-Firestone,south-la,2020-05-22,742,112150,661.6139099420419,48,38
-Franklin Canyon,westside,2020-05-22,0,0,NaN,,
-Gardena,south-bay,2020-05-22,226,61310,368.61849616702006,42,41
-Glassell Park,northeast-la,2020-05-22,169,31604,534.7424376661182,42,46
-Glendale,verdugos,2020-05-22,886,206493,429.07023482636214,53,42
-Glendora,san-gabriel-valley,2020-05-22,123,53424,230.2336028751123,17,16
-Gramercy Place,south-la,2020-05-22,52,10764,483.0917874396135,6,37
-Granada Hills,san-fernando-valley,2020-05-22,245,58191,421.0273066281727,37,34
-Green Meadows,south-la,2020-05-22,132,21505,613.8107416879795,24,34
-Hacienda Heights,san-gabriel-valley,2020-05-22,110,55926,196.68848120730965,21,18
-Hancock Park,central-la,2020-05-22,76,17039,446.035565467457,38,54
-Harbor City,harbor,2020-05-22,72,29070,247.6780185758514,20,32
-Harbor Gateway,harbor,2020-05-22,111,43600,254.58715596330273,29,31
-Harbor Pines,harbor,2020-05-22,9,2409,373.59900373599004,,13
-Harvard Heights,central-la,2020-05-22,114,18035,632.1042417521486,25,40
-Harvard Park,south-la,2020-05-22,245,37935,645.841571108475,32,34
-Hawaiian Gardens,harbor,2020-05-22,33,14676,224.85690923957483,,10
-Hawthorne,south-bay,2020-05-22,346,91301,378.966276382515,44,34
-Hermosa Beach,south-bay,2020-05-22,28,19670,142.34875444839858,,32
-Hi Vista,antelope-valley,2020-05-22,1,1098,91.07468123861567,,
-Hidden Hills,santa-monica-mountains,2020-05-22,1,1890,52.91005291005291,,
-Highland Park,northeast-la,2020-05-22,159,48391,328.5734950713976,32,32
-Historic Filipinotown,central-la,2020-05-22,116,13870,836.33741888969,27,42
-Hollywood,central-la,2020-05-22,248,68254,363.34866820992175,52,50
-Hollywood Hills,central-la,2020-05-22,77,29434,261.6022287150914,33,51
-Huntington Park,southeast,2020-05-22,340,59484,571.5822742250016,35,32
-Hyde Park,south-la,2020-05-22,127,28541,444.97389720051854,25,34
-Industry,san-gabriel-valley,2020-05-22,12,437,2745.9954233409608,,27
-Inglewood,south-bay,2020-05-22,525,113582,462.2211265869592,49,40
-Irwindale,san-gabriel-valley,2020-05-22,4,1459,274.16038382453735,,27
-Jefferson Park,south-la,2020-05-22,35,8073,433.5439118047814,,28
-Kagel/Lopez Canyons,angeles-forest,2020-05-22,5,1412,354.10764872521247,,11
-Koreatown,central-la,2020-05-22,231,51693,446.86901514711855,41,38
-La Canada Flintridge,verdugos,2020-05-22,48,20693,231.962499395931,,39
-La Crescenta-Montrose,verdugos,2020-05-22,26,19801,131.30649967173375,,10
-La Habra Heights,san-gabriel-valley,2020-05-22,8,5455,146.6544454628781,,10
-La Mirada,southeast,2020-05-22,144,49599,290.3284340410089,25,25
-La Puente,san-gabriel-valley,2020-05-22,86,40697,211.317787551908,14,21
-La Rambla,harbor,2020-05-22,7,2075,337.34939759036143,,40
-La Verne,pomona-valley,2020-05-22,29,35322,82.10180623973727,,
-Ladera Heights,westside,2020-05-22,18,7071,254.5608824777259,,48
-Lafayette Square,central-la,2020-05-22,16,4559,350.9541566132924,,47
-Lake Balboa,san-fernando-valley,2020-05-22,172,42206,407.52499644600294,32,35
-Lake Hughes,northwest-county,2020-05-22,1,668,149.7005988023952,,1
-Lake Los Angeles,antelope-valley,2020-05-22,27,12994,207.78820994305065,,30
-Lake Manor,san-fernando-valley,2020-05-22,3,1643,182.59281801582472,,27
-Lakeview Terrace,san-fernando-valley,2020-05-22,98,13133,746.2118327876342,23,45
-Lakewood,harbor,2020-05-22,147,80362,182.9222766979418,32,21
-Lancaster,antelope-valley,2020-05-22,506,161570,313.176951166677,47,31
-Lawndale,south-bay,2020-05-22,99,33614,294.5201404176831,27,34
-Leimert Park,south-la,2020-05-22,50,15235,328.1916639317361,1,47
-Lennox,south-bay,2020-05-22,88,22542,390.38239730281254,19,32
-Leona Valley,antelope-valley,2020-05-22,2,1751,114.22044545973729,,9
-Lincoln Heights,eastside,2020-05-22,193,32597,592.0790256772095,28,31
-Little Armenia,central-la,2020-05-22,174,8025,2168.2242990654204,36,49
-Little Bangladesh,central-la,2020-05-22,111,28343,391.63109056909997,31,41
-Little Tokyo,central-la,2020-05-22,13,3133,414.9377593360996,,28
-Littlerock,antelope-valley,2020-05-22,14,4021,348.1720964934096,,23
-Littlerock/Juniper Hills,antelope-valley,2020-05-22,2,1297,154.20200462606013,,10
-Littlerock/Pearblossom,antelope-valley,2020-05-22,19,3569,532.3620061641917,,29
-Llano,antelope-valley,2020-05-22,1,877,114.02508551881414,,27
-Lomita,south-bay,2020-05-22,48,20729,231.55965073086014,,40
-Long Beach,harbor,2020-05-22,1513,467354,323.7374666740843,56,31
-Longwood,central-la,2020-05-22,20,4304,464.6840148698885,,34
-Los Feliz,central-la,2020-05-22,46,21608,212.88411699370604,,34
-Lynwood,southeast,2020-05-22,427,72047,592.6686746151818,44,39
-Malibu,santa-monica-mountains,2020-05-22,35,12961,270.0408919064887,,42
-Manchester Square,south-la,2020-05-22,19,8536,222.58669165885664,,30
-Mandeville Canyon,westside,2020-05-22,1,3124,32.01024327784891,,
-Manhattan Beach,south-bay,2020-05-22,76,35999,211.11697547154085,45,52
-Mar Vista,westside,2020-05-22,77,42471,181.3001813001813,27,32
-Marina del Rey,westside,2020-05-22,14,9411,148.76208691956222,,29
-Marina Peninsula,westside,2020-05-22,11,4360,252.2935779816514,,51
-Maywood,southeast,2020-05-22,171,28049,609.6474027594567,28,36
-Melrose,central-la,2020-05-22,501,77696,644.8208401976935,55,53
-Mid-city,central-la,2020-05-22,48,15030,319.36127744510975,,49
-Miracle Mile,central-la,2020-05-22,40,17985,222.40756185710316,,45
-Mission Hills,san-fernando-valley,2020-05-22,127,24124,526.4466920908638,29,37
-Monrovia,san-gabriel-valley,2020-05-22,154,42681,360.81628827815655,23,25
-Montebello,southeast,2020-05-22,307,64375,476.8932038834952,40,36
-Monterey Park,san-gabriel-valley,2020-05-22,126,62262,202.37062734894477,30,27
-Mt. Washington,northeast-la,2020-05-22,78,24145,323.0482501553117,21,31
-Newhall,northwest-county,2020-05-22,0,0,NaN,,
-North Hills,san-fernando-valley,2020-05-22,363,61575,589.5249695493301,38,34
-North Hollywood,san-fernando-valley,2020-05-22,591,151421,390.30253399462424,50,35
-North Lancaster,antelope-valley,2020-05-22,4,1198,333.889816360601,,23
-North Whittier,san-gabriel-valley,2020-05-22,11,8360,131.57894736842104,,4
-Northeast San Gabriel,san-gabriel-valley,2020-05-22,40,24036,166.41704110500916,,6
-Northridge,san-fernando-valley,2020-05-22,275,69797,393.9997421092597,38,34
-Norwalk,southeast,2020-05-22,331,107622,307.55793425136125,46,32
-Pacific Palisades,westside,2020-05-22,46,21291,216.05373162369074,,52
-Pacoima,san-fernando-valley,2020-05-22,591,76979,767.7418516738331,41,34
+Bassett,san-gabriel-valley,2020-05-27,0,14817,0,8,37
+Bel Air,westside,2020-05-27,0,8429,0,,59
+Bell,southeast,2020-05-27,0,36332,0,43,46
+Bell Gardens,southeast,2020-05-27,0,43071,0,39,40
+Bellflower,southeast,2020-05-27,0,77735,0,46,36
+Beverly Crest,westside,2020-05-27,0,12525,0,,61
+Beverly Hills,westside,2020-05-27,0,34520,0,54,57
+Beverlywood,westside,2020-05-27,0,13173,0,,56
+Bouquet Canyon,northwest-county,2020-05-27,0,1073,0,,
+Boyle Heights,eastside,2020-05-27,0,86884,0,47,37
+Boyle Heights*,,2020-05-25,571,,,0,
+Bradbury,san-gabriel-valley,2020-05-27,0,1177,0,,18
+Brentwood,westside,2020-05-27,0,30955,0,49,60
+Brookside,central-la,2020-05-27,0,581,0,,
+Burbank,san-fernando-valley,2020-05-27,0,107180,0,54,43
+Cadillac-Corning,central-la,2020-05-27,0,7121,0,,40
+Calabasas,santa-monica-mountains,2020-05-27,0,24323,0,11,44
+Canoga Park,san-fernando-valley,2020-05-27,0,65289,0,49,46
+Canyon Country,northwest-county,2020-05-27,0,7728,0,,52
+Carson,harbor,2020-05-27,0,93846,0,55,50
+Carthay,central-la,2020-05-27,0,14363,0,37,58
+Castaic,northwest-county,2020-05-27,0,27191,0,19,19
+Castaic*,,2020-05-25,316,,,0,
+Central,south-la,2020-05-27,0,38992,0,42,46
+Century City,westside,2020-05-27,0,12792,0,,57
+Century Palms/Cove,south-la,2020-05-27,0,33766,0,36,39
+Cerritos,southeast,2020-05-27,0,50654,0,28,26
+Charter Oak,san-gabriel-valley,2020-05-27,0,0,NaN,,
+Chatsworth,san-fernando-valley,2020-05-27,0,37061,0,36,42
+Cheviot Hills,westside,2020-05-27,0,9171,0,,54
+Chinatown,central-la,2020-05-27,0,8021,0,,31
+Claremont,pomona-valley,2020-05-27,0,37186,0,,
+Cloverdale/Cochran,central-la,2020-05-27,0,14553,0,11,37
+Commerce,southeast,2020-05-27,0,13069,0,1,21
+Compton,southeast,2020-05-27,0,99904,0,47,37
+Country Club Park,central-la,2020-05-27,0,15153,0,35,49
+Covina,san-gabriel-valley,2020-05-27,0,65851,0,46,42
+Covina (Charter Oak),san-gabriel-valley,2020-05-27,0,13144,0,,26
+Crenshaw District,south-la,2020-05-27,0,13829,0,22,46
+Crestview,westside,2020-05-27,0,11368,0,37,58
+Cudahy,southeast,2020-05-27,0,24347,0,34,41
+Culver City,westside,2020-05-27,0,39865,0,33,37
+Del Aire,south-bay,2020-05-27,0,4393,0,,51
+Del Rey,westside,2020-05-27,0,30254,0,26,47
+Del Sur,antelope-valley,2020-05-27,0,2415,0,,32
+Desert View Highlands,antelope-valley,2020-05-27,0,2493,0,,28
+Diamond Bar,san-gabriel-valley,2020-05-27,0,57515,0,8,
+Downey,southeast,2020-05-27,0,114263,0,53,40
+Downtown,central-la,2020-05-27,0,27507,0,31,40
+Downtown*,,2020-05-25,127,,,0,
+Duarte,san-gabriel-valley,2020-05-27,0,26444,0,35,38
+Eagle Rock,northeast-la,2020-05-27,0,39589,0,40,43
+East Covina,san-gabriel-valley,2020-05-27,0,329,0,,
+East Hollywood,central-la,2020-05-27,0,29287,0,43,47
+East La Mirada,san-gabriel-valley,2020-05-27,0,5292,0,,40
+East Lancaster,antelope-valley,2020-05-27,0,114,0,,
+East Los Angeles,eastside,2020-05-27,0,125269,0,51,39
+East Pasadena,verdugos,2020-05-27,0,6403,0,,
+East Rancho Dominguez,southeast,2020-05-27,0,15308,0,,34
+East Whittier,san-gabriel-valley,2020-05-27,0,5306,0,,15
+Echo Park,central-la,2020-05-27,0,14256,0,,34
+El Camino Village,south-bay,2020-05-27,0,8791,0,,28
+El Monte,san-gabriel-valley,2020-05-27,0,117414,0,39,32
+El Segundo,south-bay,2020-05-27,0,16786,0,,37
+El Sereno,eastside,2020-05-27,0,41808,0,39,42
+Elizabeth Lake,antelope-valley,2020-05-27,0,1661,0,,14
+Elysian Park,central-la,2020-05-27,0,5712,0,,39
+Elysian Valley,central-la,2020-05-27,0,10171,0,1,37
+Encino,san-fernando-valley,2020-05-27,0,45172,0,45,47
+Exposition,south-la,2020-05-27,0,3326,0,,28
+Exposition Park,south-la,2020-05-27,0,44917,0,43,46
+Faircrest Heights,central-la,2020-05-27,0,3600,0,,21
+Figueroa Park Square,south-la,2020-05-27,0,8721,0,,42
+Florence-Firestone,south-la,2020-05-27,0,112150,0,53,43
+Franklin Canyon,westside,2020-05-27,0,0,NaN,,
+Gardena,south-bay,2020-05-27,0,61310,0,47,46
+Glassell Park,northeast-la,2020-05-27,0,31604,0,47,51
+Glendale,verdugos,2020-05-27,0,206493,0,58,47
+Glendora,san-gabriel-valley,2020-05-27,0,53424,0,22,21
+Gramercy Place,south-la,2020-05-27,0,10764,0,11,42
+Granada Hills,san-fernando-valley,2020-05-27,0,58191,0,42,39
+Green Meadows,south-la,2020-05-27,0,21505,0,29,39
+Hacienda Heights,san-gabriel-valley,2020-05-27,0,55926,0,26,23
+Hancock Park,central-la,2020-05-27,0,17039,0,43,59
+Harbor City,harbor,2020-05-27,0,29070,0,25,37
+Harbor Gateway,harbor,2020-05-27,0,43600,0,34,36
+Harbor Pines,harbor,2020-05-27,0,2409,0,,18
+Harvard Heights,central-la,2020-05-27,0,18035,0,30,45
+Harvard Park,south-la,2020-05-27,0,37935,0,37,39
+Hawaiian Gardens,harbor,2020-05-27,0,14676,0,,15
+Hawthorne,south-bay,2020-05-27,0,91301,0,49,39
+Hermosa Beach,south-bay,2020-05-27,0,19670,0,,37
+Hi Vista,antelope-valley,2020-05-27,0,1098,0,,
+Hidden Hills,santa-monica-mountains,2020-05-27,0,1890,0,,
+Highland Park,northeast-la,2020-05-27,0,48391,0,37,37
+Historic Filipinotown,central-la,2020-05-27,0,13870,0,32,47
+Hollywood,central-la,2020-05-27,0,68254,0,57,55
+Hollywood Hills,central-la,2020-05-27,0,29434,0,38,56
+Huntington Park,southeast,2020-05-27,0,59484,0,40,37
+Hyde Park,south-la,2020-05-27,0,28541,0,30,39
+Industry,san-gabriel-valley,2020-05-27,0,437,0,,32
+Inglewood,south-bay,2020-05-27,0,113582,0,54,45
+Irwindale,san-gabriel-valley,2020-05-27,0,1459,0,,32
+Jefferson Park,south-la,2020-05-27,0,8073,0,,33
+Kagel/Lopez Canyons,angeles-forest,2020-05-27,0,1412,0,,16
+Koreatown,central-la,2020-05-27,0,51693,0,46,43
+La Canada Flintridge,verdugos,2020-05-27,0,20693,0,,44
+La Crescenta-Montrose,verdugos,2020-05-27,0,19801,0,,15
+La Habra Heights,san-gabriel-valley,2020-05-27,0,5455,0,,15
+La Mirada,southeast,2020-05-27,0,49599,0,30,30
+La Puente,san-gabriel-valley,2020-05-27,0,40697,0,19,26
+La Rambla,harbor,2020-05-27,0,2075,0,,45
+La Verne,pomona-valley,2020-05-27,0,35322,0,,
+Ladera Heights,westside,2020-05-27,0,7071,0,,53
+Lafayette Square,central-la,2020-05-27,0,4559,0,,52
+Lake Balboa,san-fernando-valley,2020-05-27,0,42206,0,37,40
+Lake Hughes,northwest-county,2020-05-27,0,668,0,,6
+Lake Los Angeles,antelope-valley,2020-05-27,0,12994,0,,35
+Lake Manor,san-fernando-valley,2020-05-27,0,1643,0,,32
+Lakeview Terrace,san-fernando-valley,2020-05-27,0,13133,0,28,50
+Lakewood,harbor,2020-05-27,0,80362,0,37,26
+Lancaster,antelope-valley,2020-05-27,0,161570,0,52,36
+Lancaster*,,2020-05-25,538,,,0,
+Lawndale,south-bay,2020-05-27,0,33614,0,32,39
+Leimert Park,south-la,2020-05-27,0,15235,0,6,52
+Lennox,south-bay,2020-05-27,0,22542,0,24,37
+Leona Valley,antelope-valley,2020-05-27,0,1751,0,,14
+Lincoln Heights,eastside,2020-05-27,0,32597,0,33,36
+Little Armenia,central-la,2020-05-27,0,8025,0,41,54
+Little Bangladesh,central-la,2020-05-27,0,28343,0,36,46
+Little Tokyo,central-la,2020-05-27,0,3133,0,,33
+Littlerock,antelope-valley,2020-05-27,0,4021,0,,28
+Littlerock/Juniper Hills,antelope-valley,2020-05-27,0,1297,0,,15
+Littlerock/Pearblossom,antelope-valley,2020-05-27,0,3569,0,,34
+Llano,antelope-valley,2020-05-27,0,877,0,,32
+Lomita,south-bay,2020-05-27,0,20729,0,1,45
+Long Beach,harbor,2020-05-27,0,467354,0,61,36
+Longwood,central-la,2020-05-27,0,4304,0,,39
+Los Feliz,central-la,2020-05-27,0,21608,0,,39
+Lynwood,southeast,2020-05-27,0,72047,0,49,44
+Lynwood*,,2020-05-25,474,,,0,
+Malibu,santa-monica-mountains,2020-05-27,0,12961,0,,47
+Manchester Square,south-la,2020-05-27,0,8536,0,,35
+Mandeville Canyon,westside,2020-05-27,0,3124,0,,
+Manhattan Beach,south-bay,2020-05-27,0,35999,0,50,57
+Mar Vista,westside,2020-05-27,0,42471,0,32,37
+Marina del Rey,westside,2020-05-27,0,9411,0,,34
+Marina Peninsula,westside,2020-05-27,0,4360,0,,56
+Maywood,southeast,2020-05-27,0,28049,0,33,41
+Melrose,central-la,2020-05-27,0,77696,0,60,58
+Mid-city,central-la,2020-05-27,0,15030,0,4,54
+Miracle Mile,central-la,2020-05-27,0,17985,0,,50
+Mission Hills,san-fernando-valley,2020-05-27,0,24124,0,34,42
+Monrovia,san-gabriel-valley,2020-05-27,0,42681,0,28,30
+Montebello,southeast,2020-05-27,0,64375,0,45,41
+Monterey Park,san-gabriel-valley,2020-05-27,0,62262,0,35,32
+Mt. Washington,northeast-la,2020-05-27,0,24145,0,26,36
+Newhall,northwest-county,2020-05-27,0,0,NaN,,4
+North Hills,san-fernando-valley,2020-05-27,0,61575,0,43,39
+North Hollywood,san-fernando-valley,2020-05-27,0,151421,0,55,40
+North Lancaster,antelope-valley,2020-05-27,0,1198,0,,28
+North Whittier,san-gabriel-valley,2020-05-27,0,8360,0,,9
+Northeast San Gabriel,san-gabriel-valley,2020-05-27,0,24036,0,,11
+Northridge,san-fernando-valley,2020-05-27,0,69797,0,43,39
+Norwalk,southeast,2020-05-27,0,107622,0,51,37
+Pacific Palisades,westside,2020-05-27,0,21291,0,1,57
+Pacoima,san-fernando-valley,2020-05-27,0,76979,0,46,39
 Padua Hills,pomona-valley,2020-04-07,0,0,NaN,,
-Palisades Highlands,westside,2020-05-22,3,3846,78.003120124805,,
-Palmdale,antelope-valley,2020-05-22,610,159810,381.7032726362555,45,32
-Palms,westside,2020-05-22,176,43877,401.12131640722924,44,46
-Palos Verdes Estates,south-bay,2020-05-22,41,13522,303.2095843810087,,55
-Palos Verdes Peninsula,south-bay,2020-05-22,0,621,0,,
-Panorama City,san-fernando-valley,2020-05-22,619,75250,822.5913621262458,44,37
-Paramount,southeast,2020-05-22,243,56023,433.7504239330275,35,34
-Park La Brea,central-la,2020-05-22,18,13580,132.5478645066274,,8
-Pasadena,verdugos,2020-05-22,790,138101,572.0450974286936,49,39
-Pearblossom/Llano,antelope-valley,2020-05-22,2,1956,102.24948875255625,,27
-Pellissier Village,san-gabriel-valley,2020-05-22,0,619,0,,
-Pico Rivera,southeast,2020-05-22,388,64284,603.5716507995769,42,37
-Pico-Union,central-la,2020-05-22,461,41842,1101.763778022083,39,42
-Placerita Canyon,angeles-forest,2020-05-22,0,460,0,,
-Playa Del Rey,south-bay,2020-05-22,3,3196,93.86733416770963,,
-Playa Vista,westside,2020-05-22,22,10947,200.96830181784964,,36
-Pomona,pomona-valley,2020-05-22,339,157869,214.73500180529425,38,23
-Porter Ranch,san-fernando-valley,2020-05-22,82,35588,230.4147465437788,26,33
-Quartz Hill,antelope-valley,2020-05-22,34,12906,263.4433596776693,,37
-Rancho Dominguez,harbor,2020-05-22,14,2661,526.1180007515972,,42
-Rancho Palos Verdes,south-bay,2020-05-22,83,42747,194.16567244484995,31,38
-Rancho Park,westside,2020-05-22,13,6560,198.1707317073171,,47
-Redondo Beach,south-bay,2020-05-22,132,68697,192.14812873924626,51,44
-Regent Square,central-la,2020-05-22,3,2780,107.91366906474819,,21
-Reseda,san-fernando-valley,2020-05-22,458,76617,597.7785608937965,44,38
-Reseda Ranch,san-fernando-valley,2020-05-22,29,4636,625.5392579810181,,44
-Reynier Village,central-la,2020-05-22,10,4228,236.51844843897825,,44
-Rolling Hills,south-bay,2020-05-22,2,1940,103.09278350515464,,21
-Rolling Hills Estates,south-bay,2020-05-22,14,8113,172.5625539257981,,42
-Roosevelt,antelope-valley,2020-05-22,0,931,0,,
-Rosemead,san-gabriel-valley,2020-05-22,73,55350,131.88798554652212,14,10
-Rosewood,southeast,2020-05-22,5,1286,388.8024883359254,,27
-Rosewood/East Gardena,southeast,2020-05-22,0,1193,0,,
-Rosewood/West Rancho Dominguez,southeast,2020-05-22,15,3361,446.29574531389466,,29
-Rowland Heights,san-gabriel-valley,2020-05-22,110,51022,215.59327348986713,21,21
-San Clemente Island,,2020-05-22,0,0,NaN,,
-San Dimas,san-gabriel-valley,2020-05-22,41,34516,118.78549078688145,,11
-San Fernando,san-fernando-valley,2020-05-22,176,24612,715.0983260198277,30,38
-San Francisquito Canyon/Bouquet Canyon,northwest-county,2020-05-22,0,0,NaN,,
-San Gabriel,san-gabriel-valley,2020-05-22,91,40954,222.2005176539532,11,15
-San Jose Hills,san-gabriel-valley,2020-05-22,49,20221,242.32233816329557,,21
-San Marino,san-gabriel-valley,2020-05-22,21,13277,158.16826090231228,,13
-San Pasqual,san-gabriel-valley,2020-05-22,1,2035,49.140049140049136,,
-San Pedro,harbor,2020-05-22,810,78038,1037.9558676542197,39,32
-Sand Canyon,angeles-forest,2020-05-22,0,0,NaN,,
-Santa Catalina Island,harbor,2020-05-22,2,267,749.0636704119851,,27
-Santa Clarita,northwest-county,2020-05-22,632,220424,286.7201393677639,51,32
-Santa Fe Springs,southeast,2020-05-22,49,18364,266.8263994772381,,21
-Santa Monica,westside,2020-05-22,245,92446,265.0195789974688,51,38
-Santa Monica Mountains,santa-monica-mountains,2020-05-22,20,18621,107.40561731378551,,16
-Saugus,northwest-county,2020-05-22,4,155,2580.6451612903224,,27
-Saugus/Canyon Country,northwest-county,2020-05-22,0,356,0,,
-Shadow Hills,san-fernando-valley,2020-05-22,10,4442,225.12381809995495,,50
-Sherman Oaks,san-fernando-valley,2020-05-22,213,87254,244.11488298530728,48,34
-Sierra Madre,san-gabriel-valley,2020-05-22,9,10989,81.9000819000819,,
-Signal Hill,harbor,2020-05-22,19,11797,161.05789607527336,,10
-Silverlake,central-la,2020-05-22,158,44083,358.4148084295533,47,48
-South Antelope Valley,antelope-valley,2020-05-22,1,455,219.78021978021977,,0
-South Carthay,central-la,2020-05-22,31,10595,292.590844738084,,50
+Palisades Highlands,westside,2020-05-27,0,3846,0,,
+Palmdale,antelope-valley,2020-05-27,0,159810,0,50,37
+Palms,westside,2020-05-27,0,43877,0,49,51
+Palos Verdes Estates,south-bay,2020-05-27,0,13522,0,,60
+Palos Verdes Peninsula,south-bay,2020-05-27,0,621,0,,
+Panorama City,san-fernando-valley,2020-05-27,0,75250,0,49,42
+Paramount,southeast,2020-05-27,0,56023,0,40,39
+Park La Brea,central-la,2020-05-27,0,13580,0,,13
+Pasadena,verdugos,2020-05-27,0,138101,0,54,44
+Pearblossom/Llano,antelope-valley,2020-05-27,0,1956,0,,32
+Pellissier Village,san-gabriel-valley,2020-05-27,0,619,0,,1
+Pico Rivera,southeast,2020-05-27,0,64284,0,47,42
+Pico-Union,central-la,2020-05-27,0,41842,0,44,47
+Placerita Canyon,angeles-forest,2020-05-27,0,460,0,,
+Playa Del Rey,south-bay,2020-05-27,0,3196,0,,
+Playa Vista,westside,2020-05-27,0,10947,0,,41
+Pomona,pomona-valley,2020-05-27,0,157869,0,43,28
+Porter Ranch,san-fernando-valley,2020-05-27,0,35588,0,31,38
+Quartz Hill,antelope-valley,2020-05-27,0,12906,0,,42
+Rancho Dominguez,harbor,2020-05-27,0,2661,0,,47
+Rancho Palos Verdes,south-bay,2020-05-27,0,42747,0,36,43
+Rancho Park,westside,2020-05-27,0,6560,0,,52
+Redondo Beach,south-bay,2020-05-27,0,68697,0,56,49
+Regent Square,central-la,2020-05-27,0,2780,0,,26
+Reseda,san-fernando-valley,2020-05-27,0,76617,0,49,43
+Reseda Ranch,san-fernando-valley,2020-05-27,0,4636,0,,49
+Reynier Village,central-la,2020-05-27,0,4228,0,,49
+Rolling Hills,south-bay,2020-05-27,0,1940,0,,26
+Rolling Hills Estates,south-bay,2020-05-27,0,8113,0,,47
+Roosevelt,antelope-valley,2020-05-27,0,931,0,,4
+Rosemead,san-gabriel-valley,2020-05-27,0,55350,0,19,15
+Rosewood,southeast,2020-05-27,0,1286,0,,32
+Rosewood/East Gardena,southeast,2020-05-27,0,1193,0,,
+Rosewood/West Rancho Dominguez,southeast,2020-05-27,0,3361,0,,34
+Rowland Heights,san-gabriel-valley,2020-05-27,0,51022,0,26,26
+San Clemente Island,,2020-05-27,0,0,NaN,,
+San Dimas,san-gabriel-valley,2020-05-27,0,34516,0,,16
+San Fernando,san-fernando-valley,2020-05-27,0,24612,0,35,43
+San Francisquito Canyon/Bouquet Canyon,northwest-county,2020-05-27,0,0,NaN,,
+San Gabriel,san-gabriel-valley,2020-05-27,0,40954,0,16,20
+San Jose Hills,san-gabriel-valley,2020-05-27,0,20221,0,4,26
+San Marino,san-gabriel-valley,2020-05-27,0,13277,0,,18
+San Pasqual,san-gabriel-valley,2020-05-27,0,2035,0,,
+San Pedro,harbor,2020-05-27,0,78038,0,44,37
+San Pedro*,,2020-05-25,843,,,0,
+Sand Canyon,angeles-forest,2020-05-27,0,0,NaN,,
+Santa Catalina Island,harbor,2020-05-27,0,267,0,,32
+Santa Clarita,northwest-county,2020-05-27,0,220424,0,56,37
+Santa Fe Springs,southeast,2020-05-27,0,18364,0,3,26
+Santa Monica,westside,2020-05-27,0,92446,0,56,43
+Santa Monica Mountains,santa-monica-mountains,2020-05-27,0,18621,0,,21
+Saugus,northwest-county,2020-05-27,0,155,0,,32
+Saugus/Canyon Country,northwest-county,2020-05-27,0,356,0,,
+Shadow Hills,san-fernando-valley,2020-05-27,0,4442,0,,55
+Sherman Oaks,san-fernando-valley,2020-05-27,0,87254,0,53,39
+Sierra Madre,san-gabriel-valley,2020-05-27,0,10989,0,,
+Signal Hill,harbor,2020-05-27,0,11797,0,,15
+Silverlake,central-la,2020-05-27,0,44083,0,52,53
+South Antelope Valley,antelope-valley,2020-05-27,0,455,0,,5
+South Carthay,central-la,2020-05-27,0,10595,0,,55
 South Edwards,antelope-valley,2020-05-08,0,0,NaN,,
-South El Monte,san-gabriel-valley,2020-05-22,69,22680,304.23280423280426,8,25
-South Gate,southeast,2020-05-22,440,98155,448.2705924303398,47,38
-South Park,south-la,2020-05-22,278,37961,732.3305497747688,34,41
-South Pasadena,san-gabriel-valley,2020-05-22,119,26053,456.7612175181361,29,33
-South San Gabriel,san-gabriel-valley,2020-05-22,27,8848,305.15370705244123,,23
-South Whittier,southeast,2020-05-22,132,59222,222.89014217689373,30,26
-Southeast Antelope Valley,antelope-valley,2020-05-22,0,781,0,,
-St Elmo Village,central-la,2020-05-22,42,4584,916.2303664921466,,32
-Stevenson Ranch,northwest-county,2020-05-22,29,20966,138.319183439855,,14
-Studio City,san-fernando-valley,2020-05-22,71,22440,316.39928698752226,18,34
-Sun Valley,san-fernando-valley,2020-05-22,250,52483,476.3447211478002,34,34
-Sun Village,antelope-valley,2020-05-22,12,6036,198.80715705765405,,17
-Sunland,san-fernando-valley,2020-05-22,126,20408,617.4049392395139,30,44
-Sunrise Village,san-gabriel-valley,2020-05-22,2,1296,154.320987654321,,9
-Sycamore Square,central-la,2020-05-22,1,647,154.5595054095827,,21
-Sylmar,san-fernando-valley,2020-05-22,662,82398,803.4175586786088,48,44
-Tarzana,san-fernando-valley,2020-05-22,133,30876,430.75527918124106,36,48
-Temple City,san-gabriel-valley,2020-05-22,140,36455,384.03511178164865,21,29
-Temple-Beaudry,central-la,2020-05-22,271,39482,686.3887341066816,41,42
-Thai Town,central-la,2020-05-22,27,9809,275.25741665817105,,41
-Toluca Lake,san-fernando-valley,2020-05-22,16,8704,183.8235294117647,,31
-Toluca Terrace,san-fernando-valley,2020-05-22,5,1306,382.84839203675347,,25
-Toluca Woods,san-fernando-valley,2020-05-22,3,1858,161.4639397201292,,27
-Torrance,south-bay,2020-05-22,344,149268,230.45796821823834,52,38
-Tujunga,verdugos,2020-05-22,107,27810,384.75368572455955,28,32
-Twin Lakes/Oat Mountain,northwest-county,2020-05-22,4,1658,241.25452352231602,,27
+South El Monte,san-gabriel-valley,2020-05-27,0,22680,0,13,30
+South Gate,southeast,2020-05-27,0,98155,0,52,43
+South Park,south-la,2020-05-27,0,37961,0,39,46
+South Pasadena,san-gabriel-valley,2020-05-27,0,26053,0,34,38
+South San Gabriel,san-gabriel-valley,2020-05-27,0,8848,0,,28
+South Whittier,southeast,2020-05-27,0,59222,0,35,31
+Southeast Antelope Valley,antelope-valley,2020-05-27,0,781,0,,
+St Elmo Village,central-la,2020-05-27,0,4584,0,,37
+Stevenson Ranch,northwest-county,2020-05-27,0,20966,0,,19
+Studio City,san-fernando-valley,2020-05-27,0,22440,0,23,39
+Sun Valley,san-fernando-valley,2020-05-27,0,52483,0,39,39
+Sun Village,antelope-valley,2020-05-27,0,6036,0,,22
+Sunland,san-fernando-valley,2020-05-27,0,20408,0,35,49
+Sunrise Village,san-gabriel-valley,2020-05-27,0,1296,0,,14
+Sycamore Square,central-la,2020-05-27,0,647,0,,26
+Sylmar,san-fernando-valley,2020-05-27,0,82398,0,53,49
+Sylmar*,,2020-05-25,727,,,0,
+Tarzana,san-fernando-valley,2020-05-27,0,30876,0,41,53
+Temple City,san-gabriel-valley,2020-05-27,0,36455,0,26,34
+Temple-Beaudry,central-la,2020-05-27,0,39482,0,46,47
+Thai Town,central-la,2020-05-27,0,9809,0,,46
+Toluca Lake,san-fernando-valley,2020-05-27,0,8704,0,,36
+Toluca Terrace,san-fernando-valley,2020-05-27,0,1306,0,,30
+Toluca Woods,san-fernando-valley,2020-05-27,0,1858,0,,32
+Torrance,south-bay,2020-05-27,0,149268,0,57,43
+Tujunga,verdugos,2020-05-27,0,27810,0,33,37
+Twin Lakes/Oat Mountain,northwest-county,2020-05-27,0,1658,0,,32
 Universal City,san-fernando-valley,2020-05-08,0,0,NaN,,
-University Hills,eastside,2020-05-22,11,3429,320.79323417906096,,27
-University Park,south-la,2020-05-22,143,27456,520.8333333333333,29,37
-Val Verde,northwest-county,2020-05-22,16,3309,483.5297673012995,19,27
-Valencia,northwest-county,2020-05-22,7,3072,227.86458333333334,,27
-Valinda,san-gabriel-valley,2020-05-22,64,23371,273.8436523897137,4,28
-Valley Glen,san-fernando-valley,2020-05-22,111,30016,369.80277185501063,31,42
-Valley Village,san-fernando-valley,2020-05-22,188,24720,760.5177993527508,32,49
-Van Nuys,san-fernando-valley,2020-05-22,607,93194,651.3294847307767,45,37
-Venice,westside,2020-05-22,62,33885,182.9718164379519,19,42
-Vermont Knolls,south-la,2020-05-22,119,17200,691.860465116279,25,38
-Vermont Square,south-la,2020-05-22,76,7657,992.5558312655087,20,45
-Vermont Vista,south-la,2020-05-22,260,41186,631.2824746273005,31,32
-Vernon,southeast,2020-05-22,1,209,478.46889952153106,,21
-Vernon Central,south-la,2020-05-22,472,51998,907.727220277703,35,34
-Victoria Park,central-la,2020-05-22,51,8399,607.2151446600785,1,48
-View Heights,south-la,2020-05-22,8,3694,216.5674066053059,,38
-View Park/Windsor Hills,south-la,2020-05-22,31,11635,266.43747314138375,,47
-Walnut,san-gabriel-valley,2020-05-22,35,30532,114.63382680466395,,6
-Walnut Park,southeast,2020-05-22,94,16143,582.2957318961779,17,42
-Watts,south-la,2020-05-22,215,42674,503.81965599662556,32,32
-Wellington Square,central-la,2020-05-22,21,4915,427.26347914547307,,34
-West Adams,south-la,2020-05-22,177,27630,640.6080347448426,38,44
-West Antelope Valley,antelope-valley,2020-05-22,2,1511,132.36267372600926,,27
-West Carson,harbor,2020-05-22,90,22086,407.4979625101874,28,44
-West Chatsworth,san-fernando-valley,2020-05-22,0,0,NaN,,
-West Covina,san-gabriel-valley,2020-05-22,262,108235,242.06587517900863,36,25
-West Hills,san-fernando-valley,2020-05-22,128,40545,315.6986064866198,21,29
-West Hollywood,central-la,2020-05-22,166,36951,449.2435928662283,55,56
-West LA,westside,2020-05-22,23,952,2415.9663865546217,,49
-West Los Angeles,westside,2020-05-22,69,37636,183.3351046870018,28,35
-West Puente Valley,san-gabriel-valley,2020-05-22,35,9835,355.8718861209964,,27
-West Rancho Dominguez,southeast,2020-05-22,5,1359,367.91758646063283,,27
-West Vernon,south-la,2020-05-22,384,53644,715.830288569085,44,41
-West Whittier/Los Nietos,southeast,2020-05-22,111,26925,412.25626740947075,15,27
-Westchester,south-bay,2020-05-22,88,51603,170.53272096583532,31,31
-Westfield/Academy Hills,south-bay,2020-05-22,0,1300,0,,
-Westhills,san-fernando-valley,2020-05-22,0,839,0,,
-Westlake,central-la,2020-05-22,580,59355,977.1712576867998,41,39
-Westlake Village,santa-monica-mountains,2020-05-22,6,8360,71.77033492822966,,
-Westwood,westside,2020-05-22,60,54109,110.88728307675248,20,15
-White Fence Farms,antelope-valley,2020-05-22,3,3683,81.45533532446375,,
-Whittier,san-gabriel-valley,2020-05-22,276,91216,302.57849500087707,41,27
-Whittier Narrows,san-gabriel-valley,2020-05-22,0,0,NaN,,
-Wholesale District,central-la,2020-05-22,548,36129,1516.7870685598825,30,32
-Willowbrook,south-la,2020-05-22,140,34913,400.996763383267,21,30
-Wilmington,harbor,2020-05-22,182,56487,322.19802786481847,32,31
-Wilshire Center,central-la,2020-05-22,206,50170,410.6039465816225,37,37
-Winnetka,san-fernando-valley,2020-05-22,256,51786,494.34210018151623,38,38
-Wiseburn,south-bay,2020-05-22,13,6027,215.69603451136555,,23
-Woodland Hills,san-fernando-valley,2020-05-22,148,68055,217.47116302990227,46,39
+University Hills,eastside,2020-05-27,0,3429,0,,32
+University Park,south-la,2020-05-27,0,27456,0,34,42
+Val Verde,northwest-county,2020-05-27,0,3309,0,24,32
+Valencia,northwest-county,2020-05-27,0,3072,0,,32
+Valinda,san-gabriel-valley,2020-05-27,0,23371,0,9,33
+Valley Glen,san-fernando-valley,2020-05-27,0,30016,0,36,47
+Valley Village,san-fernando-valley,2020-05-27,0,24720,0,37,54
+Van Nuys,san-fernando-valley,2020-05-27,0,93194,0,50,42
+Venice,westside,2020-05-27,0,33885,0,24,47
+Vermont Knolls,south-la,2020-05-27,0,17200,0,30,43
+Vermont Square,south-la,2020-05-27,0,7657,0,25,50
+Vermont Vista,south-la,2020-05-27,0,41186,0,36,37
+Vernon,southeast,2020-05-27,0,209,0,,26
+Vernon Central,south-la,2020-05-27,0,51998,0,40,39
+Victoria Park,central-la,2020-05-27,0,8399,0,6,53
+View Heights,south-la,2020-05-27,0,3694,0,,43
+View Park/Windsor Hills,south-la,2020-05-27,0,11635,0,,52
+Walnut,san-gabriel-valley,2020-05-27,0,30532,0,,11
+Walnut Park,southeast,2020-05-27,0,16143,0,22,47
+Watts,south-la,2020-05-27,0,42674,0,37,37
+Wellington Square,central-la,2020-05-27,0,4915,0,,39
+West Adams,south-la,2020-05-27,0,27630,0,43,49
+West Antelope Valley,antelope-valley,2020-05-27,0,1511,0,,32
+West Carson,harbor,2020-05-27,0,22086,0,33,49
+West Chatsworth,san-fernando-valley,2020-05-27,0,0,NaN,,
+West Covina,san-gabriel-valley,2020-05-27,0,108235,0,41,30
+West Hills,san-fernando-valley,2020-05-27,0,40545,0,26,34
+West Hollywood,central-la,2020-05-27,0,36951,0,60,61
+West LA,westside,2020-05-27,0,952,0,,54
+West Los Angeles,westside,2020-05-27,0,37636,0,33,40
+West Puente Valley,san-gabriel-valley,2020-05-27,0,9835,0,,32
+West Rancho Dominguez,southeast,2020-05-27,0,1359,0,,32
+West Vernon,south-la,2020-05-27,0,53644,0,49,46
+West Whittier/Los Nietos,southeast,2020-05-27,0,26925,0,20,32
+Westchester,south-bay,2020-05-27,0,51603,0,36,36
+Westfield/Academy Hills,south-bay,2020-05-27,0,1300,0,,
+Westhills,san-fernando-valley,2020-05-27,0,839,0,,
+Westlake,central-la,2020-05-27,0,59355,0,46,44
+Westlake Village,santa-monica-mountains,2020-05-27,0,8360,0,,
+Westwood,westside,2020-05-27,0,54109,0,25,20
+White Fence Farms,antelope-valley,2020-05-27,0,3683,0,,3
+Whittier,san-gabriel-valley,2020-05-27,0,91216,0,46,32
+Whittier Narrows,san-gabriel-valley,2020-05-27,0,0,NaN,,
+Wholesale District,central-la,2020-05-27,0,36129,0,35,37
+Wholesale District*,,2020-05-25,602,,,0,
+Willowbrook,south-la,2020-05-27,0,34913,0,26,35
+Wilmington,harbor,2020-05-27,0,56487,0,37,36
+Wilshire Center,central-la,2020-05-27,0,50170,0,42,42
+Winnetka,san-fernando-valley,2020-05-27,0,51786,0,43,43
+Wiseburn,south-bay,2020-05-27,0,6027,0,,28
+Woodland Hills,san-fernando-valley,2020-05-27,0,68055,0,51,44
