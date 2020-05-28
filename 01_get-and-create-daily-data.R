@@ -38,6 +38,7 @@ csa.daily.counts = CSA.COUNTS %>%
   filter(!str_detect(str_to_lower(city), 'under investigation')) %>% 
   mutate(
     csa.hood.name = str_replace(city, 'City of ', ''),
+    csa.hood.name = str_replace(csa.hood.name, '\\*', ''),
     csa.hood.name = str_replace(csa.hood.name, 'Unincorporated - ', ''),
     csa.hood.name = str_replace(csa.hood.name, 'Los Angeles - ', ''),
     csa.hood.name = if_else(str_detect(csa.hood.name, 'Covina \\(Charter Oak\\)'), 'Covina (Charter Oak)', csa.hood.name),
