@@ -28,8 +28,8 @@ regions.daily.latest = read_csv('processed/region-daily-calcs-latest.csv') %>%
     days.since.case.rate.cutoff = glue('days.since.{case.rate.cutoff}.cases.per.100k')
   )
 
-max.date = as.Date('2020-06-01')
-max.days.since = 70
+max.date = max(csa.daily$date) + 15
+max.days.since = max(csa.daily$days.since.case.rate.cutoff, na.rm = TRUE) + 15
 
 # csa daily counts --------------------------------------------------------
 
