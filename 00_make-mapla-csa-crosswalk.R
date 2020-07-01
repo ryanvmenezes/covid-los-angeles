@@ -172,7 +172,10 @@ csa.hoods.m = csa.hoods %>%
 
 csa.hoods.m
 
-intersected = st_intersection(mapla.hoods.m, csa.hoods.m) %>% 
+intersected = st_intersection(
+  st_buffer(mapla.hoods.m, 0),
+  st_buffer(csa.hoods.m, 0)
+  ) %>% 
   mutate(
     piece.area = as.double(st_area(.)),
     pct.mapla = piece.area / mapla.area,
@@ -271,3 +274,4 @@ intersected %>%
 
 csa.top.region %>% 
   write_csv('processed/mapla-region-csa-crosswalk.csv', na = '')
+
