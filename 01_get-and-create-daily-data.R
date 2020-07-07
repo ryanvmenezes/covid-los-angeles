@@ -18,20 +18,20 @@ csa.list
 CSA.COUNTS = read_csv(
   'raw/lat-la-csa-daily.csv',
   skip = 4,
-  col_types = cols(
-    city = col_character(),
-    date = col_date(format = ""),
-    confirmed_cases = col_double(),
-    X4 = col_logical(),
-    X5 = col_logical(),
-    X6 = col_logical()
-  )
+  # col_types = cols(
+  #   city = col_character(),
+  #   date = col_date(format = ""),
+  #   confirmed_cases = col_double(),
+  #   X4 = col_logical(),
+  #   X5 = col_logical(),
+  #   X6 = col_logical()
+  # )
 )
 
 CSA.COUNTS
 
 csa.daily.counts = CSA.COUNTS %>% 
-  select(-X4) %>% 
+  # select(-X4) %>% 
   filter(date >= '2020-03-27') %>% # data gets better on this date
   filter(city != 'Los Angeles') %>% 
   filter(city != 'City of Los Angeles') %>% 
@@ -176,3 +176,4 @@ csa.daily.calcs.latest %>% write_csv('processed/csa-daily-calcs-latest.csv', na 
 
 region.daily.calcs %>% write_csv('processed/region-daily-calcs.csv', na = '')
 region.daily.calcs.latest %>% write_csv('processed/region-daily-calcs-latest.csv', na = '')
+
