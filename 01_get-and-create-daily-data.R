@@ -1,4 +1,4 @@
-library(glue)
+library(lubridate)
 library(tidyverse)
 
 # download raw copy of hand-entered data from LAT spreadsheet 
@@ -8,30 +8,21 @@ download.file(
   'raw/lat-la-csa-daily.csv'
 )
 
-case.cutoff = 50
-case.rate.cutoff = 100
-
+# cleaned up CSA list based on GIS work
+# has population, all component parts of the whole CSA, and mapping la region it maps to 
 csa.list = read_csv('processed/countywide-statistical-areas-cleaned-list.csv')
 
 csa.list
 
 CSA.COUNTS = read_csv(
   'raw/lat-la-csa-daily.csv',
-  skip = 4,
-  # col_types = cols(
-  #   city = col_character(),
-  #   date = col_date(format = ""),
-  #   confirmed_cases = col_double(),
-  #   X4 = col_logical(),
-  #   X5 = col_logical(),
-  #   X6 = col_logical()
-  # )
+  skip = 4
 )
 
 CSA.COUNTS
 
-csa.daily.counts = CSA.COUNTS %>% 
-  # select(-X4) %>% 
+# clean up the csa names 
+csa.daily = CSA.COUNTS %>% 
   filter(date >= '2020-03-27') %>% # data gets better on this date
   filter(city != 'Los Angeles') %>% 
   filter(city != 'City of Los Angeles') %>% 
@@ -43,137 +34,120 @@ csa.daily.counts = CSA.COUNTS %>%
     csa.hood.name = str_replace(csa.hood.name, 'Los Angeles - ', ''),
     csa.hood.name = if_else(str_detect(csa.hood.name, 'Covina \\(Charter Oak\\)'), 'Covina (Charter Oak)', csa.hood.name),
   ) %>% 
+  # group and sum across these new CSA named
   group_by(csa.hood.name, date) %>% 
-  summarise(confirmed.cases = sum(confirmed_cases, na.rm = TRUE)) %>% 
+  summarise(cases = sum(confirmed_cases, na.rm = TRUE)) %>% 
+  # join to the cleaned CSA list to get population totals
   left_join(
     csa.list %>% 
       select(csa.hood.name, mapla.region.slug, population)
   ) %>% 
-  mutate(case.rate.100k = confirmed.cases / population * 100000) %>% 
-  select(csa.hood.name, mapla.region.slug, everything())
+  # rate per 100,000 population
+  mutate(case.rate.100k = cases / population * 100000) %>% 
+  select(csa.hood.name, mapla.region.slug, everything()) %>% 
+  ungroup()
 
-csa.daily.counts
+csa.daily
 
-# check for match
-csa.daily.counts %>% 
-  count(csa.hood.name) %>% 
-  full_join(csa.list) %>% 
-  filter(is.na(n) | is.na(count.original))
+# check to make sure everything matched
+csa.list %>% 
+  anti_join(csa.daily %>% distinct(csa.hood.name))
 
-csa.latest = csa.daily.counts %>% 
-  arrange(csa.hood.name, date) %>% 
+# get summary that includes latest data
+csa.latest = csa.daily %>% 
   group_by(csa.hood.name) %>% 
-  summarise(
-    count.updates = n(),
-    first.update = min(date),
-    latest.update = max(date),
-    population = last(population),
-    latest.confirmed.cases = last(confirmed.cases),
-    latest.case.rate.100k = last(case.rate.100k)
-  ) %>% 
-  arrange(-latest.confirmed.cases)
+  filter(date == max(date)) %>% 
+  arrange(-cases)
 
 csa.latest
 
+# look at just the new cases in the last two weeks
 
-csa.latest %>% 
-  ggplot(aes(x = latest.confirmed.cases)) +
-  geom_histogram(bins = 100) +
-  geom_vline(xintercept = case.cutoff, color = 'red') +
-  theme_minimal()
-
-csa.latest %>% 
-  filter(latest.confirmed.cases >= case.cutoff) %>% 
-  nrow()
-
-csa.latest %>% 
-  ggplot(aes(x = latest.case.rate.100k)) +
-  geom_histogram(bins = 100) +
-  geom_vline(xintercept = case.rate.cutoff, color = 'red') +
-  theme_minimal()
-
-csa.latest %>% 
-  filter(latest.case.rate.100k >= case.rate.cutoff) %>% 
-  nrow()
-
-csa.daily.calcs = csa.daily.counts %>% 
+# on a daily basis
+csa.recent.daily = csa.daily %>% 
+  filter(date >= today() - 14) %>%
   left_join(
-    csa.daily.counts %>% 
-      filter(confirmed.cases >= case.cutoff) %>% 
+    csa.daily %>% 
       group_by(csa.hood.name) %>% 
-      filter(date == min(date)) %>% 
-      select(csa.hood.name, date.of.case.cutoff = date)
-  ) %>% 
-  left_join(
-    csa.daily.counts %>% 
-      filter(case.rate.100k >= case.rate.cutoff) %>% 
-      group_by(csa.hood.name) %>% 
-      filter(date == min(date)) %>% 
-      select(csa.hood.name, date.of.case.rate.cutoff = date)
+      filter(date == today() - 14) %>% 
+      select(csa.hood.name, cases.two.weeks.ago = cases)
   ) %>% 
   mutate(
-    days.since.case.cutoff = as.integer(date - date.of.case.cutoff),
-    days.since.case.rate.cutoff = as.integer(date - date.of.case.rate.cutoff)
+    cases = cases - cases.two.weeks.ago,
+    case.rate.100k = cases / population * 100000
   ) %>% 
-  select(-date.of.case.cutoff, -date.of.case.rate.cutoff) %>% 
-  rename_at(vars(days.since.case.cutoff), ~glue('days.since.{case.cutoff}.cases')) %>% 
-  rename_at(vars(days.since.case.rate.cutoff), ~glue('days.since.{case.rate.cutoff}.cases.per.100k')) %>% 
-  ungroup()
-  
-csa.daily.calcs
+  select(
+    csa.hood.name, mapla.region.slug, date,
+    recent.cases = cases, population, recent.case.rate.100k = case.rate.100k
+  )
 
-csa.daily.calcs.latest = csa.daily.calcs %>% 
+csa.recent.daily
+
+# the summary of the last two weeks 
+csa.recent.latest = csa.recent.daily %>% 
   group_by(csa.hood.name) %>% 
-  filter(date == max(date))
+  filter(date == max(date)) %>% 
+  arrange(-recent.cases) %>% 
+  ungroup()
 
-csa.daily.calcs.latest
+csa.recent.latest
 
-region.daily.counts = csa.daily.counts %>% 
+# same for regions
+region.daily = csa.daily %>% 
   filter(!is.na(mapla.region.slug)) %>% 
   group_by(mapla.region.slug, date) %>% 
   summarise(
-    confirmed.cases = sum(confirmed.cases),
+    cases = sum(cases),
     population = sum(population),
-    case.rate.100k = confirmed.cases / population * 100000
-  )
-
-region.daily.counts
-
-region.daily.calcs = region.daily.counts %>% 
-  left_join(
-    region.daily.counts %>% 
-      filter(confirmed.cases >= case.cutoff * 2) %>% 
-      group_by(mapla.region.slug) %>% 
-      filter(date == min(date)) %>% 
-      select(mapla.region.slug, date.of.case.cutoff = date)
+    case.rate.100k = cases / population * 100000
   ) %>% 
-  left_join(
-    region.daily.counts %>% 
-      filter(case.rate.100k >= case.rate.cutoff) %>% 
-      group_by(mapla.region.slug) %>% 
-      filter(date == min(date)) %>% 
-      select(mapla.region.slug, date.of.case.rate.cutoff = date)
-  ) %>% 
-  mutate(
-    days.since.case.cutoff = as.integer(date - date.of.case.cutoff),
-    days.since.case.rate.cutoff = as.integer(date - date.of.case.rate.cutoff)
-  ) %>% 
-  select(-date.of.case.cutoff, -date.of.case.rate.cutoff) %>% 
-  rename_at(vars(days.since.case.cutoff), ~glue('days.since.{case.cutoff * 2}.cases')) %>% 
-  rename_at(vars(days.since.case.rate.cutoff), ~glue('days.since.{case.rate.cutoff}.cases.per.100k')) %>% 
   ungroup()
 
-region.daily.calcs
+region.daily
 
-region.daily.calcs.latest = region.daily.calcs %>% 
+region.latest = region.daily %>% 
   group_by(mapla.region.slug) %>% 
-  filter(date == max(date))
+  filter(date == max(date)) %>% 
+  arrange(-case.rate.100k)
 
-region.daily.calcs.latest
+region.latest
 
-csa.daily.calcs %>% write_csv('processed/csa-daily-calcs.csv', na = '')
-csa.daily.calcs.latest %>% write_csv('processed/csa-daily-calcs-latest.csv', na = '')
+region.recent.daily = region.daily %>% 
+  filter(date >= today() - 14) %>%
+  left_join(
+    region.daily %>% 
+      group_by(mapla.region.slug) %>% 
+      filter(date == today() - 14) %>% 
+      select(mapla.region.slug, cases.two.weeks.ago = cases)
+  ) %>% 
+  mutate(
+    cases = cases - cases.two.weeks.ago,
+    case.rate.100k = cases / population * 100000
+  ) %>% 
+  select(
+    mapla.region.slug, date,
+    recent.cases = cases, population, recent.case.rate.100k = case.rate.100k
+  )
 
-region.daily.calcs %>% write_csv('processed/region-daily-calcs.csv', na = '')
-region.daily.calcs.latest %>% write_csv('processed/region-daily-calcs-latest.csv', na = '')
+region.recent.daily
+
+region.recent.latest = region.recent.daily %>% 
+  group_by(mapla.region.slug) %>% 
+  filter(date == max(date)) %>% 
+  arrange(-recent.case.rate.100k) %>% 
+  ungroup()
+
+region.recent.latest
+
+csa.daily %>% write_csv('processed/csa-daily.csv', na = '')
+csa.latest %>% write_csv('processed/csa-latest.csv', na = '')
+
+csa.recent.daily %>% write_csv('processed/csa-recent-daily.csv', na = '')
+csa.recent.latest %>% write_csv('processed/csa-recent-latest.csv', na = '')
+
+region.daily %>% write_csv('processed/region-daily.csv', na = '')
+region.latest %>% write_csv('processed/region-latest.csv', na = '')
+
+region.recent.daily %>% write_csv('processed/region-recent-daily.csv', na = '')
+region.recent.latest %>% write_csv('processed/region-recent-latest.csv', na = '')
 

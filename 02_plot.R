@@ -1,57 +1,44 @@
 library(glue)
+library(lubridate)
 library(tidyverse)
 
-case.cutoff = 50
-case.rate.cutoff = 100
+datasets.names = c('csa.daily', 'csa.latest', 'csa.recent.daily', 'csa.recent.latest',
+                   'region.daily', 'region.latest', 'region.recent.daily', 'region.recent.latest')
 
-csa.daily = read_csv('processed/csa-daily-calcs.csv') %>% 
-  rename(
-    days.since.case.cutoff = glue('days.since.{case.cutoff}.cases'),
-    days.since.case.rate.cutoff = glue('days.since.{case.rate.cutoff}.cases.per.100k')
-  )
+datasets = datasets.names %>% 
+  setNames(datasets.names) %>%
+  map(~read_csv(glue('processed/{str_replace_all(.x, "\\\\.", "-")}.csv')))
 
-csa.daily.latest = read_csv('processed/csa-daily-calcs-latest.csv') %>%
-  rename(
-    days.since.case.cutoff = glue('days.since.{case.cutoff}.cases'),
-    days.since.case.rate.cutoff = glue('days.since.{case.rate.cutoff}.cases.per.100k')
-  )
+datasets
 
-regions.daily = read_csv('processed/region-daily-calcs.csv') %>% 
-  rename(
-    days.since.case.cutoff = glue('days.since.{case.cutoff * 2}.cases'),
-    days.since.case.rate.cutoff = glue('days.since.{case.rate.cutoff}.cases.per.100k')
-  )
+min.date = ymd('2020-03-27')
+max.date = today() + 15
+two.weeks.ago.date = today() - 14
 
-regions.daily.latest = read_csv('processed/region-daily-calcs-latest.csv') %>%
-  rename(
-    days.since.case.cutoff = glue('days.since.{case.cutoff * 2}.cases'),
-    days.since.case.rate.cutoff = glue('days.since.{case.rate.cutoff}.cases.per.100k')
-  )
+save.plot = function (ggobj, filename) {
+  ggsave(filename, plot = ggobj, width = 12, height = 8)
+}
 
-max.date = max(csa.daily$date) + 15
-max.days.since = max(csa.daily$days.since.case.rate.cutoff, na.rm = TRUE) + 15
+# daily cases by csa
 
-# csa daily counts --------------------------------------------------------
-
-plot.csa.counts.daily = csa.daily %>%
-  filter(confirmed.cases > 0) %>% 
-  ggplot(aes(date, confirmed.cases, group = csa.hood.name)) +
+plot.csa.counts = datasets$csa.daily %>%
+  ggplot(aes(date, cases, group = csa.hood.name)) +
   geom_line(color = 'grey', alpha = 0.3) +
   geom_line(
     data = . %>%
       semi_join(
-        csa.daily.latest %>%
-          arrange(-confirmed.cases) %>%
+        datasets$csa.latest %>%
+          arrange(-cases) %>%
           head(10),
         by = 'csa.hood.name'
       ),
     aes(color = csa.hood.name)
   ) +
-  geom_text(
+    geom_text(
     data = . %>%
       semi_join(
-        csa.daily.latest %>%
-          arrange(-confirmed.cases) %>%
+        datasets$csa.latest %>%
+          arrange(-cases) %>%
           head(10),
         by = 'csa.hood.name'
       ) %>%
@@ -64,22 +51,25 @@ plot.csa.counts.daily = csa.daily %>%
     hjust = 'left',
     nudge_x = 0.25
   ) +
-  geom_hline(yintercept = case.cutoff, linetype = "dotted") +
-  scale_x_date(limits = c(as.Date('2020-03-27'), max.date)) +
+  scale_x_date(limits = c(min.date, max.date)) +
   theme_minimal() +
   theme(legend.position = 'none') +
-  xlab('Date') +
-  ylab('Confirmed cases') +
-  ggtitle('L.A. County statistical areas: daily counts')
+  labs(
+    title = 'L.A. County statistical areas: daily counts',
+    x = 'Date',
+    y = 'Cases'
+  )
 
-plot.csa.counts.daily
+plot.csa.counts
 
-# region daily counts -----------------------------------------------------
+plot.csa.counts %>% save.plot('plots/csa-counts.png')
 
-plot.region.counts.daily = regions.daily %>%
-  filter(confirmed.cases > 0) %>% 
+# daily case counts by region
+
+plot.region.counts = datasets$region.daily %>%
+  filter(cases > 0) %>% 
   filter(mapla.region.slug != 'angeles-forest') %>% 
-  ggplot(aes(date, confirmed.cases, group = mapla.region.slug, color = mapla.region.slug)) +
+  ggplot(aes(date, cases, group = mapla.region.slug, color = mapla.region.slug)) +
   geom_line() +
   geom_text(
     data = . %>% 
@@ -89,70 +79,24 @@ plot.region.counts.daily = regions.daily %>%
     hjust = 'left',
     nudge_x = 0.25
   ) +
-  geom_hline(yintercept = case.cutoff * 2, linetype = 'dotted') +
   scale_x_date(limits = c(as.Date('2020-03-27'), max.date)) +
   theme_minimal() +
   theme(legend.position = 'none') +
-  xlab('Date') +
-  ylab('Confirmed cases') +
-  ggtitle('L.A. County regions: daily counts')
+  labs(
+    title = 'L.A. Couty regions: cases',
+    x = 'Date',
+    y = 'Cases'
+  )
 
-plot.region.counts.daily
+plot.region.counts
 
-# csa daily rates ---------------------------------------------------------
+plot.region.counts %>% save.plot('plots/region-counts.png')
 
-plot.csa.rates.daily = csa.daily %>%
-  filter(case.rate.100k > 0) %>% 
-  ggplot(aes(date, case.rate.100k, group = csa.hood.name)) +
-  geom_line(color = 'grey') +
-  geom_line(
-    data = . %>%
-      semi_join(
-        csa.daily.latest %>%
-          arrange(-case.rate.100k) %>%
-          head(10),
-        by = 'csa.hood.name'
-      ),
-    aes(color = csa.hood.name)
-  ) +
-  geom_text(
-    data = . %>%
-      semi_join(
-        csa.daily.latest %>%
-          arrange(-case.rate.100k) %>%
-          head(10),
-        by = 'csa.hood.name'
-      ) %>%
-      group_by(csa.hood.name) %>%
-      filter(date == max(date)),
-    aes(
-      label = csa.hood.name,
-      color = csa.hood.name
-    ),
-    hjust = 'left',
-    nudge_x = 0.25
-  ) +
-  geom_hline(yintercept = case.rate.cutoff, linetype = 'dotted') +
-  scale_x_date(limits = c(as.Date('2020-03-27'), max.date)) +
-  theme_minimal() +
-  theme(legend.position = 'none') +
-  xlab('Date') +
-  ylab('Cases per 100K people') +
-  ggtitle('L.A. County statistical areas: daily case rates')
+# daily rates by region
 
-plot.csa.rates.daily
-
-# region daily rates ------------------------------------------------------
-
-plot.region.rates.daily = regions.daily %>%
-  filter(case.rate.100k > 0) %>% 
+plot.region.rates = datasets$region.daily %>%
   ggplot(aes(date, case.rate.100k, group = mapla.region.slug, color = mapla.region.slug)) +
   geom_line() +
-  geom_line(
-    data = . %>% 
-      filter(mapla.region.slug == 'westside'),
-    size = 1.4
-  ) +
   geom_text(
     data = . %>% 
       group_by(mapla.region.slug) %>% 
@@ -161,131 +105,32 @@ plot.region.rates.daily = regions.daily %>%
     hjust = 'left',
     nudge_x = 0.25
   ) +
-  geom_hline(yintercept = case.rate.cutoff, linetype = 'dotted') +
   scale_x_date(limits = c(as.Date('2020-03-27'), max.date)) +
   theme_minimal() +
   theme(legend.position = 'none') +
-  xlab('Date') +
-  ylab('Cases per 100k people') +
-  ggtitle('L.A. County regions: daily case rates')
+  labs(
+    title = 'L.A. County regions: case rates',
+    x = 'Date',
+    y = 'Cases per 100k people'
+  )
 
-plot.region.rates.daily
+plot.region.rates
 
-# csa days since counts ---------------------------------------------------
+plot.region.rates %>% save.plot('plots/region-rates.png')
 
-plot.csa.counts.dayssince = csa.daily %>%
-  filter(confirmed.cases > 0) %>%
-  filter(days.since.case.cutoff > 0) %>%
-  ggplot(aes(days.since.case.cutoff, confirmed.cases, group = csa.hood.name)) +
-  geom_line(color = 'grey') +
-  geom_line(
-    data = . %>%
-      semi_join(
-        csa.daily.latest %>%
-          arrange(-confirmed.cases) %>%
-          head(10),
-        by = 'csa.hood.name'
-      ),
-    aes(color = csa.hood.name)
-  ) +
-  geom_text(
-    data = . %>%
-      semi_join(
-        csa.daily.latest %>%
-          arrange(-confirmed.cases) %>%
-          head(10),
-        by = 'csa.hood.name'
-      ) %>%
-      group_by(csa.hood.name) %>%
-      filter(date == max(date)),
-    aes(
-      label = csa.hood.name,
-      color = csa.hood.name
-    ),
-    hjust = 'left',
-    nudge_x = 0.25
-  ) +
-  scale_x_continuous(limits = c(0, max.days.since)) +
-  theme_minimal() +
-  theme(legend.position = 'none') +
-  xlab(glue('Days since case {case.cutoff}')) +
-  ylab('Confirmed cases') +
-  ggtitle('L.A. County statistical areas: Counts (standardized curves)')
+# daily counts by csa, on a grid of regions
 
-plot.csa.counts.dayssince
-
-# region days since counts ------------------------------------------------
-
-plot.region.counts.dayssince = regions.daily %>%
-  filter(confirmed.cases > 0) %>%
-  filter(days.since.case.cutoff > 0) %>%
-  ggplot(aes(days.since.case.cutoff, confirmed.cases, group = mapla.region.slug, color = mapla.region.slug)) +
-  geom_line() +
-  geom_text(
-    data = . %>%
-      group_by(mapla.region.slug) %>%
-      filter(date == max(date)),
-    aes(label = mapla.region.slug),
-    hjust = 'left',
-    nudge_x = 0.25
-  ) +
-  scale_x_continuous(limits = c(0, max.days.since)) +
-  theme_minimal() +
-  theme(legend.position = 'none') +
-  xlab(glue('Days since case {case.cutoff * 2}')) +
-  ylab('Confirmed cases') +
-  ggtitle('L.A. County regions: Counts (standardized curves)')
-
-plot.region.counts.dayssince
-
-
-# regions days since rates ------------------------------------------------
-
-plot.region.rates.dayssince = regions.daily %>%
-  filter(confirmed.cases > 0) %>% 
-  filter(days.since.case.rate.cutoff > 0) %>% 
-  ggplot(aes(days.since.case.rate.cutoff, case.rate.100k, color = mapla.region.slug)) +
-  geom_line() +
-  geom_line(
-    data = . %>% 
-      filter(mapla.region.slug == 'westside'),
-    size = 1.4
-  ) +
-  geom_text(
-    data = . %>%
-      group_by(mapla.region.slug) %>%
-      filter(date == max(date)),
-    aes(
-      label = mapla.region.slug,
-      color = mapla.region.slug
-    ),
-    hjust = 'left',
-    nudge_x = 0.25
-  ) +
-  scale_x_continuous(limits = c(0, max.days.since)) +
-  theme_minimal() +
-  theme(legend.position = 'none') +
-  xlab(glue('Days since case rate reached {case.rate.cutoff} case per 100K people')) +
-  ylab('Cases per 100k people') +
-  ggtitle('L.A. County regions: case rates (standardized curves)')
-
-plot.region.rates.dayssince
-
-
-# regions grid cases ------------------------------------------------------
-
-plot.region.grid.counts.dayssince = csa.daily %>%
-  filter(!mapla.region.slug %in% c('angeles-forest', 'santa-monica-mountains', NA)) %>% 
-  filter(days.since.case.cutoff >= 0) %>% 
-  ggplot(aes(days.since.case.cutoff, confirmed.cases, group = csa.hood.name)) +
+plot.grid.counts = datasets$csa.daily %>%
+  filter(!mapla.region.slug %in% c('angeles-forest', 'santa-monica-mountains', NA)) %>%
+  ggplot(aes(date, cases, group = csa.hood.name)) +
   geom_line(color = 'grey') +
   geom_line(
     data = . %>% 
       semi_join(
-        csa.daily.latest %>%
+        datasets$csa.latest %>%
           group_by(mapla.region.slug) %>%
-          arrange(-confirmed.cases) %>%
-          top_n(2, wt = confirmed.cases),
+          arrange(-cases) %>%
+          top_n(2, wt = cases),
         by = 'csa.hood.name'
       ),
     aes(color = csa.hood.name)
@@ -293,10 +138,10 @@ plot.region.grid.counts.dayssince = csa.daily %>%
   geom_text(
     data = . %>% 
       semi_join(
-        csa.daily.latest %>%
+        datasets$csa.latest %>%
           group_by(mapla.region.slug) %>%
-          arrange(-confirmed.cases) %>%
-          top_n(2, wt = confirmed.cases),
+          arrange(-cases) %>%
+          top_n(2, wt = cases),
         by = 'csa.hood.name'
       ) %>% 
       group_by(csa.hood.name) %>%
@@ -309,32 +154,154 @@ plot.region.grid.counts.dayssince = csa.daily %>%
     nudge_x = 0.25,
     size = 3
   ) +
-  scale_x_continuous(limits = c(0, max.days.since)) +
-  # coord_trans(y = 'log10') +
+  scale_x_date(limits = c(as.Date('2020-03-27'), max.date + 15)) +
   facet_wrap(. ~ mapla.region.slug) +
-  ggtitle('L.A. County regions (standardized curves)') +
-  xlab(glue('Days since case {case.cutoff}')) +
-  ylab('Confirmed cases') +
   theme_minimal() +
-  theme(legend.position = 'none')
+  theme(legend.position = 'none') +
+  labs(
+    title = 'L.A. County regions',
+    x = 'Date',
+    y = 'Cases'
+  )
 
-plot.region.grid.counts.dayssince
+plot.grid.counts
 
+plot.grid.counts %>% save.plot('plots/grid-counts-csa-region.png')
 
-ggsave('plots/csa-counts-daily.png', plot = plot.csa.counts.daily, width = 12, height = 8)
-ggsave('plots/region-counts-daily.png', plot = plot.region.counts.daily, width = 12, height = 8)
-ggsave('plots/csa-rates-daily.png', plot = plot.csa.rates.daily, width = 12, height = 8)
-ggsave('plots/region-rates-daily.png', plot = plot.region.rates.daily, width = 12, height = 8)
+# last two weeks count by region
 
-ggsave('plots/csa-counts-dayssince.png', plot = plot.csa.counts.dayssince, width = 12, height = 8)
-ggsave('plots/region-counts-dayssince.png', plot = plot.region.counts.dayssince, width = 12, height = 8)
-ggsave('plots/region-rates-dayssince.png', plot = plot.region.rates.dayssince, width = 12, height = 8)
+plot.csa.counts.recent = datasets$csa.recent.daily %>%
+  ggplot(aes(date, recent.cases, group = csa.hood.name)) +
+  geom_line(color = 'grey', alpha = 0.3) +
+  geom_line(
+    data = . %>%
+      semi_join(
+        datasets$csa.recent.latest %>%
+          arrange(-recent.cases) %>%
+          head(10),
+        by = 'csa.hood.name'
+      ),
+    aes(color = csa.hood.name)
+  ) +
+  geom_text(
+    data = . %>%
+      semi_join(
+        datasets$csa.recent.latest %>%
+          arrange(-recent.cases) %>%
+          head(10),
+        by = 'csa.hood.name'
+      ) %>%
+      group_by(csa.hood.name) %>%
+      filter(date == max(date)),
+    aes(
+      label = csa.hood.name,
+      color = csa.hood.name
+    ),
+    hjust = 'left',
+    nudge_x = 0.25
+  ) +
+  scale_x_date(limits = c(two.weeks.ago.date, two.weeks.ago.date + 17)) +
+  theme_minimal() +
+  theme(legend.position = 'none') +
+  labs(
+    title = 'L.A. County statistical areas: cases in last two weeks',
+    subtitle = glue('Since {today() - 14}'),
+    x = 'Date',
+    y = 'Cases'
+  )
 
-ggsave('plots/region-grid-counts-dayssince.png', plot = plot.region.grid.counts.dayssince, width = 12, height = 8)
+plot.csa.counts.recent
 
+plot.csa.counts.recent %>% save.plot('plots/csa-counts-recent.png')
 
-regions.daily %>% 
-  filter(mapla.region.slug %in% c('central-la', 'south-la', 'san-fernando-valley', 'eastside', 'westside', 'south-bay')) %>% 
-  select(mapla.region.slug, date, case.rate.100k) %>% 
-  pivot_wider(names_from = 'date', values_from = 'case.rate.100k') %>% 
-  write_csv('processed/chart-regions-daily-wide.csv')
+# last two weeks counts by region
+
+plot.region.counts.recent = datasets$region.recent.daily %>%
+  ggplot(aes(date, recent.cases, group = mapla.region.slug)) +
+  geom_line(color = 'grey', alpha = 0.3) +
+  geom_line(
+    data = . %>%
+      semi_join(
+        datasets$region.recent.latest %>%
+          arrange(-recent.cases) %>%
+          head(10),
+        by = 'mapla.region.slug'
+      ),
+    aes(color = mapla.region.slug)
+  ) +
+  geom_text(
+    data = . %>%
+      semi_join(
+        datasets$region.recent.latest %>%
+          arrange(-recent.cases) %>%
+          head(10),
+        by = 'mapla.region.slug'
+      ) %>%
+      group_by(mapla.region.slug) %>%
+      filter(date == max(date)),
+    aes(
+      label = mapla.region.slug,
+      color = mapla.region.slug
+    ),
+    hjust = 'left',
+    nudge_x = 0.25
+  ) +
+  scale_x_date(limits = c(two.weeks.ago.date, two.weeks.ago.date + 17)) +
+  theme_minimal() +
+  theme(legend.position = 'none') +
+  labs(
+    title = 'L.A. County regions: cases in last two weeks',
+    subtitle = glue('Since {today() - 14}'),
+    x = 'Date',
+    y = 'Cases'
+  )
+
+plot.region.counts.recent
+
+plot.region.counts.recent %>% save.plot('plots/region-counts-recent.png')
+
+# daily rates by region, last two weeks
+
+plot.region.rates.recent = datasets$region.recent.daily %>%
+  ggplot(aes(date, recent.case.rate.100k, group = mapla.region.slug)) +
+  geom_line(color = 'grey', alpha = 0.3) +
+  geom_line(
+    data = . %>%
+      semi_join(
+        datasets$region.recent.latest %>%
+          arrange(-recent.case.rate.100k) %>%
+          head(10),
+        by = 'mapla.region.slug'
+      ),
+    aes(color = mapla.region.slug)
+  ) +
+  geom_text(
+    data = . %>%
+      semi_join(
+        datasets$region.recent.latest %>%
+          arrange(-recent.case.rate.100k) %>%
+          head(10),
+        by = 'mapla.region.slug'
+      ) %>%
+      group_by(mapla.region.slug) %>%
+      filter(date == max(date)),
+    aes(
+      label = mapla.region.slug,
+      color = mapla.region.slug
+    ),
+    hjust = 'left',
+    nudge_x = 0.25
+  ) +
+  scale_x_date(limits = c(two.weeks.ago.date, two.weeks.ago.date + 17)) +
+  theme_minimal() +
+  theme(legend.position = 'none') +
+  labs(
+    title = 'L.A. County regions: case rate in last two weeks',
+    subtitle = glue('Since {today() - 14}'),
+    x = 'Date',
+    y = 'Cases per 100k people'
+  )
+
+plot.region.rates.recent
+
+plot.region.rates.recent %>% save.plot('plots/region-rates-recent.png')
