@@ -1,6 +1,7 @@
+library(tidyverse)
 library(glue)
 library(lubridate)
-library(tidyverse)
+library(zoo)
 
 datasets.names = c('csa.daily', 'csa.latest', 'csa.recent.daily', 'csa.recent.latest',
                    'region.daily', 'region.latest', 'region.recent.daily', 'region.recent.latest')
@@ -200,7 +201,7 @@ plot.csa.counts.recent = datasets$csa.recent.daily %>%
     hjust = 'left',
     nudge_x = 0.25
   ) +
-  scale_x_date(limits = c(two.weeks.ago.date, two.weeks.ago.date + 17)) +
+  scale_x_date(limits = c(two.weeks.ago.date, two.weeks.ago.date + 15)) +
   theme_minimal() +
   theme(legend.position = 'none') +
   labs(
@@ -246,7 +247,7 @@ plot.region.counts.recent = datasets$region.recent.daily %>%
     hjust = 'left',
     nudge_x = 0.25
   ) +
-  scale_x_date(limits = c(two.weeks.ago.date, two.weeks.ago.date + 17)) +
+  scale_x_date(limits = c(two.weeks.ago.date, two.weeks.ago.date + 15)) +
   theme_minimal() +
   theme(legend.position = 'none') +
   labs(
@@ -305,3 +306,88 @@ plot.region.rates.recent = datasets$region.recent.daily %>%
 plot.region.rates.recent
 
 plot.region.rates.recent %>% save.plot('plots/region-rates-recent.png')
+
+# new counts by region
+
+region.daily.new = datasets$region.daily %>% 
+  arrange(mapla.region.slug, date) %>% 
+  mutate(
+    new.cases.day = cases - lag(cases)
+  ) %>% 
+  group_by(mapla.region.slug) %>% 
+  mutate(
+    new.cases.recent = rollmean(new.cases.day, 7, na.pad = TRUE, align = 'right'),
+    rate.new.cases.recent = new.cases.recent / population * 100000
+  )
+
+region.daily.new
+
+plot.new.region = region.daily.new %>% 
+  filter(date > ymd('2020-04-15')) %>% 
+  filter(!mapla.region.slug %in% c('angeles-forest', 'santa-monica-mountains')) %>% 
+  ggplot(aes(date, new.cases.recent, color = mapla.region.slug, label = mapla.region.slug)) +
+  geom_line() +
+  geom_point(
+    data = . %>% 
+      group_by(mapla.region.slug) %>% 
+      filter(date == max(date))
+  ) +
+  geom_text(
+    data = . %>% 
+      group_by(mapla.region.slug) %>% 
+      filter(date == max(date)),
+    hjust = 'left',
+    nudge_x = 1
+  ) +
+  scale_x_date(limits = c(ymd('2020-04-15'), today() + 15)) +
+  scale_color_manual(
+    values = c("#68affc", "#ef5d8a", "#823d44", "#96a283", "#fb9046", "#35618f", "#b55edb", "#b94403", "#14e54b", "#37b181", "#d0cc36", "#64298e", "#4f462f", "#fcc2fb")
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = 'none'
+  ) +
+  labs(
+    title = 'New cases by L.A. County region',
+    x = 'Date',
+    y = 'New cases (14-day rolling average)'
+  )
+
+plot.new.region
+
+plot.new.region %>% save.plot('plots/region-new-counts.png')
+
+plot.new.region.rates = region.daily.new %>% 
+  filter(date > ymd('2020-04-15')) %>% 
+  filter(!mapla.region.slug %in% c('angeles-forest', 'santa-monica-mountains')) %>% 
+  ggplot(aes(date, rate.new.cases.recent, color = mapla.region.slug, label = mapla.region.slug)) +
+  geom_line() +
+  geom_point(
+    data = . %>% 
+      group_by(mapla.region.slug) %>% 
+      filter(date == max(date))
+  ) +
+  geom_text(
+    data = . %>% 
+      group_by(mapla.region.slug) %>% 
+      filter(date == max(date)),
+    hjust = 'left',
+    nudge_x = 1
+  ) +
+  scale_x_date(limits = c(ymd('2020-04-15'), today() + 15)) +
+  scale_color_manual(
+    values = c("#68affc", "#ef5d8a", "#823d44", "#96a283", "#fb9046", "#35618f", "#b55edb", "#b94403", "#14e54b", "#37b181", "#d0cc36", "#64298e", "#4f462f", "#fcc2fb")
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = 'none'
+  ) +
+  labs(
+    title = 'New cases by L.A. County region, adjusted for population',
+    x = 'Date',
+    y = 'New cases per 100,000 people (14-day rolling average)'
+  )
+
+plot.new.region.rates
+
+plot.new.region.rates %>% save.plot('plots/region-new-rates.png')

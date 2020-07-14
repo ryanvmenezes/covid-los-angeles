@@ -61,5 +61,19 @@ plot.top.hood.comparison = csa %>%
 
 plot.top.hood.comparison
 
-ggsave('plots/map-comparison-top-neighborhoods.png', plot = plot.top.hood.comparison, width = 12, height = 8)
+ggsave('plots/map-top-hoods-time.png', plot = plot.top.hood.comparison, width = 12, height = 8)
 
+csa %>%
+  right_join(top.both.dates) %>% 
+  st_transform(3311) %>%
+  st_centroid() %>% 
+  mutate(
+    x = st_coordinates(.)[,1],
+    y = st_coordinates(.)[,2]
+  ) %>% 
+  ggplot() +
+  geom_sf(data = st_transform(csa, 3311), color = 'grey', fill = 'grey') +
+  geom_point(aes(x, y, size = population), color = 'black', fill = NA, shape = 21) +
+  facet_wrap(. ~ date) +
+  theme_minimal()
+  

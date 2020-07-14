@@ -1,8 +1,1384 @@
 Los Angeles County city totals by day,,
-UPDATED:  Phi 7/9 2:52 p.m.,LBC: http://www.longbeach.gov/health/diseases-and-condition/information-on/coronavirus/,Pasadena: https://www.cityofpasadena.net/public-health/covid-19-dashboard/
+UPDATED:  Jen 7/13 2:58 p.m.,LBC: http://www.longbeach.gov/health/diseases-and-condition/information-on/coronavirus/,Pasadena: https://www.cityofpasadena.net/public-health/covid-19-dashboard/
 "Do not forget ""City of Long Beach"" and ""City of Pasadena"" when you update this page.",,
 source: http://publichealth.lacounty.gov/media/Coronavirus/locations.htm,http://publichealth.lacounty.gov/media/Coronavirus/locations.htm,
 city,date,confirmed_cases
+City of Long Beach,2020-07-13,5616
+City of Pasadena,2020-07-13,1517
+City of Agoura Hills,2020-07-13,76
+City of Alhambra,2020-07-13,616
+City of Arcadia,2020-07-13,234
+City of Artesia,2020-07-13,163
+City of Avalon,2020-07-13,5
+City of Azusa,2020-07-13,685
+City of Baldwin Park,2020-07-13,1339
+City of Bell,2020-07-13,811
+City of Bell Gardens,2020-07-13,966
+City of Bellflower,2020-07-13,1229
+City of Beverly Hills,2020-07-13,402
+City of Bradbury,2020-07-13,7
+City of Burbank,2020-07-13,725
+City of Calabasas,2020-07-13,155
+City of Carson,2020-07-13,874
+City of Cerritos,2020-07-13,308
+City of Claremont,2020-07-13,166
+City of Commerce*,2020-07-13,280
+City of Compton,2020-07-13,1976
+City of Covina,2020-07-13,666
+City of Cudahy,2020-07-13,588
+City of Culver City,2020-07-13,248
+City of Diamond Bar,2020-07-13,272
+City of Downey,2020-07-13,2260
+City of Duarte,2020-07-13,259
+City of El Monte,2020-07-13,2148
+City of El Segundo,2020-07-13,76
+City of Gardena,2020-07-13,645
+City of Glendale,2020-07-13,1748
+City of Glendora,2020-07-13,577
+City of Hawaiian Gardens,2020-07-13,253
+City of Hawthorne,2020-07-13,961
+City of Hermosa Beach,2020-07-13,120
+City of Hidden Hills,2020-07-13,5
+City of Huntington Park,2020-07-13,1528
+City of Industry,2020-07-13,16
+City of Inglewood,2020-07-13,1358
+City of Irwindale,2020-07-13,32
+City of La Canada Flintridge,2020-07-13,88
+City of La Habra Heights,2020-07-13,19
+City of La Mirada,2020-07-13,462
+City of La Puente,2020-07-13,689
+City of La Verne,2020-07-13,187
+City of Lakewood,2020-07-13,645
+City of Lancaster*,2020-07-13,1479
+City of Lawndale,2020-07-13,294
+City of Lomita,2020-07-13,112
+City of Lynwood*,2020-07-13,1757
+City of Malibu,2020-07-13,65
+City of Manhattan Beach,2020-07-13,207
+City of Maywood,2020-07-13,746
+City of Monrovia,2020-07-13,393
+City of Montebello,2020-07-13,1202
+City of Monterey Park,2020-07-13,438
+City of Norwalk,2020-07-13,1634
+City of Palmdale,2020-07-13,1707
+City of Palos Verdes Estates,2020-07-13,61
+City of Paramount,2020-07-13,1211
+City of Pico Rivera,2020-07-13,1298
+City of Pomona,2020-07-13,2205
+City of Rancho Palos Verdes,2020-07-13,177
+City of Redondo Beach,2020-07-13,299
+City of Rolling Hills,2020-07-13,4
+City of Rolling Hills Estates,2020-07-13,30
+City of Rosemead,2020-07-13,383
+City of San Dimas*,2020-07-13,242
+City of San Fernando,2020-07-13,381
+City of San Gabriel,2020-07-13,316
+City of San Marino,2020-07-13,34
+City of Santa Clarita,2020-07-13,1587
+City of Santa Fe Springs,2020-07-13,263
+City of Santa Monica,2020-07-13,508
+City of Sierra Madre,2020-07-13,44
+City of Signal Hill,2020-07-13,133
+City of South El Monte,2020-07-13,385
+City of South Gate,2020-07-13,2329
+City of South Pasadena,2020-07-13,188
+City of Temple City,2020-07-13,316
+City of Torrance,2020-07-13,750
+City of Vernon,2020-07-13,14
+City of Walnut,2020-07-13,142
+City of West Covina,2020-07-13,1483
+City of West Hollywood,2020-07-13,341
+City of Westlake Village,2020-07-13,14
+City of Whittier,2020-07-13,1093
+Los Angeles,2020-07-13,56599
+Los Angeles - Adams-Normandie,2020-07-13,130
+Los Angeles - Alsace,2020-07-13,204
+Los Angeles - Angeles National Forest,2020-07-13,2
+Los Angeles - Angelino Heights,2020-07-13,31
+Los Angeles - Arleta,2020-07-13,651
+Los Angeles - Atwater Village,2020-07-13,116
+Los Angeles - Baldwin Hills,2020-07-13,337
+Los Angeles - Bel Air,2020-07-13,52
+Los Angeles - Beverly Crest,2020-07-13,63
+Los Angeles - Beverlywood,2020-07-13,84
+Los Angeles - Boyle Heights*,2020-07-13,2286
+Los Angeles - Brentwood,2020-07-13,153
+Los Angeles - Brookside,2020-07-13,1
+Los Angeles - Cadillac-Corning,2020-07-13,62
+Los Angeles - Canoga Park,2020-07-13,931
+Los Angeles - Carthay,2020-07-13,144
+Los Angeles - Central,2020-07-13,1216
+Los Angeles - Century City,2020-07-13,70
+Los Angeles - Century Palms/Cove,2020-07-13,814
+Los Angeles - Chatsworth,2020-07-13,359
+Los Angeles - Cheviot Hills,2020-07-13,41
+Los Angeles - Chinatown,2020-07-13,51
+Los Angeles - Cloverdale/Cochran,2020-07-13,176
+Los Angeles - Country Club Park,2020-07-13,183
+Los Angeles - Crenshaw District,2020-07-13,161
+Los Angeles - Crestview,2020-07-13,131
+Los Angeles - Del Rey,2020-07-13,186
+Los Angeles - Downtown*,2020-07-13,403
+Los Angeles - Eagle Rock,2020-07-13,395
+Los Angeles - East Hollywood,2020-07-13,393
+Los Angeles - Echo Park,2020-07-13,98
+Los Angeles - El Sereno,2020-07-13,573
+Los Angeles - Elysian Park,2020-07-13,46
+Los Angeles - Elysian Valley,2020-07-13,143
+Los Angeles - Encino,2020-07-13,275
+Los Angeles - Exposition,2020-07-13,47
+Los Angeles - Exposition Park,2020-07-13,650
+Los Angeles - Faircrest Heights,2020-07-13,18
+Los Angeles - Figueroa Park Square,2020-07-13,148
+Los Angeles - Florence-Firestone,2020-07-13,1203
+Los Angeles - Glassell Park,2020-07-13,355
+Los Angeles - Gramercy Place,2020-07-13,127
+Los Angeles - Granada Hills,2020-07-13,620
+Los Angeles - Green Meadows,2020-07-13,454
+Los Angeles - Hancock Park,2020-07-13,148
+Los Angeles - Harbor City,2020-07-13,275
+Los Angeles - Harbor Gateway,2020-07-13,430
+Los Angeles - Harbor Pines,2020-07-13,10
+Los Angeles - Harvard Heights,2020-07-13,302
+Los Angeles - Harvard Park,2020-07-13,797
+Los Angeles - Highland Park,2020-07-13,570
+Los Angeles - Historic Filipinotown,2020-07-13,251
+Los Angeles - Hollywood,2020-07-13,619
+Los Angeles - Hollywood Hills,2020-07-13,162
+Los Angeles - Hyde Park,2020-07-13,388
+Los Angeles - Jefferson Park,2020-07-13,154
+Los Angeles - Koreatown,2020-07-13,597
+Los Angeles - Lafayette Square,2020-07-13,42
+Los Angeles - Lake Balboa,2020-07-13,431
+Los Angeles - Lakeview Terrace,2020-07-13,320
+Los Angeles - Leimert Park,2020-07-13,150
+Los Angeles - Lincoln Heights,2020-07-13,628
+Los Angeles - Little Armenia,2020-07-13,270
+Los Angeles - Little Bangladesh,2020-07-13,285
+Los Angeles - Little Tokyo,2020-07-13,42
+Los Angeles - Longwood,2020-07-13,67
+Los Angeles - Los Feliz,2020-07-13,106
+Los Angeles - Manchester Square,2020-07-13,68
+Los Angeles - Mandeville Canyon,2020-07-13,5
+Los Angeles - Mar Vista,2020-07-13,174
+Los Angeles - Marina Peninsula,2020-07-13,21
+Los Angeles - Melrose,2020-07-13,1083
+Los Angeles - Mid-city,2020-07-13,189
+Los Angeles - Miracle Mile,2020-07-13,94
+Los Angeles - Mission Hills,2020-07-13,355
+Los Angeles - Mt. Washington,2020-07-13,238
+Los Angeles - North Hills,2020-07-13,918
+Los Angeles - North Hollywood,2020-07-13,1616
+Los Angeles - Northridge,2020-07-13,725
+Los Angeles - Pacific Palisades,2020-07-13,87
+Los Angeles - Pacoima,2020-07-13,1604
+Los Angeles - Palisades Highlands,2020-07-13,14
+Los Angeles - Palms,2020-07-13,348
+Los Angeles - Panorama City,2020-07-13,1428
+Los Angeles - Park La Brea,2020-07-13,53
+Los Angeles - Pico-Union,2020-07-13,1123
+Los Angeles - Playa Del Rey,2020-07-13,15
+Los Angeles - Playa Vista,2020-07-13,68
+Los Angeles - Porter Ranch,2020-07-13,172
+Los Angeles - Rancho Park,2020-07-13,42
+Los Angeles - Regent Square,2020-07-13,16
+Los Angeles - Reseda,2020-07-13,1180
+Los Angeles - Reseda Ranch,2020-07-13,42
+Los Angeles - Reynier Village,2020-07-13,23
+Los Angeles - San Pedro*,2020-07-13,1342
+Los Angeles - Shadow Hills,2020-07-13,26
+Los Angeles - Sherman Oaks,2020-07-13,512
+Los Angeles - Silverlake,2020-07-13,369
+Los Angeles - South Carthay,2020-07-13,61
+Los Angeles - South Park,2020-07-13,1109
+Los Angeles - St Elmo Village,2020-07-13,74
+Los Angeles - Studio City,2020-07-13,148
+Los Angeles - Sun Valley,2020-07-13,707
+Los Angeles - Sunland,2020-07-13,265
+Los Angeles - Sycamore Square,2020-07-13,1
+Los Angeles - Sylmar*,2020-07-13,1631
+Los Angeles - Tarzana,2020-07-13,406
+Los Angeles - Temple-Beaudry,2020-07-13,687
+Los Angeles - Thai Town,2020-07-13,78
+Los Angeles - Toluca Lake,2020-07-13,46
+Los Angeles - Toluca Terrace,2020-07-13,13
+Los Angeles - Toluca Woods,2020-07-13,8
+Los Angeles - Tujunga,2020-07-13,214
+Los Angeles - University Hills,2020-07-13,32
+Los Angeles - University Park,2020-07-13,437
+Los Angeles - Valley Glen,2020-07-13,281
+Los Angeles - Valley Village,2020-07-13,330
+Los Angeles - Van Nuys,2020-07-13,1466
+Los Angeles - Venice,2020-07-13,130
+Los Angeles - Vermont Knolls,2020-07-13,427
+Los Angeles - Vermont Square,2020-07-13,190
+Los Angeles - Vermont Vista,2020-07-13,997
+Los Angeles - Vernon Central,2020-07-13,1668
+Los Angeles - Victoria Park,2020-07-13,110
+Los Angeles - View Heights,2020-07-13,21
+Los Angeles - Watts,2020-07-13,931
+Los Angeles - Wellington Square,2020-07-13,60
+Los Angeles - West Adams,2020-07-13,504
+Los Angeles - West Hills,2020-07-13,271
+Los Angeles - West Los Angeles,2020-07-13,272
+Los Angeles - West Vernon,2020-07-13,1214
+Los Angeles - Westchester,2020-07-13,232
+Los Angeles - Westlake,2020-07-13,1549
+Los Angeles - Westwood,2020-07-13,176
+Los Angeles - Wholesale District*,2020-07-13,1587
+Los Angeles - Wilmington,2020-07-13,817
+Los Angeles - Wilshire Center,2020-07-13,585
+Los Angeles - Winnetka,2020-07-13,612
+Los Angeles - Woodland Hills,2020-07-13,413
+Unincorporated - Acton,2020-07-13,34
+Unincorporated - Agua Dulce,2020-07-13,15
+Unincorporated - Altadena,2020-07-13,314
+Unincorporated - Anaverde,2020-07-13,5
+Unincorporated - Angeles National Forest,2020-07-13,3
+Unincorporated - Arcadia,2020-07-13,39
+Unincorporated - Athens-Westmont,2020-07-13,726
+Unincorporated - Athens Village,2020-07-13,100
+Unincorporated - Avocado Heights,2020-07-13,105
+Unincorporated - Azusa,2020-07-13,234
+Unincorporated - Bassett,2020-07-13,350
+Unincorporated - Bouquet Canyon,2020-07-13,1
+Unincorporated - Bradbury,2020-07-13,3
+Unincorporated - Canyon Country,2020-07-13,55
+Unincorporated - Castaic*,2020-07-13,1821
+Unincorporated - Cerritos,2020-07-13,3
+Unincorporated - Charter Oak,2020-07-13,0
+Unincorporated - Claremont,2020-07-13,3
+Unincorporated - Covina,2020-07-13,206
+Unincorporated - Covina (Charter Oak),2020-07-13,151
+Unincorporated - Del Aire,2020-07-13,37
+Unincorporated - Del Rey,2020-07-13,1
+Unincorporated - Del Sur,2020-07-13,3
+Unincorporated - Desert View Highlands,2020-07-13,9
+Unincorporated - Duarte,2020-07-13,56
+Unincorporated - East Covina,2020-07-13,0
+Unincorporated - East La Mirada,2020-07-13,57
+Unincorporated - East Lancaster,2020-07-13,0
+Unincorporated - East Los Angeles,2020-07-13,3225
+Unincorporated - East Pasadena,2020-07-13,19
+Unincorporated - East Rancho Dominguez,2020-07-13,292
+Unincorporated - East Whittier,2020-07-13,47
+Unincorporated - El Camino Village,2020-07-13,85
+Unincorporated - El Monte,2020-07-13,3
+Unincorporated - Elizabeth Lake,2020-07-13,5
+Unincorporated - Florence-Firestone,2020-07-13,1745
+Unincorporated - Franklin Canyon,2020-07-13,0
+Unincorporated - Glendora,2020-07-13,4
+Unincorporated - Hacienda Heights,2020-07-13,529
+Unincorporated - Harbor Gateway,2020-07-13,0
+Unincorporated - Hawthorne,2020-07-13,26
+Unincorporated - Hi Vista,2020-07-13,1
+Unincorporated - Kagel/Lopez Canyons,2020-07-13,11
+Unincorporated - La Crescenta-Montrose,2020-07-13,73
+Unincorporated - La Habra Heights,2020-07-13,0
+Unincorporated - La Rambla,2020-07-13,69
+Unincorporated - La Verne*,2020-07-13,14
+Unincorporated - Ladera Heights,2020-07-13,42
+Unincorporated - Lake Hughes,2020-07-13,1
+Unincorporated - Lake Los Angeles,2020-07-13,89
+Unincorporated - Lake Manor,2020-07-13,10
+Unincorporated - Lakewood,2020-07-13,0
+Unincorporated - Lennox,2020-07-13,303
+Unincorporated - Leona Valley,2020-07-13,14
+Unincorporated - Littlerock,2020-07-13,33
+Unincorporated - Littlerock/Juniper Hills,2020-07-13,4
+Unincorporated - Littlerock/Pearblossom,2020-07-13,42
+Unincorporated - Llano,2020-07-13,2
+Unincorporated - Marina del Rey,2020-07-13,35
+Unincorporated - Miracle Mile,2020-07-13,0
+Unincorporated - Monrovia,2020-07-13,47
+Unincorporated - Newhall,2020-07-13,3
+Unincorporated - North Lancaster,2020-07-13,8
+Unincorporated - North Whittier,2020-07-13,91
+Unincorporated - Northeast San Gabriel,2020-07-13,162
+Unincorporated - Padua Hills,2020-07-13,1
+Unincorporated - Palmdale,2020-07-13,13
+Unincorporated - Palos Verdes Peninsula,2020-07-13,1
+Unincorporated - Pearblossom/Llano,2020-07-13,12
+Unincorporated - Pellissier Village,2020-07-13,10
+Unincorporated - Placerita Canyon,2020-07-13,0
+Unincorporated - Pomona,2020-07-13,8
+Unincorporated - Quartz Hill,2020-07-13,88
+Unincorporated - Rancho Dominguez,2020-07-13,40
+Unincorporated - Roosevelt,2020-07-13,3
+Unincorporated - Rosewood,2020-07-13,10
+Unincorporated - Rosewood/East Gardena,2020-07-13,8
+Unincorporated - Rosewood/West Rancho Dominguez,2020-07-13,45
+Unincorporated - Rowland Heights,2020-07-13,355
+Unincorporated - San Clemente Island,2020-07-13,0
+Unincorporated - San Francisquito Canyon/Bouquet Canyon,2020-07-13,0
+Unincorporated - San Jose Hills,2020-07-13,297
+Unincorporated - San Pasqual,2020-07-13,6
+Unincorporated - Sand Canyon,2020-07-13,1
+Unincorporated - Santa Catalina Island,2020-07-13,6
+Unincorporated - Santa Monica Mountains*,2020-07-13,65
+Unincorporated - Saugus,2020-07-13,10
+Unincorporated - Saugus/Canyon Country,2020-07-13,0
+Unincorporated - South Antelope Valley,2020-07-13,1
+Unincorporated - South El Monte,2020-07-13,29
+Unincorporated - South San Gabriel,2020-07-13,106
+Unincorporated - South Whittier,2020-07-13,810
+Unincorporated - Southeast Antelope Valley,2020-07-13,8
+Unincorporated - Stevenson Ranch,2020-07-13,82
+Unincorporated - Sun Village,2020-07-13,69
+Unincorporated - Sunrise Village,2020-07-13,21
+Unincorporated - Twin Lakes/Oat Mountain,2020-07-13,8
+Unincorporated - Val Verde,2020-07-13,34
+Unincorporated - Valencia,2020-07-13,23
+Unincorporated - Valinda,2020-07-13,369
+Unincorporated - View Park/Windsor Hills,2020-07-13,84
+Unincorporated - Walnut Park,2020-07-13,387
+Unincorporated - West Antelope Valley,2020-07-13,3
+Unincorporated - West Carson,2020-07-13,205
+Unincorporated - West Chatsworth,2020-07-13,0
+Unincorporated - West LA,2020-07-13,29
+Unincorporated - West Puente Valley,2020-07-13,203
+Unincorporated - West Rancho Dominguez,2020-07-13,15
+Unincorporated - West Whittier/Los Nietos,2020-07-13,469
+Unincorporated - Westfield/Academy Hills,2020-07-13,2
+Unincorporated - Westhills,2020-07-13,5
+Unincorporated - White Fence Farms,2020-07-13,24
+Unincorporated - Whittier,2020-07-13,40
+Unincorporated - Whittier Narrows,2020-07-13,0
+Unincorporated - Willowbrook,2020-07-13,774
+Unincorporated - Wiseburn,2020-07-13,57
+- Under Investigation,2020-07-13,3554
+City of Long Beach,2020-07-12,5388
+City of Pasadena,2020-07-12,1517
+City of Agoura Hills,2020-07-12,74
+City of Alhambra,2020-07-12,603
+City of Arcadia,2020-07-12,230
+City of Artesia,2020-07-12,153
+City of Avalon,2020-07-12,5
+City of Azusa,2020-07-12,668
+City of Baldwin Park,2020-07-12,1301
+City of Bell,2020-07-12,804
+City of Bell Gardens,2020-07-12,945
+City of Bellflower,2020-07-12,1205
+City of Beverly Hills,2020-07-12,389
+City of Bradbury,2020-07-12,7
+City of Burbank,2020-07-12,713
+City of Calabasas,2020-07-12,151
+City of Carson,2020-07-12,860
+City of Cerritos,2020-07-12,300
+City of Claremont,2020-07-12,164
+City of Commerce*,2020-07-12,270
+City of Compton,2020-07-12,1937
+City of Covina,2020-07-12,643
+City of Cudahy,2020-07-12,577
+City of Culver City,2020-07-12,247
+City of Diamond Bar,2020-07-12,263
+City of Downey,2020-07-12,2202
+City of Duarte,2020-07-12,252
+City of El Monte,2020-07-12,2095
+City of El Segundo,2020-07-12,75
+City of Gardena,2020-07-12,641
+City of Glendale,2020-07-12,1734
+City of Glendora,2020-07-12,548
+City of Hawaiian Gardens,2020-07-12,245
+City of Hawthorne,2020-07-12,940
+City of Hermosa Beach,2020-07-12,117
+City of Hidden Hills,2020-07-12,5
+City of Huntington Park,2020-07-12,1505
+City of Industry,2020-07-12,16
+City of Inglewood,2020-07-12,1305
+City of Irwindale,2020-07-12,30
+City of La Canada Flintridge,2020-07-12,88
+City of La Habra Heights,2020-07-12,19
+City of La Mirada,2020-07-12,455
+City of La Puente,2020-07-12,673
+City of La Verne,2020-07-12,180
+City of Lakewood,2020-07-12,629
+City of Lancaster*,2020-07-12,1455
+City of Lawndale,2020-07-12,288
+City of Lomita,2020-07-12,111
+City of Lynwood*,2020-07-12,1729
+City of Malibu,2020-07-12,62
+City of Manhattan Beach,2020-07-12,200
+City of Maywood,2020-07-12,741
+City of Monrovia,2020-07-12,381
+City of Montebello,2020-07-12,1182
+City of Monterey Park,2020-07-12,432
+City of Norwalk,2020-07-12,1599
+City of Palmdale,2020-07-12,1678
+City of Palos Verdes Estates,2020-07-12,60
+City of Paramount,2020-07-12,1176
+City of Pico Rivera,2020-07-12,1274
+City of Pomona,2020-07-12,2138
+City of Rancho Palos Verdes,2020-07-12,174
+City of Redondo Beach,2020-07-12,295
+City of Rolling Hills,2020-07-12,4
+City of Rolling Hills Estates,2020-07-12,30
+City of Rosemead,2020-07-12,367
+City of San Dimas*,2020-07-12,238
+City of San Fernando,2020-07-12,375
+City of San Gabriel,2020-07-12,309
+City of San Marino,2020-07-12,34
+City of Santa Clarita,2020-07-12,1548
+City of Santa Fe Springs,2020-07-12,257
+City of Santa Monica,2020-07-12,502
+City of Sierra Madre,2020-07-12,43
+City of Signal Hill,2020-07-12,129
+City of South El Monte,2020-07-12,377
+City of South Gate,2020-07-12,2271
+City of South Pasadena,2020-07-12,185
+City of Temple City,2020-07-12,308
+City of Torrance,2020-07-12,739
+City of Vernon,2020-07-12,14
+City of Walnut,2020-07-12,141
+City of West Covina,2020-07-12,1442
+City of West Hollywood,2020-07-12,334
+City of Westlake Village,2020-07-12,14
+City of Whittier,2020-07-12,1060
+Los Angeles,2020-07-12,55635
+Los Angeles - Adams-Normandie,2020-07-12,127
+Los Angeles - Alsace,2020-07-12,199
+Los Angeles - Angeles National Forest,2020-07-12,2
+Los Angeles - Angelino Heights,2020-07-12,30
+Los Angeles - Arleta,2020-07-12,634
+Los Angeles - Atwater Village,2020-07-12,114
+Los Angeles - Baldwin Hills,2020-07-12,331
+Los Angeles - Bel Air,2020-07-12,52
+Los Angeles - Beverly Crest,2020-07-12,63
+Los Angeles - Beverlywood,2020-07-12,81
+Los Angeles - Boyle Heights*,2020-07-12,2245
+Los Angeles - Brentwood,2020-07-12,149
+Los Angeles - Brookside,2020-07-12,1
+Los Angeles - Cadillac-Corning,2020-07-12,60
+Los Angeles - Canoga Park,2020-07-12,921
+Los Angeles - Carthay,2020-07-12,142
+Los Angeles - Central,2020-07-12,1202
+Los Angeles - Century City,2020-07-12,69
+Los Angeles - Century Palms/Cove,2020-07-12,795
+Los Angeles - Chatsworth,2020-07-12,353
+Los Angeles - Cheviot Hills,2020-07-12,40
+Los Angeles - Chinatown,2020-07-12,50
+Los Angeles - Cloverdale/Cochran,2020-07-12,173
+Los Angeles - Country Club Park,2020-07-12,181
+Los Angeles - Crenshaw District,2020-07-12,157
+Los Angeles - Crestview,2020-07-12,131
+Los Angeles - Del Rey,2020-07-12,176
+Los Angeles - Downtown*,2020-07-12,394
+Los Angeles - Eagle Rock,2020-07-12,390
+Los Angeles - East Hollywood,2020-07-12,391
+Los Angeles - Echo Park,2020-07-12,97
+Los Angeles - El Sereno,2020-07-12,567
+Los Angeles - Elysian Park,2020-07-12,43
+Los Angeles - Elysian Valley,2020-07-12,141
+Los Angeles - Encino,2020-07-12,269
+Los Angeles - Exposition,2020-07-12,45
+Los Angeles - Exposition Park,2020-07-12,633
+Los Angeles - Faircrest Heights,2020-07-12,18
+Los Angeles - Figueroa Park Square,2020-07-12,142
+Los Angeles - Florence-Firestone,2020-07-12,1171
+Los Angeles - Glassell Park,2020-07-12,347
+Los Angeles - Gramercy Place,2020-07-12,125
+Los Angeles - Granada Hills,2020-07-12,611
+Los Angeles - Green Meadows,2020-07-12,446
+Los Angeles - Hancock Park,2020-07-12,146
+Los Angeles - Harbor City,2020-07-12,269
+Los Angeles - Harbor Gateway,2020-07-12,423
+Los Angeles - Harbor Pines,2020-07-12,10
+Los Angeles - Harvard Heights,2020-07-12,298
+Los Angeles - Harvard Park,2020-07-12,780
+Los Angeles - Highland Park,2020-07-12,561
+Los Angeles - Historic Filipinotown,2020-07-12,248
+Los Angeles - Hollywood,2020-07-12,606
+Los Angeles - Hollywood Hills,2020-07-12,160
+Los Angeles - Hyde Park,2020-07-12,382
+Los Angeles - Jefferson Park,2020-07-12,148
+Los Angeles - Koreatown,2020-07-12,590
+Los Angeles - Lafayette Square,2020-07-12,41
+Los Angeles - Lake Balboa,2020-07-12,425
+Los Angeles - Lakeview Terrace,2020-07-12,316
+Los Angeles - Leimert Park,2020-07-12,144
+Los Angeles - Lincoln Heights,2020-07-12,622
+Los Angeles - Little Armenia,2020-07-12,268
+Los Angeles - Little Bangladesh,2020-07-12,285
+Los Angeles - Little Tokyo,2020-07-12,42
+Los Angeles - Longwood,2020-07-12,66
+Los Angeles - Los Feliz,2020-07-12,102
+Los Angeles - Manchester Square,2020-07-12,67
+Los Angeles - Mandeville Canyon,2020-07-12,5
+Los Angeles - Mar Vista,2020-07-12,169
+Los Angeles - Marina Peninsula,2020-07-12,21
+Los Angeles - Melrose,2020-07-12,1063
+Los Angeles - Mid-city,2020-07-12,187
+Los Angeles - Miracle Mile,2020-07-12,94
+Los Angeles - Mission Hills,2020-07-12,351
+Los Angeles - Mt. Washington,2020-07-12,233
+Los Angeles - North Hills,2020-07-12,909
+Los Angeles - North Hollywood,2020-07-12,1582
+Los Angeles - Northridge,2020-07-12,713
+Los Angeles - Pacific Palisades,2020-07-12,85
+Los Angeles - Pacoima,2020-07-12,1572
+Los Angeles - Palisades Highlands,2020-07-12,14
+Los Angeles - Palms,2020-07-12,339
+Los Angeles - Panorama City,2020-07-12,1409
+Los Angeles - Park La Brea,2020-07-12,51
+Los Angeles - Pico-Union,2020-07-12,1107
+Los Angeles - Playa Del Rey,2020-07-12,13
+Los Angeles - Playa Vista,2020-07-12,65
+Los Angeles - Porter Ranch,2020-07-12,170
+Los Angeles - Rancho Park,2020-07-12,40
+Los Angeles - Regent Square,2020-07-12,16
+Los Angeles - Reseda,2020-07-12,1156
+Los Angeles - Reseda Ranch,2020-07-12,41
+Los Angeles - Reynier Village,2020-07-12,23
+Los Angeles - San Pedro*,2020-07-12,1325
+Los Angeles - Shadow Hills,2020-07-12,26
+Los Angeles - Sherman Oaks,2020-07-12,503
+Los Angeles - Silverlake,2020-07-12,358
+Los Angeles - South Carthay,2020-07-12,61
+Los Angeles - South Park,2020-07-12,1085
+Los Angeles - St Elmo Village,2020-07-12,73
+Los Angeles - Studio City,2020-07-12,146
+Los Angeles - Sun Valley,2020-07-12,689
+Los Angeles - Sunland,2020-07-12,262
+Los Angeles - Sycamore Square,2020-07-12,1
+Los Angeles - Sylmar*,2020-07-12,1593
+Los Angeles - Tarzana,2020-07-12,400
+Los Angeles - Temple-Beaudry,2020-07-12,678
+Los Angeles - Thai Town,2020-07-12,78
+Los Angeles - Toluca Lake,2020-07-12,45
+Los Angeles - Toluca Terrace,2020-07-12,12
+Los Angeles - Toluca Woods,2020-07-12,7
+Los Angeles - Tujunga,2020-07-12,213
+Los Angeles - University Hills,2020-07-12,31
+Los Angeles - University Park,2020-07-12,432
+Los Angeles - Valley Glen,2020-07-12,276
+Los Angeles - Valley Village,2020-07-12,328
+Los Angeles - Van Nuys,2020-07-12,1443
+Los Angeles - Venice,2020-07-12,128
+Los Angeles - Vermont Knolls,2020-07-12,421
+Los Angeles - Vermont Square,2020-07-12,190
+Los Angeles - Vermont Vista,2020-07-12,977
+Los Angeles - Vernon Central,2020-07-12,1653
+Los Angeles - Victoria Park,2020-07-12,108
+Los Angeles - View Heights,2020-07-12,21
+Los Angeles - Watts,2020-07-12,917
+Los Angeles - Wellington Square,2020-07-12,57
+Los Angeles - West Adams,2020-07-12,499
+Los Angeles - West Hills,2020-07-12,265
+Los Angeles - West Los Angeles,2020-07-12,265
+Los Angeles - West Vernon,2020-07-12,1189
+Los Angeles - Westchester,2020-07-12,227
+Los Angeles - Westlake,2020-07-12,1531
+Los Angeles - Westwood,2020-07-12,174
+Los Angeles - Wholesale District*,2020-07-12,1573
+Los Angeles - Wilmington,2020-07-12,807
+Los Angeles - Wilshire Center,2020-07-12,576
+Los Angeles - Winnetka,2020-07-12,600
+Los Angeles - Woodland Hills,2020-07-12,404
+Unincorporated - Acton,2020-07-12,34
+Unincorporated - Agua Dulce,2020-07-12,15
+Unincorporated - Altadena,2020-07-12,309
+Unincorporated - Anaverde,2020-07-12,5
+Unincorporated - Angeles National Forest,2020-07-12,3
+Unincorporated - Arcadia,2020-07-12,39
+Unincorporated - Athens-Westmont,2020-07-12,710
+Unincorporated - Athens Village,2020-07-12,94
+Unincorporated - Avocado Heights,2020-07-12,101
+Unincorporated - Azusa,2020-07-12,224
+Unincorporated - Bassett,2020-07-12,345
+Unincorporated - Bouquet Canyon,2020-07-12,1
+Unincorporated - Bradbury,2020-07-12,3
+Unincorporated - Canyon Country,2020-07-12,54
+Unincorporated - Castaic*,2020-07-12,1819
+Unincorporated - Cerritos,2020-07-12,2
+Unincorporated - Charter Oak,2020-07-12,0
+Unincorporated - Claremont,2020-07-12,3
+Unincorporated - Covina,2020-07-12,201
+Unincorporated - Covina (Charter Oak),2020-07-12,149
+Unincorporated - Del Aire,2020-07-12,37
+Unincorporated - Del Rey,2020-07-12,1
+Unincorporated - Del Sur,2020-07-12,3
+Unincorporated - Desert View Highlands,2020-07-12,9
+Unincorporated - Duarte,2020-07-12,54
+Unincorporated - East Covina,2020-07-12,0
+Unincorporated - East La Mirada,2020-07-12,55
+Unincorporated - East Lancaster,2020-07-12,0
+Unincorporated - East Los Angeles,2020-07-12,3163
+Unincorporated - East Pasadena,2020-07-12,19
+Unincorporated - East Rancho Dominguez,2020-07-12,274
+Unincorporated - East Whittier,2020-07-12,46
+Unincorporated - El Camino Village,2020-07-12,83
+Unincorporated - El Monte,2020-07-12,3
+Unincorporated - Elizabeth Lake,2020-07-12,5
+Unincorporated - Florence-Firestone,2020-07-12,1714
+Unincorporated - Franklin Canyon,2020-07-12,0
+Unincorporated - Glendora,2020-07-12,4
+Unincorporated - Hacienda Heights,2020-07-12,519
+Unincorporated - Harbor Gateway,2020-07-12,0
+Unincorporated - Hawthorne,2020-07-12,25
+Unincorporated - Hi Vista,2020-07-12,1
+Unincorporated - Kagel/Lopez Canyons,2020-07-12,10
+Unincorporated - La Crescenta-Montrose,2020-07-12,70
+Unincorporated - La Habra Heights,2020-07-12,0
+Unincorporated - La Rambla,2020-07-12,70
+Unincorporated - La Verne*,2020-07-12,14
+Unincorporated - Ladera Heights,2020-07-12,42
+Unincorporated - Lake Hughes,2020-07-12,1
+Unincorporated - Lake Los Angeles,2020-07-12,89
+Unincorporated - Lake Manor,2020-07-12,10
+Unincorporated - Lakewood,2020-07-12,0
+Unincorporated - Lennox,2020-07-12,293
+Unincorporated - Leona Valley,2020-07-12,14
+Unincorporated - Littlerock,2020-07-12,33
+Unincorporated - Littlerock/Juniper Hills,2020-07-12,3
+Unincorporated - Littlerock/Pearblossom,2020-07-12,42
+Unincorporated - Llano,2020-07-12,2
+Unincorporated - Marina del Rey,2020-07-12,34
+Unincorporated - Miracle Mile,2020-07-12,0
+Unincorporated - Monrovia,2020-07-12,47
+Unincorporated - Newhall,2020-07-12,3
+Unincorporated - North Lancaster,2020-07-12,8
+Unincorporated - North Whittier,2020-07-12,88
+Unincorporated - Northeast San Gabriel,2020-07-12,159
+Unincorporated - Padua Hills,2020-07-12,1
+Unincorporated - Palmdale,2020-07-12,7
+Unincorporated - Palos Verdes Peninsula,2020-07-12,1
+Unincorporated - Pearblossom/Llano,2020-07-12,11
+Unincorporated - Pellissier Village,2020-07-12,10
+Unincorporated - Placerita Canyon,2020-07-12,0
+Unincorporated - Pomona,2020-07-12,8
+Unincorporated - Quartz Hill,2020-07-12,85
+Unincorporated - Rancho Dominguez,2020-07-12,40
+Unincorporated - Roosevelt,2020-07-12,3
+Unincorporated - Rosewood,2020-07-12,11
+Unincorporated - Rosewood/East Gardena,2020-07-12,8
+Unincorporated - Rosewood/West Rancho Dominguez,2020-07-12,45
+Unincorporated - Rowland Heights,2020-07-12,350
+Unincorporated - San Clemente Island,2020-07-12,0
+Unincorporated - San Francisquito Canyon/Bouquet Canyon,2020-07-12,0
+Unincorporated - San Jose Hills,2020-07-12,289
+Unincorporated - San Pasqual,2020-07-12,6
+Unincorporated - Sand Canyon,2020-07-12,1
+Unincorporated - Santa Catalina Island,2020-07-12,6
+Unincorporated - Santa Monica Mountains*,2020-07-12,64
+Unincorporated - Saugus,2020-07-12,10
+Unincorporated - Saugus/Canyon Country,2020-07-12,0
+Unincorporated - South Antelope Valley,2020-07-12,1
+Unincorporated - South El Monte,2020-07-12,27
+Unincorporated - South San Gabriel,2020-07-12,105
+Unincorporated - South Whittier,2020-07-12,777
+Unincorporated - Southeast Antelope Valley,2020-07-12,8
+Unincorporated - Stevenson Ranch,2020-07-12,80
+Unincorporated - Sun Village,2020-07-12,68
+Unincorporated - Sunrise Village,2020-07-12,19
+Unincorporated - Twin Lakes/Oat Mountain,2020-07-12,8
+Unincorporated - Val Verde,2020-07-12,34
+Unincorporated - Valencia,2020-07-12,22
+Unincorporated - Valinda,2020-07-12,357
+Unincorporated - View Park/Windsor Hills,2020-07-12,82
+Unincorporated - Walnut Park,2020-07-12,376
+Unincorporated - West Antelope Valley,2020-07-12,3
+Unincorporated - West Carson,2020-07-12,203
+Unincorporated - West Chatsworth,2020-07-12,0
+Unincorporated - West LA,2020-07-12,29
+Unincorporated - West Puente Valley,2020-07-12,199
+Unincorporated - West Rancho Dominguez,2020-07-12,15
+Unincorporated - West Whittier/Los Nietos,2020-07-12,454
+Unincorporated - Westfield/Academy Hills,2020-07-12,2
+Unincorporated - Westhills,2020-07-12,4
+Unincorporated - White Fence Farms,2020-07-12,24
+Unincorporated - Whittier,2020-07-12,40
+Unincorporated - Whittier Narrows,2020-07-12,0
+Unincorporated - Willowbrook,2020-07-12,754
+Unincorporated - Wiseburn,2020-07-12,56
+- Under Investigation,2020-07-12,3489
+City of Long Beach,2020-07-11,5388
+City of Pasadena,2020-07-11,1470
+City of Agoura Hills,2020-07-11,73
+City of Alhambra,2020-07-11,590
+City of Arcadia,2020-07-11,222
+City of Artesia,2020-07-11,143
+City of Avalon,2020-07-11,5
+City of Azusa,2020-07-11,637
+City of Baldwin Park,2020-07-11,1254
+City of Bell,2020-07-11,790
+City of Bell Gardens,2020-07-11,927
+City of Bellflower,2020-07-11,1173
+City of Beverly Hills,2020-07-11,372
+City of Bradbury,2020-07-11,7
+City of Burbank,2020-07-11,699
+City of Calabasas,2020-07-11,148
+City of Carson,2020-07-11,840
+City of Cerritos,2020-07-11,291
+City of Claremont,2020-07-11,155
+City of Commerce*,2020-07-11,265
+City of Compton,2020-07-11,1874
+City of Covina,2020-07-11,610
+City of Cudahy,2020-07-11,566
+City of Culver City,2020-07-11,245
+City of Diamond Bar,2020-07-11,252
+City of Downey,2020-07-11,2140
+City of Duarte,2020-07-11,251
+City of El Monte,2020-07-11,2022
+City of El Segundo,2020-07-11,72
+City of Gardena,2020-07-11,624
+City of Glendale,2020-07-11,1701
+City of Glendora,2020-07-11,528
+City of Hawaiian Gardens,2020-07-11,244
+City of Hawthorne,2020-07-11,920
+City of Hermosa Beach,2020-07-11,113
+City of Hidden Hills,2020-07-11,5
+City of Huntington Park,2020-07-11,1475
+City of Industry,2020-07-11,16
+City of Inglewood,2020-07-11,1269
+City of Irwindale,2020-07-11,28
+City of La Canada Flintridge,2020-07-11,86
+City of La Habra Heights,2020-07-11,19
+City of La Mirada,2020-07-11,441
+City of La Puente,2020-07-11,645
+City of La Verne,2020-07-11,177
+City of Lakewood,2020-07-11,602
+City of Lancaster*,2020-07-11,1426
+City of Lawndale,2020-07-11,279
+City of Lomita,2020-07-11,109
+City of Lynwood*,2020-07-11,1678
+City of Malibu,2020-07-11,61
+City of Manhattan Beach,2020-07-11,197
+City of Maywood,2020-07-11,722
+City of Monrovia,2020-07-11,370
+City of Montebello,2020-07-11,1145
+City of Monterey Park,2020-07-11,420
+City of Norwalk,2020-07-11,1553
+City of Palmdale,2020-07-11,1624
+City of Palos Verdes Estates,2020-07-11,60
+City of Paramount,2020-07-11,1131
+City of Pico Rivera,2020-07-11,1234
+City of Pomona,2020-07-11,2061
+City of Rancho Palos Verdes,2020-07-11,171
+City of Redondo Beach,2020-07-11,287
+City of Rolling Hills,2020-07-11,3
+City of Rolling Hills Estates,2020-07-11,30
+City of Rosemead,2020-07-11,355
+City of San Dimas*,2020-07-11,225
+City of San Fernando,2020-07-11,365
+City of San Gabriel,2020-07-11,305
+City of San Marino,2020-07-11,33
+City of Santa Clarita,2020-07-11,1502
+City of Santa Fe Springs,2020-07-11,251
+City of Santa Monica,2020-07-11,492
+City of Sierra Madre,2020-07-11,43
+City of Signal Hill,2020-07-11,126
+City of South El Monte,2020-07-11,365
+City of South Gate,2020-07-11,2194
+City of South Pasadena,2020-07-11,183
+City of Temple City,2020-07-11,299
+City of Torrance,2020-07-11,726
+City of Vernon,2020-07-11,14
+City of Walnut,2020-07-11,136
+City of West Covina,2020-07-11,1379
+City of West Hollywood,2020-07-11,321
+City of Westlake Village,2020-07-11,13
+City of Whittier,2020-07-11,1025
+Los Angeles,2020-07-11,54494
+Los Angeles - Adams-Normandie,2020-07-11,126
+Los Angeles - Alsace,2020-07-11,197
+Los Angeles - Angeles National Forest,2020-07-11,2
+Los Angeles - Angelino Heights,2020-07-11,29
+Los Angeles - Arleta,2020-07-11,609
+Los Angeles - Atwater Village,2020-07-11,107
+Los Angeles - Baldwin Hills,2020-07-11,326
+Los Angeles - Bel Air,2020-07-11,52
+Los Angeles - Beverly Crest,2020-07-11,63
+Los Angeles - Beverlywood,2020-07-11,80
+Los Angeles - Boyle Heights*,2020-07-11,2173
+Los Angeles - Brentwood,2020-07-11,146
+Los Angeles - Brookside,2020-07-11,1
+Los Angeles - Cadillac-Corning,2020-07-11,59
+Los Angeles - Canoga Park,2020-07-11,911
+Los Angeles - Carthay,2020-07-11,140
+Los Angeles - Central,2020-07-11,1180
+Los Angeles - Century City,2020-07-11,66
+Los Angeles - Century Palms/Cove,2020-07-11,778
+Los Angeles - Chatsworth,2020-07-11,342
+Los Angeles - Cheviot Hills,2020-07-11,39
+Los Angeles - Chinatown,2020-07-11,49
+Los Angeles - Cloverdale/Cochran,2020-07-11,165
+Los Angeles - Country Club Park,2020-07-11,178
+Los Angeles - Crenshaw District,2020-07-11,154
+Los Angeles - Crestview,2020-07-11,130
+Los Angeles - Del Rey,2020-07-11,169
+Los Angeles - Downtown*,2020-07-11,385
+Los Angeles - Eagle Rock,2020-07-11,383
+Los Angeles - East Hollywood,2020-07-11,386
+Los Angeles - Echo Park,2020-07-11,96
+Los Angeles - El Sereno,2020-07-11,550
+Los Angeles - Elysian Park,2020-07-11,42
+Los Angeles - Elysian Valley,2020-07-11,138
+Los Angeles - Encino,2020-07-11,264
+Los Angeles - Exposition,2020-07-11,44
+Los Angeles - Exposition Park,2020-07-11,613
+Los Angeles - Faircrest Heights,2020-07-11,18
+Los Angeles - Figueroa Park Square,2020-07-11,137
+Los Angeles - Florence-Firestone,2020-07-11,1147
+Los Angeles - Glassell Park,2020-07-11,341
+Los Angeles - Gramercy Place,2020-07-11,124
+Los Angeles - Granada Hills,2020-07-11,600
+Los Angeles - Green Meadows,2020-07-11,439
+Los Angeles - Hancock Park,2020-07-11,145
+Los Angeles - Harbor City,2020-07-11,256
+Los Angeles - Harbor Gateway,2020-07-11,411
+Los Angeles - Harbor Pines,2020-07-11,10
+Los Angeles - Harvard Heights,2020-07-11,290
+Los Angeles - Harvard Park,2020-07-11,760
+Los Angeles - Highland Park,2020-07-11,545
+Los Angeles - Historic Filipinotown,2020-07-11,246
+Los Angeles - Hollywood,2020-07-11,583
+Los Angeles - Hollywood Hills,2020-07-11,156
+Los Angeles - Hyde Park,2020-07-11,369
+Los Angeles - Jefferson Park,2020-07-11,142
+Los Angeles - Koreatown,2020-07-11,576
+Los Angeles - Lafayette Square,2020-07-11,41
+Los Angeles - Lake Balboa,2020-07-11,419
+Los Angeles - Lakeview Terrace,2020-07-11,313
+Los Angeles - Leimert Park,2020-07-11,140
+Los Angeles - Lincoln Heights,2020-07-11,606
+Los Angeles - Little Armenia,2020-07-11,267
+Los Angeles - Little Bangladesh,2020-07-11,281
+Los Angeles - Little Tokyo,2020-07-11,41
+Los Angeles - Longwood,2020-07-11,65
+Los Angeles - Los Feliz,2020-07-11,100
+Los Angeles - Manchester Square,2020-07-11,63
+Los Angeles - Mandeville Canyon,2020-07-11,4
+Los Angeles - Mar Vista,2020-07-11,163
+Los Angeles - Marina Peninsula,2020-07-11,21
+Los Angeles - Melrose,2020-07-11,1041
+Los Angeles - Mid-city,2020-07-11,186
+Los Angeles - Miracle Mile,2020-07-11,93
+Los Angeles - Mission Hills,2020-07-11,344
+Los Angeles - Mt. Washington,2020-07-11,230
+Los Angeles - North Hills,2020-07-11,899
+Los Angeles - North Hollywood,2020-07-11,1539
+Los Angeles - Northridge,2020-07-11,700
+Los Angeles - Pacific Palisades,2020-07-11,85
+Los Angeles - Pacoima,2020-07-11,1551
+Los Angeles - Palisades Highlands,2020-07-11,12
+Los Angeles - Palms,2020-07-11,338
+Los Angeles - Panorama City,2020-07-11,1390
+Los Angeles - Park La Brea,2020-07-11,49
+Los Angeles - Pico-Union,2020-07-11,1084
+Los Angeles - Playa Del Rey,2020-07-11,11
+Los Angeles - Playa Vista,2020-07-11,65
+Los Angeles - Porter Ranch,2020-07-11,163
+Los Angeles - Rancho Park,2020-07-11,40
+Los Angeles - Regent Square,2020-07-11,16
+Los Angeles - Reseda,2020-07-11,1143
+Los Angeles - Reseda Ranch,2020-07-11,41
+Los Angeles - Reynier Village,2020-07-11,23
+Los Angeles - San Pedro*,2020-07-11,1310
+Los Angeles - Shadow Hills,2020-07-11,26
+Los Angeles - Sherman Oaks,2020-07-11,492
+Los Angeles - Silverlake,2020-07-11,351
+Los Angeles - South Carthay,2020-07-11,60
+Los Angeles - South Park,2020-07-11,1058
+Los Angeles - St Elmo Village,2020-07-11,73
+Los Angeles - Studio City,2020-07-11,143
+Los Angeles - Sun Valley,2020-07-11,671
+Los Angeles - Sunland,2020-07-11,258
+Los Angeles - Sycamore Square,2020-07-11,1
+Los Angeles - Sylmar*,2020-07-11,1548
+Los Angeles - Tarzana,2020-07-11,398
+Los Angeles - Temple-Beaudry,2020-07-11,663
+Los Angeles - Thai Town,2020-07-11,77
+Los Angeles - Toluca Lake,2020-07-11,44
+Los Angeles - Toluca Terrace,2020-07-11,12
+Los Angeles - Toluca Woods,2020-07-11,6
+Los Angeles - Tujunga,2020-07-11,209
+Los Angeles - University Hills,2020-07-11,30
+Los Angeles - University Park,2020-07-11,425
+Los Angeles - Valley Glen,2020-07-11,270
+Los Angeles - Valley Village,2020-07-11,326
+Los Angeles - Van Nuys,2020-07-11,1416
+Los Angeles - Venice,2020-07-11,127
+Los Angeles - Vermont Knolls,2020-07-11,416
+Los Angeles - Vermont Square,2020-07-11,189
+Los Angeles - Vermont Vista,2020-07-11,961
+Los Angeles - Vernon Central,2020-07-11,1611
+Los Angeles - Victoria Park,2020-07-11,108
+Los Angeles - View Heights,2020-07-11,21
+Los Angeles - Watts,2020-07-11,900
+Los Angeles - Wellington Square,2020-07-11,56
+Los Angeles - West Adams,2020-07-11,487
+Los Angeles - West Hills,2020-07-11,264
+Los Angeles - West Los Angeles,2020-07-11,258
+Los Angeles - West Vernon,2020-07-11,1173
+Los Angeles - Westchester,2020-07-11,223
+Los Angeles - Westlake,2020-07-11,1510
+Los Angeles - Westwood,2020-07-11,167
+Los Angeles - Wholesale District*,2020-07-11,1566
+Los Angeles - Wilmington,2020-07-11,772
+Los Angeles - Wilshire Center,2020-07-11,566
+Los Angeles - Winnetka,2020-07-11,587
+Los Angeles - Woodland Hills,2020-07-11,390
+Unincorporated - Acton,2020-07-11,34
+Unincorporated - Agua Dulce,2020-07-11,15
+Unincorporated - Altadena,2020-07-11,306
+Unincorporated - Anaverde,2020-07-11,5
+Unincorporated - Angeles National Forest,2020-07-11,3
+Unincorporated - Arcadia,2020-07-11,35
+Unincorporated - Athens-Westmont,2020-07-11,690
+Unincorporated - Athens Village,2020-07-11,90
+Unincorporated - Avocado Heights,2020-07-11,99
+Unincorporated - Azusa,2020-07-11,218
+Unincorporated - Bassett,2020-07-11,335
+Unincorporated - Bouquet Canyon,2020-07-11,1
+Unincorporated - Bradbury,2020-07-11,3
+Unincorporated - Canyon Country,2020-07-11,52
+Unincorporated - Castaic*,2020-07-11,1817
+Unincorporated - Cerritos,2020-07-11,2
+Unincorporated - Charter Oak,2020-07-11,0
+Unincorporated - Claremont,2020-07-11,3
+Unincorporated - Covina,2020-07-11,190
+Unincorporated - Covina (Charter Oak),2020-07-11,139
+Unincorporated - Del Aire,2020-07-11,36
+Unincorporated - Del Rey,2020-07-11,1
+Unincorporated - Del Sur,2020-07-11,3
+Unincorporated - Desert View Highlands,2020-07-11,9
+Unincorporated - Duarte,2020-07-11,53
+Unincorporated - East Covina,2020-07-11,0
+Unincorporated - East La Mirada,2020-07-11,53
+Unincorporated - East Lancaster,2020-07-11,0
+Unincorporated - East Los Angeles,2020-07-11,3089
+Unincorporated - East Pasadena,2020-07-11,19
+Unincorporated - East Rancho Dominguez,2020-07-11,266
+Unincorporated - East Whittier,2020-07-11,41
+Unincorporated - El Camino Village,2020-07-11,81
+Unincorporated - El Monte,2020-07-11,2
+Unincorporated - Elizabeth Lake,2020-07-11,5
+Unincorporated - Florence-Firestone,2020-07-11,1672
+Unincorporated - Franklin Canyon,2020-07-11,0
+Unincorporated - Glendora,2020-07-11,4
+Unincorporated - Hacienda Heights,2020-07-11,496
+Unincorporated - Harbor Gateway,2020-07-11,0
+Unincorporated - Hawthorne,2020-07-11,25
+Unincorporated - Hi Vista,2020-07-11,1
+Unincorporated - Kagel/Lopez Canyons,2020-07-11,10
+Unincorporated - La Crescenta-Montrose,2020-07-11,68
+Unincorporated - La Habra Heights,2020-07-11,0
+Unincorporated - La Rambla,2020-07-11,70
+Unincorporated - La Verne*,2020-07-11,14
+Unincorporated - Ladera Heights,2020-07-11,38
+Unincorporated - Lake Hughes,2020-07-11,1
+Unincorporated - Lake Los Angeles,2020-07-11,83
+Unincorporated - Lake Manor,2020-07-11,9
+Unincorporated - Lakewood,2020-07-11,0
+Unincorporated - Lennox,2020-07-11,288
+Unincorporated - Leona Valley,2020-07-11,14
+Unincorporated - Littlerock,2020-07-11,33
+Unincorporated - Littlerock/Juniper Hills,2020-07-11,2
+Unincorporated - Littlerock/Pearblossom,2020-07-11,39
+Unincorporated - Llano,2020-07-11,2
+Unincorporated - Marina del Rey,2020-07-11,34
+Unincorporated - Miracle Mile,2020-07-11,0
+Unincorporated - Monrovia,2020-07-11,46
+Unincorporated - Newhall,2020-07-11,3
+Unincorporated - North Lancaster,2020-07-11,8
+Unincorporated - North Whittier,2020-07-11,82
+Unincorporated - Northeast San Gabriel,2020-07-11,155
+Unincorporated - Padua Hills,2020-07-11,1
+Unincorporated - Palmdale,2020-07-11,7
+Unincorporated - Palos Verdes Peninsula,2020-07-11,1
+Unincorporated - Pearblossom/Llano,2020-07-11,10
+Unincorporated - Pellissier Village,2020-07-11,9
+Unincorporated - Placerita Canyon,2020-07-11,0
+Unincorporated - Pomona,2020-07-11,8
+Unincorporated - Quartz Hill,2020-07-11,83
+Unincorporated - Rancho Dominguez,2020-07-11,40
+Unincorporated - Roosevelt,2020-07-11,3
+Unincorporated - Rosewood,2020-07-11,11
+Unincorporated - Rosewood/East Gardena,2020-07-11,8
+Unincorporated - Rosewood/West Rancho Dominguez,2020-07-11,43
+Unincorporated - Rowland Heights,2020-07-11,342
+Unincorporated - San Clemente Island,2020-07-11,0
+Unincorporated - San Francisquito Canyon/Bouquet Canyon,2020-07-11,0
+Unincorporated - San Jose Hills,2020-07-11,278
+Unincorporated - San Pasqual,2020-07-11,6
+Unincorporated - Sand Canyon,2020-07-11,1
+Unincorporated - Santa Catalina Island,2020-07-11,6
+Unincorporated - Santa Monica Mountains*,2020-07-11,64
+Unincorporated - Saugus,2020-07-11,8
+Unincorporated - Saugus/Canyon Country,2020-07-11,0
+Unincorporated - South Antelope Valley,2020-07-11,1
+Unincorporated - South El Monte,2020-07-11,26
+Unincorporated - South San Gabriel,2020-07-11,103
+Unincorporated - South Whittier,2020-07-11,748
+Unincorporated - Southeast Antelope Valley,2020-07-11,8
+Unincorporated - Stevenson Ranch,2020-07-11,79
+Unincorporated - Sun Village,2020-07-11,67
+Unincorporated - Sunrise Village,2020-07-11,19
+Unincorporated - Twin Lakes/Oat Mountain,2020-07-11,8
+Unincorporated - Val Verde,2020-07-11,34
+Unincorporated - Valencia,2020-07-11,19
+Unincorporated - Valinda,2020-07-11,335
+Unincorporated - View Park/Windsor Hills,2020-07-11,78
+Unincorporated - Walnut Park,2020-07-11,362
+Unincorporated - West Antelope Valley,2020-07-11,3
+Unincorporated - West Carson,2020-07-11,200
+Unincorporated - West Chatsworth,2020-07-11,0
+Unincorporated - West LA,2020-07-11,28
+Unincorporated - West Puente Valley,2020-07-11,192
+Unincorporated - West Rancho Dominguez,2020-07-11,14
+Unincorporated - West Whittier/Los Nietos,2020-07-11,452
+Unincorporated - Westfield/Academy Hills,2020-07-11,2
+Unincorporated - Westhills,2020-07-11,4
+Unincorporated - White Fence Farms,2020-07-11,24
+Unincorporated - Whittier,2020-07-11,37
+Unincorporated - Whittier Narrows,2020-07-11,0
+Unincorporated - Willowbrook,2020-07-11,737
+Unincorporated - Wiseburn,2020-07-11,54
+- Under Investigation,2020-07-11,3399
+City of Long Beach,2020-07-10,5246
+City of Pasadena,2020-07-10,1460
+City of Agoura Hills,2020-07-10,73
+City of Alhambra,2020-07-10,572
+City of Arcadia,2020-07-10,215
+City of Artesia,2020-07-10,140
+City of Avalon,2020-07-10,6
+City of Azusa,2020-07-10,606
+City of Baldwin Park,2020-07-10,1215
+City of Bell,2020-07-10,775
+City of Bell Gardens,2020-07-10,901
+City of Bellflower,2020-07-10,1152
+City of Beverly Hills,2020-07-10,351
+City of Bradbury,2020-07-10,7
+City of Burbank,2020-07-10,678
+City of Calabasas,2020-07-10,145
+City of Carson,2020-07-10,809
+City of Cerritos,2020-07-10,285
+City of Claremont,2020-07-10,148
+City of Commerce*,2020-07-10,258
+City of Compton,2020-07-10,1832
+City of Covina,2020-07-10,593
+City of Cudahy,2020-07-10,551
+City of Culver City,2020-07-10,242
+City of Diamond Bar,2020-07-10,243
+City of Downey,2020-07-10,2090
+City of Duarte,2020-07-10,241
+City of El Monte,2020-07-10,1977
+City of El Segundo,2020-07-10,72
+City of Gardena,2020-07-10,608
+City of Glendale,2020-07-10,1657
+City of Glendora,2020-07-10,507
+City of Hawaiian Gardens,2020-07-10,231
+City of Hawthorne,2020-07-10,897
+City of Hermosa Beach,2020-07-10,107
+City of Hidden Hills,2020-07-10,5
+City of Huntington Park,2020-07-10,1445
+City of Industry,2020-07-10,16
+City of Inglewood,2020-07-10,1247
+City of Irwindale,2020-07-10,26
+City of La Canada Flintridge,2020-07-10,84
+City of La Habra Heights,2020-07-10,19
+City of La Mirada,2020-07-10,428
+City of La Puente,2020-07-10,623
+City of La Verne,2020-07-10,173
+City of Lakewood,2020-07-10,583
+City of Lancaster*,2020-07-10,1384
+City of Lawndale,2020-07-10,276
+City of Lomita,2020-07-10,107
+City of Lynwood*,2020-07-10,1636
+City of Malibu,2020-07-10,60
+City of Manhattan Beach,2020-07-10,194
+City of Maywood,2020-07-10,711
+City of Monrovia,2020-07-10,366
+City of Montebello,2020-07-10,1116
+City of Monterey Park,2020-07-10,413
+City of Norwalk,2020-07-10,1515
+City of Palmdale,2020-07-10,1585
+City of Palos Verdes Estates,2020-07-10,60
+City of Paramount,2020-07-10,1091
+City of Pico Rivera,2020-07-10,1209
+City of Pomona,2020-07-10,2014
+City of Rancho Palos Verdes,2020-07-10,167
+City of Redondo Beach,2020-07-10,283
+City of Rolling Hills,2020-07-10,3
+City of Rolling Hills Estates,2020-07-10,29
+City of Rosemead,2020-07-10,343
+City of San Dimas*,2020-07-10,219
+City of San Fernando,2020-07-10,356
+City of San Gabriel,2020-07-10,297
+City of San Marino,2020-07-10,33
+City of Santa Clarita,2020-07-10,1473
+City of Santa Fe Springs,2020-07-10,244
+City of Santa Monica,2020-07-10,482
+City of Sierra Madre,2020-07-10,42
+City of Signal Hill,2020-07-10,122
+City of South El Monte,2020-07-10,352
+City of South Gate,2020-07-10,2143
+City of South Pasadena,2020-07-10,179
+City of Temple City,2020-07-10,292
+City of Torrance,2020-07-10,710
+City of Vernon,2020-07-10,13
+City of Walnut,2020-07-10,134
+City of West Covina,2020-07-10,1329
+City of West Hollywood,2020-07-10,314
+City of Westlake Village,2020-07-10,11
+City of Whittier,2020-07-10,998
+Los Angeles,2020-07-10,53492
+Los Angeles - Adams-Normandie,2020-07-10,123
+Los Angeles - Alsace,2020-07-10,195
+Los Angeles - Angeles National Forest,2020-07-10,2
+Los Angeles - Angelino Heights,2020-07-10,28
+Los Angeles - Arleta,2020-07-10,590
+Los Angeles - Atwater Village,2020-07-10,103
+Los Angeles - Baldwin Hills,2020-07-10,321
+Los Angeles - Bel Air,2020-07-10,51
+Los Angeles - Beverly Crest,2020-07-10,63
+Los Angeles - Beverlywood,2020-07-10,78
+Los Angeles - Boyle Heights*,2020-07-10,2124
+Los Angeles - Brentwood,2020-07-10,144
+Los Angeles - Brookside,2020-07-10,1
+Los Angeles - Cadillac-Corning,2020-07-10,56
+Los Angeles - Canoga Park,2020-07-10,906
+Los Angeles - Carthay,2020-07-10,138
+Los Angeles - Central,2020-07-10,1155
+Los Angeles - Century City,2020-07-10,63
+Los Angeles - Century Palms/Cove,2020-07-10,760
+Los Angeles - Chatsworth,2020-07-10,335
+Los Angeles - Cheviot Hills,2020-07-10,38
+Los Angeles - Chinatown,2020-07-10,48
+Los Angeles - Cloverdale/Cochran,2020-07-10,164
+Los Angeles - Country Club Park,2020-07-10,174
+Los Angeles - Crenshaw District,2020-07-10,153
+Los Angeles - Crestview,2020-07-10,129
+Los Angeles - Del Rey,2020-07-10,166
+Los Angeles - Downtown*,2020-07-10,374
+Los Angeles - Eagle Rock,2020-07-10,377
+Los Angeles - East Hollywood,2020-07-10,382
+Los Angeles - Echo Park,2020-07-10,95
+Los Angeles - El Sereno,2020-07-10,534
+Los Angeles - Elysian Park,2020-07-10,40
+Los Angeles - Elysian Valley,2020-07-10,133
+Los Angeles - Encino,2020-07-10,262
+Los Angeles - Exposition,2020-07-10,42
+Los Angeles - Exposition Park,2020-07-10,605
+Los Angeles - Faircrest Heights,2020-07-10,18
+Los Angeles - Figueroa Park Square,2020-07-10,134
+Los Angeles - Florence-Firestone,2020-07-10,1130
+Los Angeles - Glassell Park,2020-07-10,335
+Los Angeles - Gramercy Place,2020-07-10,122
+Los Angeles - Granada Hills,2020-07-10,592
+Los Angeles - Green Meadows,2020-07-10,427
+Los Angeles - Hancock Park,2020-07-10,145
+Los Angeles - Harbor City,2020-07-10,244
+Los Angeles - Harbor Gateway,2020-07-10,397
+Los Angeles - Harbor Pines,2020-07-10,10
+Los Angeles - Harvard Heights,2020-07-10,285
+Los Angeles - Harvard Park,2020-07-10,744
+Los Angeles - Highland Park,2020-07-10,537
+Los Angeles - Historic Filipinotown,2020-07-10,241
+Los Angeles - Hollywood,2020-07-10,570
+Los Angeles - Hollywood Hills,2020-07-10,152
+Los Angeles - Hyde Park,2020-07-10,357
+Los Angeles - Jefferson Park,2020-07-10,137
+Los Angeles - Koreatown,2020-07-10,567
+Los Angeles - Lafayette Square,2020-07-10,40
+Los Angeles - Lake Balboa,2020-07-10,407
+Los Angeles - Lakeview Terrace,2020-07-10,310
+Los Angeles - Leimert Park,2020-07-10,137
+Los Angeles - Lincoln Heights,2020-07-10,587
+Los Angeles - Little Armenia,2020-07-10,267
+Los Angeles - Little Bangladesh,2020-07-10,278
+Los Angeles - Little Tokyo,2020-07-10,41
+Los Angeles - Longwood,2020-07-10,62
+Los Angeles - Los Feliz,2020-07-10,97
+Los Angeles - Manchester Square,2020-07-10,63
+Los Angeles - Mandeville Canyon,2020-07-10,4
+Los Angeles - Mar Vista,2020-07-10,158
+Los Angeles - Marina Peninsula,2020-07-10,20
+Los Angeles - Melrose,2020-07-10,1029
+Los Angeles - Mid-city,2020-07-10,184
+Los Angeles - Miracle Mile,2020-07-10,87
+Los Angeles - Mission Hills,2020-07-10,335
+Los Angeles - Mt. Washington,2020-07-10,227
+Los Angeles - North Hills,2020-07-10,892
+Los Angeles - North Hollywood,2020-07-10,1509
+Los Angeles - Northridge,2020-07-10,689
+Los Angeles - Pacific Palisades,2020-07-10,82
+Los Angeles - Pacoima,2020-07-10,1533
+Los Angeles - Palisades Highlands,2020-07-10,11
+Los Angeles - Palms,2020-07-10,334
+Los Angeles - Panorama City,2020-07-10,1371
+Los Angeles - Park La Brea,2020-07-10,47
+Los Angeles - Pico-Union,2020-07-10,1064
+Los Angeles - Playa Del Rey,2020-07-10,11
+Los Angeles - Playa Vista,2020-07-10,63
+Los Angeles - Porter Ranch,2020-07-10,156
+Los Angeles - Rancho Park,2020-07-10,39
+Los Angeles - Regent Square,2020-07-10,16
+Los Angeles - Reseda,2020-07-10,1132
+Los Angeles - Reseda Ranch,2020-07-10,41
+Los Angeles - Reynier Village,2020-07-10,23
+Los Angeles - San Pedro*,2020-07-10,1299
+Los Angeles - Shadow Hills,2020-07-10,24
+Los Angeles - Sherman Oaks,2020-07-10,479
+Los Angeles - Silverlake,2020-07-10,348
+Los Angeles - South Carthay,2020-07-10,60
+Los Angeles - South Park,2020-07-10,1034
+Los Angeles - St Elmo Village,2020-07-10,73
+Los Angeles - Studio City,2020-07-10,142
+Los Angeles - Sun Valley,2020-07-10,659
+Los Angeles - Sunland,2020-07-10,251
+Los Angeles - Sycamore Square,2020-07-10,1
+Los Angeles - Sylmar*,2020-07-10,1524
+Los Angeles - Tarzana,2020-07-10,390
+Los Angeles - Temple-Beaudry,2020-07-10,651
+Los Angeles - Thai Town,2020-07-10,76
+Los Angeles - Toluca Lake,2020-07-10,42
+Los Angeles - Toluca Terrace,2020-07-10,12
+Los Angeles - Toluca Woods,2020-07-10,6
+Los Angeles - Tujunga,2020-07-10,206
+Los Angeles - University Hills,2020-07-10,30
+Los Angeles - University Park,2020-07-10,418
+Los Angeles - Valley Glen,2020-07-10,263
+Los Angeles - Valley Village,2020-07-10,323
+Los Angeles - Van Nuys,2020-07-10,1385
+Los Angeles - Venice,2020-07-10,125
+Los Angeles - Vermont Knolls,2020-07-10,407
+Los Angeles - Vermont Square,2020-07-10,186
+Los Angeles - Vermont Vista,2020-07-10,944
+Los Angeles - Vernon Central,2020-07-10,1578
+Los Angeles - Victoria Park,2020-07-10,105
+Los Angeles - View Heights,2020-07-10,20
+Los Angeles - Watts,2020-07-10,872
+Los Angeles - Wellington Square,2020-07-10,56
+Los Angeles - West Adams,2020-07-10,480
+Los Angeles - West Hills,2020-07-10,259
+Los Angeles - West Los Angeles,2020-07-10,256
+Los Angeles - West Vernon,2020-07-10,1148
+Los Angeles - Westchester,2020-07-10,222
+Los Angeles - Westlake,2020-07-10,1497
+Los Angeles - Westwood,2020-07-10,164
+Los Angeles - Wholesale District*,2020-07-10,1544
+Los Angeles - Wilmington,2020-07-10,747
+Los Angeles - Wilshire Center,2020-07-10,554
+Los Angeles - Winnetka,2020-07-10,574
+Los Angeles - Woodland Hills,2020-07-10,383
+Unincorporated - Acton,2020-07-10,33
+Unincorporated - Agua Dulce,2020-07-10,16
+Unincorporated - Altadena,2020-07-10,302
+Unincorporated - Anaverde,2020-07-10,5
+Unincorporated - Angeles National Forest,2020-07-10,3
+Unincorporated - Arcadia,2020-07-10,33
+Unincorporated - Athens-Westmont,2020-07-10,663
+Unincorporated - Athens Village,2020-07-10,89
+Unincorporated - Avocado Heights,2020-07-10,95
+Unincorporated - Azusa,2020-07-10,209
+Unincorporated - Bassett,2020-07-10,326
+Unincorporated - Bouquet Canyon,2020-07-10,1
+Unincorporated - Bradbury,2020-07-10,3
+Unincorporated - Canyon Country,2020-07-10,52
+Unincorporated - Castaic*,2020-07-10,1816
+Unincorporated - Cerritos,2020-07-10,1
+Unincorporated - Charter Oak,2020-07-10,0
+Unincorporated - Claremont,2020-07-10,3
+Unincorporated - Covina,2020-07-10,186
+Unincorporated - Covina (Charter Oak),2020-07-10,130
+Unincorporated - Del Aire,2020-07-10,35
+Unincorporated - Del Rey,2020-07-10,1
+Unincorporated - Del Sur,2020-07-10,3
+Unincorporated - Desert View Highlands,2020-07-10,9
+Unincorporated - Duarte,2020-07-10,52
+Unincorporated - East Covina,2020-07-10,0
+Unincorporated - East La Mirada,2020-07-10,52
+Unincorporated - East Lancaster,2020-07-10,0
+Unincorporated - East Los Angeles,2020-07-10,3018
+Unincorporated - East Pasadena,2020-07-10,13
+Unincorporated - East Rancho Dominguez,2020-07-10,260
+Unincorporated - East Whittier,2020-07-10,41
+Unincorporated - El Camino Village,2020-07-10,80
+Unincorporated - El Monte,2020-07-10,2
+Unincorporated - Elizabeth Lake,2020-07-10,5
+Unincorporated - Florence-Firestone,2020-07-10,1641
+Unincorporated - Franklin Canyon,2020-07-10,0
+Unincorporated - Glendora,2020-07-10,4
+Unincorporated - Hacienda Heights,2020-07-10,484
+Unincorporated - Harbor Gateway,2020-07-10,0
+Unincorporated - Hawthorne,2020-07-10,25
+Unincorporated - Hi Vista,2020-07-10,1
+Unincorporated - Kagel/Lopez Canyons,2020-07-10,10
+Unincorporated - La Crescenta-Montrose,2020-07-10,67
+Unincorporated - La Habra Heights,2020-07-10,0
+Unincorporated - La Rambla,2020-07-10,70
+Unincorporated - La Verne*,2020-07-10,14
+Unincorporated - Ladera Heights,2020-07-10,36
+Unincorporated - Lake Hughes,2020-07-10,1
+Unincorporated - Lake Los Angeles,2020-07-10,79
+Unincorporated - Lake Manor,2020-07-10,9
+Unincorporated - Lakewood,2020-07-10,0
+Unincorporated - Lennox,2020-07-10,278
+Unincorporated - Leona Valley,2020-07-10,14
+Unincorporated - Littlerock,2020-07-10,32
+Unincorporated - Littlerock/Juniper Hills,2020-07-10,2
+Unincorporated - Littlerock/Pearblossom,2020-07-10,39
+Unincorporated - Llano,2020-07-10,2
+Unincorporated - Marina del Rey,2020-07-10,31
+Unincorporated - Miracle Mile,2020-07-10,0
+Unincorporated - Monrovia,2020-07-10,45
+Unincorporated - Newhall,2020-07-10,3
+Unincorporated - North Lancaster,2020-07-10,7
+Unincorporated - North Whittier,2020-07-10,78
+Unincorporated - Northeast San Gabriel,2020-07-10,150
+Unincorporated - Padua Hills,2020-07-10,1
+Unincorporated - Palmdale,2020-07-10,7
+Unincorporated - Palos Verdes Peninsula,2020-07-10,1
+Unincorporated - Pearblossom/Llano,2020-07-10,9
+Unincorporated - Pellissier Village,2020-07-10,7
+Unincorporated - Placerita Canyon,2020-07-10,0
+Unincorporated - Pomona,2020-07-10,7
+Unincorporated - Quartz Hill,2020-07-10,81
+Unincorporated - Rancho Dominguez,2020-07-10,37
+Unincorporated - Roosevelt,2020-07-10,3
+Unincorporated - Rosewood,2020-07-10,11
+Unincorporated - Rosewood/East Gardena,2020-07-10,8
+Unincorporated - Rosewood/West Rancho Dominguez,2020-07-10,43
+Unincorporated - Rowland Heights,2020-07-10,339
+Unincorporated - San Clemente Island,2020-07-10,0
+Unincorporated - San Francisquito Canyon/Bouquet Canyon,2020-07-10,0
+Unincorporated - San Jose Hills,2020-07-10,269
+Unincorporated - San Pasqual,2020-07-10,5
+Unincorporated - Sand Canyon,2020-07-10,1
+Unincorporated - Santa Catalina Island,2020-07-10,4
+Unincorporated - Santa Monica Mountains*,2020-07-10,61
+Unincorporated - Saugus,2020-07-10,8
+Unincorporated - Saugus/Canyon Country,2020-07-10,0
+Unincorporated - South Antelope Valley,2020-07-10,1
+Unincorporated - South El Monte,2020-07-10,25
+Unincorporated - South San Gabriel,2020-07-10,103
+Unincorporated - South Whittier,2020-07-10,719
+Unincorporated - Southeast Antelope Valley,2020-07-10,7
+Unincorporated - Stevenson Ranch,2020-07-10,77
+Unincorporated - Sun Village,2020-07-10,64
+Unincorporated - Sunrise Village,2020-07-10,19
+Unincorporated - Twin Lakes/Oat Mountain,2020-07-10,8
+Unincorporated - Val Verde,2020-07-10,34
+Unincorporated - Valencia,2020-07-10,16
+Unincorporated - Valinda,2020-07-10,328
+Unincorporated - View Park/Windsor Hills,2020-07-10,77
+Unincorporated - Walnut Park,2020-07-10,355
+Unincorporated - West Antelope Valley,2020-07-10,3
+Unincorporated - West Carson,2020-07-10,196
+Unincorporated - West Chatsworth,2020-07-10,0
+Unincorporated - West LA,2020-07-10,26
+Unincorporated - West Puente Valley,2020-07-10,183
+Unincorporated - West Rancho Dominguez,2020-07-10,14
+Unincorporated - West Whittier/Los Nietos,2020-07-10,443
+Unincorporated - Westfield/Academy Hills,2020-07-10,2
+Unincorporated - Westhills,2020-07-10,4
+Unincorporated - White Fence Farms,2020-07-10,24
+Unincorporated - Whittier,2020-07-10,36
+Unincorporated - Whittier Narrows,2020-07-10,0
+Unincorporated - Willowbrook,2020-07-10,717
+Unincorporated - Wiseburn,2020-07-10,53
+- Under Investigation,2020-07-10,3241
 City of Long Beach,2020-07-09,5172
 City of Pasadena,2020-07-09,1439
 City of Agoura Hills,2020-07-09,69

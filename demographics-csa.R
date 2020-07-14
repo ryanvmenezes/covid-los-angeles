@@ -1,7 +1,7 @@
 library(glue)
 library(tidyverse)
 
-csa.daily = read_csv('processed/csa-daily-calcs.csv')
+csa.daily = read_csv('processed/csa-daily.csv')
 
 csa.daily
 
@@ -21,7 +21,7 @@ daily.by.hood.race = csa.daily %>%
   ) %>% 
   group_by(top.race, date) %>% 
   summarise(
-    cases = sum(confirmed.cases),
+    cases = sum(cases),
     population = sum(population),
     case.rate.100k = cases / population * 100000
   ) %>% 
@@ -86,7 +86,7 @@ daily.by.hood.poverty = csa.daily %>%
   ) %>% 
   group_by(poverty.bin, date) %>% 
   summarise(
-    cases = sum(confirmed.cases),
+    cases = sum(cases),
     population = sum(population),
     case.rate.100k = cases / population * 100000
   ) %>% 
