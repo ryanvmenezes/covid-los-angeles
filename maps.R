@@ -1,6 +1,6 @@
+library(tidyverse)
 library(sf)
 library(glue)
-library(tidyverse)
 
 csa = read_sf('processed/countywide-statistical-areas-consolidated.geojson') %>% 
   filter(!hood.name %in% c('San Clemente Island', 'Santa Catalina Island', 'Avalon'))
@@ -26,30 +26,39 @@ poverty
 
 daily = read_csv('processed/csa-daily.csv') %>% 
   filter(!csa.hood.name %in% c('San Clemente Island', 'Santa Catalina Island', 'Avalon')) %>% 
-  left_join(
-    race %>% 
-      select(csa.hood.name = hood.name, top.group)
+  # left_join(
+  #   race %>% 
+  #     select(csa.hood.name = hood.name, top.group)
+  # ) %>% 
+  arrange(csa.hood.name, date) %>% 
+  group_by(csa.hood.name) %>% 
+  mutate(
+    new.cases = cases - lag(cases),
+    new.cases.14 = 
   )
 
 daily
 
 ntop = 50
 
-top.both.dates = daily %>% 
+top.on.date = daily %>% 
   filter(
     date == '2020-04-15'|
       date == '2020-05-15' |
-      date == '2020-06-15'
+      date == '2020-06-15' |
+      date == '2020-07-13'
   ) %>% 
   group_by(date) %>% 
   nest() %>% 
   mutate(data = map(data, ~.x %>% arrange(-case.rate.100k) %>% head(ntop))) %>% 
   unnest(data)
 
-top.both.dates
+top.on.date
+
+daily
 
 plot.top.hood.comparison = csa %>%
-  right_join(top.both.dates) %>% 
+  right_join(top.on.date) %>% 
   ggplot() +
   geom_sf(data = csa, color = 'grey', fill = 'grey') +
   geom_sf(fill = 'red', color = NA) +

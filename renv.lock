@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "3.6.1",
+    "Version": "3.6.3",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -729,6 +729,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "c78bdf1d16bd4ec7ecc86c6986d53309"
+    },
+    "zoo": {
+      "Package": "zoo",
+      "Version": "1.8-8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c2ea03282caa1f6972dc84fc5bf671cc"
     }
   }
 }

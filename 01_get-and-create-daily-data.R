@@ -1,5 +1,6 @@
-library(lubridate)
 library(tidyverse)
+library(lubridate)
+library(zoo)
 
 # download raw copy of hand-entered data from LAT spreadsheet 
 
@@ -43,8 +44,17 @@ csa.daily = CSA.COUNTS %>%
       select(csa.hood.name, mapla.region.slug, population)
   ) %>% 
   # rate per 100,000 population
-  mutate(case.rate.100k = cases / population * 100000) %>% 
+  mutate(
+    rate.cases = cases / population * 100000
+  ) %>% 
   select(csa.hood.name, mapla.region.slug, everything()) %>% 
+  arrange(csa.hood.name, date) %>% 
+  group_by(csa.hood.name) %>%
+  mutate(
+    new.cases = cases - lag(cases),
+    new.cases.7dayavg = rollmean(new.cases, 7, na.pad = TRUE, align = 'right'),
+    rate.new.cases.7dayavg = new.cases.7dayavg / population * 100000
+  ) %>% 
   ungroup()
 
 csa.daily
@@ -101,6 +111,12 @@ region.daily = csa.daily %>%
     population = sum(population),
     case.rate.100k = cases / population * 100000
   ) %>% 
+  group_by(mapla.region.slug) %>% 
+  mutate(
+    new.cases = cases - lag(cases),
+    new.cases.7dayavg = rollmean(new.cases, 7, na.pad = TRUE, align = 'right'),
+    rate.new.cases.7dayavg = new.cases.7dayavg / population * 100000
+  ) %>% 
   ungroup()
 
 region.daily
@@ -150,4 +166,3 @@ region.latest %>% write_csv('processed/region-latest.csv', na = '')
 
 region.recent.daily %>% write_csv('processed/region-recent-daily.csv', na = '')
 region.recent.latest %>% write_csv('processed/region-recent-latest.csv', na = '')
-
