@@ -40,7 +40,7 @@ plot.crowding.csa = csa.crowding.data %>%
   ggplot(aes(pct.crowded, rate.cases, size = population)) +
   geom_hline(yintercept = countywide.case.rate, linetype = 2) +
   geom_vline(xintercept = countywide.crowding.rate, linetype = 2) +
-  annotate('text', x = 37.5, y = countywide.rate + 100, label = 'Countywide rate') +
+  annotate('text', x = 37.5, y = countywide.case.rate + 100, label = 'Countywide rate') +
   geom_smooth(method = 'lm', se = FALSE, color = 'salmon') +
   geom_point(color = '#B0B0B0') +
   geom_point(
@@ -82,7 +82,7 @@ plot.crowding.region = region.crowding.data %>%
   ggplot(aes(pct.crowded, rate.cases)) +
   geom_hline(yintercept = countywide.case.rate, linetype = 2) +
   geom_vline(xintercept = countywide.crowding.rate, linetype = 2) +
-  annotate('text', x = 20, y = countywide.rate + 50, label = 'Countywide rate') +
+  annotate('text', x = 20, y = countywide.case.rate + 50, label = 'Countywide rate') +
   geom_smooth(method = 'lm', se = FALSE, color = 'salmon') +
   geom_point() +
   geom_text_repel(aes(label = mapla.region.slug)) +
