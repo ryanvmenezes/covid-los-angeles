@@ -254,6 +254,13 @@
       "Repository": "CRAN",
       "Hash": "9ac60f09a2f437af8df8638ef3da0288"
     },
+    "ggrepel": {
+      "Package": "ggrepel",
+      "Version": "0.8.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c013a50b19695daf04853679e1bc105a"
+    },
     "glue": {
       "Package": "glue",
       "Version": "1.3.1",
