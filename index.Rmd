@@ -1,0 +1,81 @@
+---
+title: "COVID-19 rates in L.A. County"
+output: html_document
+---
+
+```{r include=FALSE}
+library(tidyverse)
+library(leaflet)
+library(sf)
+library(glue)
+library(DT)
+```
+
+```{r include=FALSE}
+csa = read_sf('processed/countywide-statistical-areas-consolidated.geojson')
+csa
+```
+
+```{r include=FALSE}
+csa.latest = read_csv('processed/csa-latest.csv')
+
+prison.hoods = c('Commerce','Lancaster','Lynwood','San Dimas','Boyle Heights','Downtown',
+                 'San Pedro','Sylmar','Wholesale District','Castaic','La Verne','Santa Monica Mountains')
+
+deaths.latest = read_csv('processed/deaths-latest.csv')
+
+csa.cleaned = csa.latest %>% 
+  mutate(
+    rate.cases = if_else(is.finite(rate.cases), rate.cases, 0),
+    edited.rate.cases = if_else(rate.cases > 3000, 3000, rate.cases),
+    alpha = population / 150000,
+    alpha = if_else(alpha > 1, 1, alpha),
+    popup = glue('{csa.hood.name}: {round(rate.cases)} cases per 1,000 people'),
+    includes.prisons = if_else(
+      csa.hood.name %in% prison.hoods,
+      'y',
+      ''
+    )
+  ) %>% 
+  left_join(
+    deaths.latest %>% select(-population)
+  )
+
+csa.joined = csa %>%
+  rename(csa.hood.name = hood.name) %>% 
+  left_join(csa.cleaned)
+```
+
+### Case rate map
+
+Cases per 100,000 population by the county's "Countywide Statistical Areas"
+
+```{r echo=FALSE, fig.height=7, fig.width=9}
+pal <- colorNumeric("Reds", domain=csa.joined$edited.rate.cases)
+
+leaflet() %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  setView(-118.223, 34.364, zoom = 9) %>% 
+  addPolygons(
+    data = csa.joined,
+    fillColor = ~pal(csa.joined$edited.rate.cases),
+    fillOpacity = 0.7,
+    color = '#ddd',
+    weight = 1,
+    popup = csa.joined$popup
+  )
+```
+
+### List of CSAs
+
+A handful of neighborhoods include the counts associated with correctional facility outbreaks. Some neighborhoods are also very small, making their rates very high.
+
+**Last update: 2020-07-15**
+
+```{r echo=FALSE}
+csa.cleaned %>% 
+  select(csa.hood.name, mapla.region.slug, population, cases, rate.cases, deaths, rate.deaths, includes.prisons) %>% 
+  mutate(rate.cases = round(rate.cases, 1), rate.deaths = round(rate.deaths, 1)) %>% 
+  datatable()
+```
+
