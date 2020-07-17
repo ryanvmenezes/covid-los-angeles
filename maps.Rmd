@@ -1,6 +1,6 @@
 ---
 title: "COVID-19 rates in L.A. County"
-output: html_notebook
+output: html_document
 ---
 
 ```{r include=FALSE}
