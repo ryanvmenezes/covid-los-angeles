@@ -9,6 +9,10 @@ csa.latest = read_csv('processed/csa-latest.csv')
 
 csa.latest
 
+deaths.latest = read_csv('processed/deaths-latest.csv')
+
+deaths.latest
+
 crowding = read_csv('gis-census/csa-crowded.csv')
 
 crowding
@@ -20,7 +24,10 @@ countywide.case.rate = csa.latest %>%
 
 csa.crowding.data = csa.latest %>% 
   left_join(crowding %>% rename(csa.hood.name = hood.name)) %>% 
+  left_join(deaths.latest) %>% 
   mutate(pct.crowded = pct.crowded * 100)
+
+csa.crowding.data
 
 countywide.crowding.rate = csa.crowding.data %>% 
   summarise(crowded = sum(crowded), total = sum(total)) %>% 
@@ -105,3 +112,9 @@ plot.crowding.region = region.crowding.data %>%
 plot.crowding.region
 
 plot.crowding.region %>% save.plot('plots/region-crowding.png')
+
+
+csa.crowding.data %>% 
+  ggplot(aes(pct.crowded, deaths)) +
+  geom_point() +
+  geom_smooth(method = 'lm')

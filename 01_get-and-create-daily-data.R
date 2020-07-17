@@ -166,3 +166,37 @@ region.latest %>% write_csv('processed/region-latest.csv', na = '')
 
 region.recent.daily %>% write_csv('processed/region-recent-daily.csv', na = '')
 region.recent.latest %>% write_csv('processed/region-recent-latest.csv', na = '')
+
+# death data
+
+# file manually downlaoded from LACDPH shiny dashboard
+
+lacdph.table = read_csv('raw/LA_County_Covid19_CSA_case_death_table.csv')
+
+lacdph.table
+
+deaths.latest = lacdph.table %>% 
+  mutate(
+    csa.hood.name = str_replace(geo_merge, 'City of ', ''),
+    csa.hood.name = str_replace(csa.hood.name, 'Unincorporated - ', ''),
+    csa.hood.name = str_replace(csa.hood.name, 'Los Angeles - ', ''),
+  ) %>% 
+  group_by(csa.hood.name) %>% 
+  summarise(deaths = sum(deaths_final)) %>% 
+  ungroup() %>% 
+  bind_rows(
+    tribble(
+      ~csa.hood.name, ~deaths,
+      'Pasadena', 101,
+      'Long Beach', 157,
+    )
+  ) %>% 
+  full_join(csa.list %>% select(csa.hood.name, population)) %>% 
+  mutate(
+    deaths = replace_na(deaths, 0),
+    rate.deaths = deaths / population * 100000
+  )
+
+deaths.latest
+
+deaths.latest %>% write_csv('processed/deaths-latest.csv', na = '')  
