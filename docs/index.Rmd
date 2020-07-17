@@ -1,5 +1,5 @@
 ---
-title: "COVID-19 rates in L.A. County"
+title: "COVID-19 in L.A. County"
 output: html_document
 ---
 
@@ -70,7 +70,7 @@ leaflet() %>%
 
 A handful of neighborhoods include the counts associated with correctional facility outbreaks. Some neighborhoods are also very small, making their rates very high.
 
-**Last update: 2020-07-15**
+**Last update: `r csa.latest %>% head(1) %>% pull(date)`**
 
 ```{r echo=FALSE}
 csa.cleaned %>% 
