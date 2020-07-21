@@ -78,4 +78,3 @@ csa.cleaned %>%
   mutate(rate.cases = round(rate.cases, 1), rate.deaths = round(rate.deaths, 1)) %>% 
   datatable()
 ```
-
