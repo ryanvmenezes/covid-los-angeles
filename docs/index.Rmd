@@ -30,7 +30,7 @@ csa.cleaned = csa.latest %>%
     edited.rate.cases = if_else(rate.cases > 3000, 3000, rate.cases),
     alpha = population / 150000,
     alpha = if_else(alpha > 1, 1, alpha),
-    popup = glue('{csa.hood.name}: {round(rate.cases)} cases per 1,000 people'),
+    popup = glue('{csa.hood.name}: {round(rate.cases)} cases per 1000 people'),
     includes.prisons = if_else(
       csa.hood.name %in% prison.hoods,
       'y',
@@ -59,7 +59,7 @@ leaflet() %>%
   addPolygons(
     data = csa.joined,
     fillColor = ~pal(csa.joined$edited.rate.cases),
-    fillOpacity = 0.7,
+    fillOpacity = 0.5,
     color = '#ddd',
     weight = 1,
     popup = csa.joined$popup
@@ -78,3 +78,41 @@ csa.cleaned %>%
   mutate(rate.cases = round(rate.cases, 1), rate.deaths = round(rate.deaths, 1)) %>% 
   datatable()
 ```
+
+### Last two weeks
+
+```{r echo=FALSE, message=FALSE, fig.height=7, fig.width=9}
+recent = read_csv('processed/csa-recent-latest.csv') %>% 
+  mutate(
+    rate.cases = if_else(is.finite(recent.case.rate.100k) | (recent.case.rate.100k < 0), recent.case.rate.100k, 0),
+    edited.rate.cases = if_else(rate.cases > 700, 700, rate.cases),
+    edited.rate.cases = replace_na(edited.rate.cases, 0),
+    alpha = population / 150000,
+    alpha = if_else(alpha > 1, 1, alpha),
+    popup = glue('{csa.hood.name}: {round(rate.cases)} cases per 1000 people in last two weeks'),
+    includes.prisons = if_else(
+      csa.hood.name %in% prison.hoods,
+      'y',
+      ''
+    )
+  )
+
+recent.joined = csa %>%
+  rename(csa.hood.name = hood.name) %>% 
+  left_join(recent)
+
+pal <- colorNumeric("Greens", domain=recent.joined$edited.rate.cases)
+
+leaflet() %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  setView(-118.223, 34.364, zoom = 9) %>% 
+  addPolygons(
+    data = recent.joined,
+    fillColor = ~pal(recent.joined$edited.rate.cases),
+    fillOpacity = 0.5,
+    color = '#ddd',
+    weight = 1,
+    popup = recent.joined$popup
+  )
+```
+
