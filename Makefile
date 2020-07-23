@@ -1,6 +1,8 @@
 update:
 	Rscript 01_get-and-create-daily-data.R
 	Rscript 02_plot.R
+	Rscript poverty.R
+	Rscript crowding.R
 
 gis:
 	Rscript 00_make-mapla-csa-crosswalk.R
