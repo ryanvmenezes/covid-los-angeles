@@ -17,6 +17,9 @@ crowding = read_csv('gis-census/csa-crowded.csv')
 
 crowding
 
+prison.hoods = c('Commerce','Lancaster','Lynwood','San Dimas','Boyle Heights','Downtown',
+                 'San Pedro','Sylmar','Wholesale District','Castaic','La Verne','Santa Monica Mountains')
+
 countywide.case.rate = csa.latest %>% 
   summarise(cases = sum(cases), population = sum(population)) %>% 
   mutate(rate.cases = cases / population * 100000) %>% 
@@ -43,7 +46,7 @@ summary(crowding.model)
 
 plot.crowding.csa = csa.crowding.data %>%
   filter(population > 1000) %>%
-  filter(!csa.hood.name %in% c('Castaic', 'Wholesale District')) %>% 
+  filter(!csa.hood.name %in% c('Castaic', 'Wholesale District')) %>%
   ggplot(aes(pct.crowded, rate.cases, size = population)) +
   geom_hline(yintercept = countywide.case.rate, linetype = 2) +
   geom_vline(xintercept = countywide.crowding.rate, linetype = 2) +
@@ -70,7 +73,7 @@ plot.crowding.csa
 plot.crowding.csa %>% save.plot('plots/csa-crowding.png')
 
 region.crowding.data = csa.crowding.data %>% 
-  filter(!csa.hood.name %in% c('Castaic', 'Wholesale District')) %>% 
+  # filter(!csa.hood.name %in% c('Castaic', 'Wholesale District')) %>%
   group_by(mapla.region.slug) %>% 
   summarise(
     cases = sum(cases),
@@ -113,8 +116,4 @@ plot.crowding.region
 
 plot.crowding.region %>% save.plot('plots/region-crowding.png')
 
-
-csa.crowding.data %>% 
-  ggplot(aes(pct.crowded, deaths)) +
-  geom_point() +
-  geom_smooth(method = 'lm')
+region.crowding.data %>% write_csv('processed/region-crowding.csv')
