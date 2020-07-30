@@ -84,11 +84,11 @@ csa.recent.daily = csa.daily %>%
   ) %>% 
   mutate(
     cases = cases - cases.two.weeks.ago,
-    case.rate.100k = cases / population * 100000
+    rate.cases = cases / population * 100000
   ) %>% 
   select(
     csa.hood.name, mapla.region.slug, date,
-    recent.cases = cases, population, recent.case.rate.100k = case.rate.100k
+    recent.cases = cases, population, recent.rate.cases = rate.cases
   )
 
 csa.recent.daily
@@ -109,7 +109,7 @@ region.daily = csa.daily %>%
   summarise(
     cases = sum(cases),
     population = sum(population),
-    case.rate.100k = cases / population * 100000
+    rate.cases = cases / population * 100000
   ) %>% 
   group_by(mapla.region.slug) %>% 
   mutate(
@@ -124,7 +124,7 @@ region.daily
 region.latest = region.daily %>% 
   group_by(mapla.region.slug) %>% 
   filter(date == max(date)) %>% 
-  arrange(-case.rate.100k)
+  arrange(-rate.cases)
 
 region.latest
 
@@ -138,11 +138,11 @@ region.recent.daily = region.daily %>%
   ) %>% 
   mutate(
     cases = cases - cases.two.weeks.ago,
-    case.rate.100k = cases / population * 100000
+    rate.cases = cases / population * 100000
   ) %>% 
   select(
     mapla.region.slug, date,
-    recent.cases = cases, population, recent.case.rate.100k = case.rate.100k
+    recent.cases = cases, population, recent.rate.cases = rate.cases
   )
 
 region.recent.daily
@@ -150,19 +150,19 @@ region.recent.daily
 region.recent.latest = region.recent.daily %>% 
   group_by(mapla.region.slug) %>% 
   filter(date == max(date)) %>% 
-  arrange(-recent.case.rate.100k) %>% 
+  arrange(-recent.rate.cases) %>% 
   ungroup()
 
 region.recent.latest
 
 csa.daily %>% write_csv('processed/csa-daily.csv', na = '')
-csa.latest %>% write_csv('processed/csa-latest.csv', na = '')
+# csa.latest %>% write_csv('processed/csa-latest.csv', na = '')
 
 csa.recent.daily %>% write_csv('processed/csa-recent-daily.csv', na = '')
 csa.recent.latest %>% write_csv('processed/csa-recent-latest.csv', na = '')
 
 region.daily %>% write_csv('processed/region-daily.csv', na = '')
-region.latest %>% write_csv('processed/region-latest.csv', na = '')
+# region.latest %>% write_csv('processed/region-latest.csv', na = '')
 
 region.recent.daily %>% write_csv('processed/region-recent-daily.csv', na = '')
 region.recent.latest %>% write_csv('processed/region-recent-latest.csv', na = '')
@@ -187,8 +187,8 @@ deaths.latest = lacdph.table %>%
   bind_rows(
     tribble(
       ~csa.hood.name, ~deaths,
-      'Pasadena', 101,
-      'Long Beach', 157,
+      'Pasadena', 105,
+      'Long Beach', 170,
     )
   ) %>% 
   full_join(csa.list %>% select(csa.hood.name, population)) %>% 
@@ -199,4 +199,22 @@ deaths.latest = lacdph.table %>%
 
 deaths.latest
 
-deaths.latest %>% write_csv('processed/deaths-latest.csv', na = '')  
+deaths.latest %>% write_csv('processed/deaths-latest.csv', na = '')
+
+csa.latest = csa.latest %>% 
+  left_join(deaths.latest %>% select(-population))
+
+csa.latest
+
+region.latest = region.latest %>% 
+  left_join(
+    csa.latest %>% 
+      group_by(mapla.region.slug) %>% 
+      summarise(deaths = sum(deaths)) %>% 
+      ungroup() %>% 
+      drop_na()
+  ) %>% 
+  mutate(rate.deaths = deaths / population * 100000)
+
+csa.latest %>% write_csv('processed/csa-latest.csv', na = '')
+region.latest %>% write_csv('processed/region-latest.csv', na = '')

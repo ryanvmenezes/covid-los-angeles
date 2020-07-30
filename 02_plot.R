@@ -96,7 +96,7 @@ plot.region.counts %>% save.plot('plots/region-counts.png')
 # daily rates by region
 
 plot.region.rates = datasets$region.daily %>%
-  ggplot(aes(date, case.rate.100k, group = mapla.region.slug, color = mapla.region.slug)) +
+  ggplot(aes(date, rate.cases, group = mapla.region.slug, color = mapla.region.slug)) +
   geom_line() +
   geom_text(
     data = . %>% 
@@ -247,7 +247,7 @@ plot.region.counts.recent = datasets$region.recent.daily %>%
     hjust = 'left',
     nudge_x = 0.25
   ) +
-  scale_x_date(limits = c(two.weeks.ago.date, two.weeks.ago.date + 15)) +
+  scale_x_date(limits = c(two.weeks.ago.date, two.weeks.ago.date + 17)) +
   theme_minimal() +
   theme(legend.position = 'none') +
   labs(
@@ -264,13 +264,13 @@ plot.region.counts.recent %>% save.plot('plots/region-counts-recent.png')
 # daily rates by region, last two weeks
 
 plot.region.rates.recent = datasets$region.recent.daily %>%
-  ggplot(aes(date, recent.case.rate.100k, group = mapla.region.slug)) +
+  ggplot(aes(date, recent.rate.cases, group = mapla.region.slug)) +
   geom_line(color = 'grey', alpha = 0.3) +
   geom_line(
     data = . %>%
       semi_join(
         datasets$region.recent.latest %>%
-          arrange(-recent.case.rate.100k) %>%
+          arrange(-recent.rate.cases) %>%
           head(10),
         by = 'mapla.region.slug'
       ),
@@ -280,7 +280,7 @@ plot.region.rates.recent = datasets$region.recent.daily %>%
     data = . %>%
       semi_join(
         datasets$region.recent.latest %>%
-          arrange(-recent.case.rate.100k) %>%
+          arrange(-recent.rate.cases) %>%
           head(10),
         by = 'mapla.region.slug'
       ) %>%
