@@ -67,4 +67,4 @@ plot.poverty.case.rate
 
 plot.poverty.case.rate %>% save.plot('plots/csa-daily-poverty-rates.png')
 
-
+daily.by.hood.poverty %>% write_csv('processed/daily-poverty-groups.csv', na = '')
