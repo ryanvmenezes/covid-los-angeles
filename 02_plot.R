@@ -391,3 +391,8 @@ plot.new.region.rates = region.daily.new %>%
 plot.new.region.rates
 
 plot.new.region.rates %>% save.plot('plots/region-new-rates.png')
+
+
+datasets$region.latest %>% 
+  ggplot(aes(cases, rate.cases, label = mapla.region.slug)) +
+  geom_text()
