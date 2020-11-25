@@ -2,12 +2,12 @@ library(tidyverse)
 library(lubridate)
 library(zoo)
 
-# download raw copy of hand-entered data from LAT spreadsheet 
-
-download.file(
-  'https://docs.google.com/spreadsheets/d/e/2PACX-1vTpZB-OMT3gU9Rs7ZqU0ZFJT8oZXHiv6xRT79fDQU7dmbISu6rciNrCmoNw7R-oH4DqrGdzHMDqtPFC/pub?output=csv&gid=254031884',
-  'raw/lat-la-csa-daily.csv'
-)
+# # download raw copy of hand-entered data from LAT spreadsheet 
+# 
+# download.file(
+#   'https://docs.google.com/spreadsheets/d/e/2PACX-1vTpZB-OMT3gU9Rs7ZqU0ZFJT8oZXHiv6xRT79fDQU7dmbISu6rciNrCmoNw7R-oH4DqrGdzHMDqtPFC/pub?output=csv&gid=254031884',
+#   'raw/lat-la-csa-daily.csv'
+# )
 
 # cleaned up CSA list based on GIS work
 # has population, all component parts of the whole CSA, and mapping la region it maps to 

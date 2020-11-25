@@ -54,7 +54,7 @@ plot.crowding.csa = csa.crowding.data %>%
   ggplot(aes(pct.crowded, rate.cases, size = population)) +
   geom_hline(yintercept = countywide.case.rate, linetype = 2) +
   geom_vline(xintercept = countywide.crowding.rate, linetype = 2) +
-  annotate('text', x = 37.5, y = countywide.case.rate + 100, label = 'Countywide rate') +
+  annotate('text', x = 37.5, y = countywide.case.rate + 200, label = 'Countywide rate') +
   geom_smooth(method = 'lm', se = FALSE, color = 'salmon') +
   geom_point(color = '#B0B0B0') +
   geom_point(
@@ -106,7 +106,7 @@ plot.crowding.region = region.crowding.data %>%
   ggplot(aes(pct.crowded, rate.cases)) +
   geom_hline(yintercept = countywide.case.rate, linetype = 2) +
   geom_vline(xintercept = countywide.crowding.rate, linetype = 2) +
-  annotate('text', x = 20, y = countywide.case.rate + 50, label = 'Countywide rate') +
+  annotate('text', x = 20, y = countywide.case.rate + 100, label = 'Countywide rate') +
   geom_smooth(method = 'lm', se = FALSE, color = 'salmon') +
   geom_point() +
   geom_text_repel(aes(label = mapla.region.slug)) +
@@ -133,16 +133,16 @@ region.crowding.data %>% write_csv('processed/region-crowding.csv')
 
 
 
-ggplot(mapping = aes(pct.crowded, rate.cases)) +
-  geom_point(
-    data = csa.crowding.data %>% filter(is.finite(rate.cases)) %>% filter(!csa.hood.name %in% prison.hoods) %>% filter(population >= 1000)
-  ) +
-  geom_smooth(
-    data = csa.crowding.data %>% filter(is.finite(rate.cases)) %>% filter(!csa.hood.name %in% prison.hoods) %>% filter(population >= 1000),
-    method = 'lm',se = FALSE, color = 'black'
-  ) + 
-  geom_point(data = region.crowding.data, color = 'salmon') +
-  geom_smooth(data = region.crowding.data, method = 'lm',se = FALSE, color = 'salmon') +
-  theme_minimal()
+# ggplot(mapping = aes(pct.crowded, rate.cases)) +
+#   geom_point(
+#     data = csa.crowding.data %>% filter(is.finite(rate.cases)) %>% filter(!csa.hood.name %in% prison.hoods) %>% filter(population >= 1000)
+#   ) +
+#   geom_smooth(
+#     data = csa.crowding.data %>% filter(is.finite(rate.cases)) %>% filter(!csa.hood.name %in% prison.hoods) %>% filter(population >= 1000),
+#     method = 'lm',se = FALSE, color = 'black'
+#   ) + 
+#   geom_point(data = region.crowding.data, color = 'salmon') +
+#   geom_smooth(data = region.crowding.data, method = 'lm',se = FALSE, color = 'salmon') +
+#   theme_minimal()
 
 

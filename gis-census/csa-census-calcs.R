@@ -155,3 +155,21 @@ csa.crowded = occupancy.totals %>%
 csa.crowded
 
 csa.crowded %>% write_csv('gis-census/csa-crowded.csv')
+
+
+# area --------------------------------------------------------------------
+
+csa = st_read('processed/countywide-statistical-areas-consolidated.geojson', as_tibble = TRUE, stringsAsFactors = FALSE)
+
+csa
+
+area = csa %>%
+  st_transform(3857) %>% 
+  mutate(area = st_area(.)) %>% 
+  st_set_geometry(NULL) %>% 
+  mutate(area = as.double(area) / 2.59e+6) %>% 
+  mutate(density = population / area)
+
+area
+
+area %>% write_csv('gis-census/area.csv')

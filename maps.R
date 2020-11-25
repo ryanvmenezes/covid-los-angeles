@@ -143,11 +143,48 @@ wt.average.lt.ln = csa %>%
 
 wt.average.lt.ln
 
+hood.centers = csa %>% 
+  # st_transform(3311) %>% 
+  st_centroid() %>% 
+  mutate(
+    x = st_coordinates(.)[,1],
+    y = st_coordinates(.)[,2],
+  ) %>% 
+  st_set_geometry(NULL)
+
+hood.centers
+
 csa.df
 
-wt.average.lt.ln %>% 
+mapla = st_read('raw/la-county-neighborhoods-v6.geojson')
+
+mapla
+
+mapla.centers = mapla %>%
+  st_centroid() %>%
+  select(name) %>% 
+  mutate(
+    x = st_coordinates(.)[,1],
+    y = st_coordinates(.)[,2],
+  ) %>% 
+  st_set_geometry(NULL) %>% 
+  as_tibble()
+
+mapla.centers
+
+library(gganimate)
+
+anim = wt.average.lt.ln %>% 
   ggplot() +
-  geom_sf(data = csa, color = 'grey', fill = 'grey') +
-  geom_line(aes(wt.avg.x, wt.avg.y)) +
-  geom_point(aes(wt.avg.x, wt.avg.y)) +
-  theme_minimal()
+  geom_sf(data = csa) +
+  geom_line(aes(wt.avg.x, wt.avg.y), color = 'red') +
+  # geom_text(data = mapla.centers, mapping = aes(x, y, label = name)) +
+  # geom_point(aes(wt.avg.x, wt.avg.y)) +
+  scale_x_continuous(limits = c(-118.4, -118.1)) +
+  scale_y_continuous(limits = c(34, 34.1)) +
+  labs(title = 'Date: {date}', x = '', y = '') +
+  transition_time(date) +
+  
+  theme_minimal() 
+
+anim_save(animation = anim, filename = 'temp.gif')
