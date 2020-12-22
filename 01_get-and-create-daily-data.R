@@ -15,24 +15,23 @@ csa.list = read_csv('processed/countywide-statistical-areas-cleaned-list.csv')
 
 csa.list
 
-CSA.COUNTS = read_csv(
-  'raw/lat-la-csa-daily.csv',
-  skip = 4
-)
+CSA.COUNTS = read_csv('latdata/latimes-place-totals.csv') %>% 
+  filter(fips == '037')
 
 CSA.COUNTS
 
 # clean up the csa names 
 csa.daily = CSA.COUNTS %>% 
   filter(date >= '2020-03-27') %>% # data gets better on this date
-  filter(city != 'Los Angeles') %>% 
-  filter(city != 'City of Los Angeles') %>% 
-  filter(!str_detect(str_to_lower(city), 'under investigation')) %>% 
+  filter(place != 'Los Angeles') %>% 
+  filter(place != 'City of Los Angeles') %>% 
+  filter(!str_detect(str_to_lower(place), 'under investigation')) %>% 
   mutate(
-    csa.hood.name = str_replace(city, 'City of ', ''),
+    csa.hood.name = str_replace(place, 'City of ', ''),
     csa.hood.name = str_replace(csa.hood.name, '\\*', ''),
     csa.hood.name = str_replace(csa.hood.name, 'Unincorporated - ', ''),
     csa.hood.name = str_replace(csa.hood.name, 'Los Angeles - ', ''),
+    csa.hood.name = str_replace(csa.hood.name, 'Silver Lake', 'Silverlake'),
     csa.hood.name = if_else(str_detect(csa.hood.name, 'Covina \\(Charter Oak\\)'), 'Covina (Charter Oak)', csa.hood.name),
   ) %>% 
   # group and sum across these new CSA named
@@ -52,8 +51,9 @@ csa.daily = CSA.COUNTS %>%
   group_by(csa.hood.name) %>%
   mutate(
     new.cases = cases - lag(cases),
-    new.cases.7dayavg = rollmean(new.cases, 7, na.pad = TRUE, align = 'right'),
-    rate.new.cases.7dayavg = new.cases.7dayavg / population * 100000
+    new.cases.14day = rollsum(new.cases, 14, na.pad = TRUE, align = 'right'),
+    new.cases.14dayavg = new.cases.14day / 14,
+    rate.new.cases.14dayavg = new.cases.14dayavg / population * 100000
   ) %>% 
   ungroup()
 
@@ -114,8 +114,9 @@ region.daily = csa.daily %>%
   group_by(mapla.region.slug) %>% 
   mutate(
     new.cases = cases - lag(cases),
-    new.cases.7dayavg = rollmean(new.cases, 7, na.pad = TRUE, align = 'right'),
-    rate.new.cases.7dayavg = new.cases.7dayavg / population * 100000
+    new.cases.14day = rollsum(new.cases, 14, na.pad = TRUE, align = 'right'),
+    new.cases.14dayavg = new.cases.14day / 14,
+    rate.new.cases.14dayavg = new.cases.14dayavg / population * 100000
   ) %>% 
   ungroup()
 
@@ -170,6 +171,7 @@ region.recent.latest %>% write_csv('processed/region-recent-latest.csv', na = ''
 # death data
 
 # file manually downlaoded from LACDPH shiny dashboard
+# http://dashboard.publichealth.lacounty.gov/covid19_surveillance_dashboard/
 
 lacdph.table = read_csv('raw/LA_County_Covid19_CSA_case_death_table.csv')
 
