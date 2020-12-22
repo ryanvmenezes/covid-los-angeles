@@ -1,0 +1,3 @@
+[submodule "latdata"]
+	path = latdata
+	url = https://github.com/datadesk/california-coronavirus-data
