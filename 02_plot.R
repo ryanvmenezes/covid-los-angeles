@@ -12,13 +12,17 @@ datasets = datasets.names %>%
 
 datasets
 
-min.date = ymd('2020-03-27')
-max.date = today() + 15
-two.weeks.ago.date = today() - 14
-
+# custom save with presets
 save.plot = function (ggobj, filename) {
   ggsave(filename, plot = ggobj, width = 12, height = 8)
 }
+
+# defaults
+min.date = ymd('2020-03-27')
+max.date = today() + 15
+two.weeks.ago.date = today() - 14
+day.buffer = 30
+x.nudge = 0.75
 
 # daily cases by csa
 
@@ -50,9 +54,9 @@ plot.csa.counts = datasets$csa.daily %>%
       color = csa.hood.name
     ),
     hjust = 'left',
-    nudge_x = 0.25
+    nudge_x = x.nudge
   ) +
-  scale_x_date(limits = c(min.date, max.date)) +
+  scale_x_date(limits = c(min.date, max.date + day.buffer)) +
   theme_minimal() +
   theme(legend.position = 'none') +
   labs(
@@ -78,9 +82,9 @@ plot.region.counts = datasets$region.daily %>%
       filter(date == max(date)),
     aes(label = mapla.region.slug),
     hjust = 'left',
-    nudge_x = 0.25
+    nudge_x = x.nudge
   ) +
-  scale_x_date(limits = c(as.Date('2020-03-27'), max.date)) +
+  scale_x_date(limits = c(as.Date('2020-03-27'), max.date + day.buffer)) +
   theme_minimal() +
   theme(legend.position = 'none') +
   labs(
@@ -104,9 +108,9 @@ plot.region.rates = datasets$region.daily %>%
       filter(date == max(date)),
     aes(label = mapla.region.slug),
     hjust = 'left',
-    nudge_x = 0.25
+    nudge_x = x.nudge
   ) +
-  scale_x_date(limits = c(as.Date('2020-03-27'), max.date)) +
+  scale_x_date(limits = c(as.Date('2020-03-27'), max.date + day.buffer)) +
   theme_minimal() +
   theme(legend.position = 'none') +
   labs(
@@ -152,10 +156,10 @@ plot.grid.counts = datasets$csa.daily %>%
       color = csa.hood.name
     ),
     hjust = 'left',
-    nudge_x = 0.25,
+    nudge_x = x.nudge,
     size = 3
   ) +
-  scale_x_date(limits = c(as.Date('2020-03-27'), max.date + 15)) +
+  scale_x_date(limits = c(as.Date('2020-03-27'), max.date + day.buffer + 30)) +
   facet_wrap(. ~ mapla.region.slug) +
   theme_minimal() +
   theme(legend.position = 'none') +
@@ -199,7 +203,7 @@ plot.csa.counts.recent = datasets$csa.recent.daily %>%
       color = csa.hood.name
     ),
     hjust = 'left',
-    nudge_x = 0.25
+    nudge_x = 0.05
   ) +
   scale_x_date(limits = c(two.weeks.ago.date, two.weeks.ago.date + 15)) +
   theme_minimal() +
@@ -245,7 +249,7 @@ plot.region.counts.recent = datasets$region.recent.daily %>%
       color = mapla.region.slug
     ),
     hjust = 'left',
-    nudge_x = 0.25
+    nudge_x = 0.05
   ) +
   scale_x_date(limits = c(two.weeks.ago.date, two.weeks.ago.date + 17)) +
   theme_minimal() +
@@ -337,7 +341,7 @@ plot.new.region = region.daily.new %>%
       group_by(mapla.region.slug) %>% 
       filter(date == max(date)),
     hjust = 'left',
-    nudge_x = 1
+    nudge_x = x.nudge
   ) +
   scale_x_date(limits = c(ymd('2020-04-15'), today() + 15)) +
   scale_color_manual(
@@ -372,7 +376,7 @@ plot.new.region.rates = region.daily.new %>%
       group_by(mapla.region.slug) %>% 
       filter(date == max(date)),
     hjust = 'left',
-    nudge_x = 1
+    nudge_x = x.nudge
   ) +
   scale_x_date(limits = c(ymd('2020-04-15'), today() + 15)) +
   scale_color_manual(
@@ -392,7 +396,3 @@ plot.new.region.rates
 
 plot.new.region.rates %>% save.plot('plots/region-new-rates.png')
 
-
-datasets$region.latest %>% 
-  ggplot(aes(cases, rate.cases, label = mapla.region.slug)) +
-  geom_text()

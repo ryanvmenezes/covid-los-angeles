@@ -171,20 +171,20 @@ mapla.centers = mapla %>%
   as_tibble()
 
 mapla.centers
-
-library(gganimate)
-
-anim = wt.average.lt.ln %>% 
-  ggplot() +
-  geom_sf(data = csa) +
-  geom_line(aes(wt.avg.x, wt.avg.y), color = 'red') +
-  # geom_text(data = mapla.centers, mapping = aes(x, y, label = name)) +
-  # geom_point(aes(wt.avg.x, wt.avg.y)) +
-  scale_x_continuous(limits = c(-118.4, -118.1)) +
-  scale_y_continuous(limits = c(34, 34.1)) +
-  labs(title = 'Date: {date}', x = '', y = '') +
-  transition_time(date) +
-  
-  theme_minimal() 
-
-anim_save(animation = anim, filename = 'temp.gif')
+ 
+# library(gganimate)
+# 
+# anim = wt.average.lt.ln %>% 
+#   ggplot() +
+#   geom_sf(data = csa) +
+#   geom_line(aes(wt.avg.x, wt.avg.y), color = 'red') +
+#   # geom_text(data = mapla.centers, mapping = aes(x, y, label = name)) +
+#   # geom_point(aes(wt.avg.x, wt.avg.y)) +
+#   scale_x_continuous(limits = c(-118.4, -118.1)) +
+#   scale_y_continuous(limits = c(34, 34.1)) +
+#   labs(title = 'Date: {date}', x = '', y = '') +
+#   transition_time(date) +
+#   
+#   theme_minimal() 
+# 
+# anim_save(animation = anim, filename = 'temp.gif')
