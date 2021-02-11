@@ -1,0 +1,755 @@
+county,doses_administered,date,fips,population,url,doses_administered_per_100k,new_doses_administered,new_doses_administered_seven_day_average
+Alameda,116304,2021-01-28,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,7075.743748859281,,
+Alameda,124444,2021-01-29,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,7570.967938188233,8140.0,
+Alameda,131652,2021-01-30,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,8009.4907829895965,7208.0,
+Alameda,138052,2021-01-31,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,8398.856238973049,6400.0,
+Alameda,140960,2021-02-01,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,8575.77416803553,2908.0,
+Alameda,145760,2021-02-02,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,8867.798260023119,4800.0,
+Alameda,150819,2021-02-03,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,9175.579485307537,5059.0,
+Alameda,159398,2021-02-04,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,9697.511711382856,8579.0,6156.285714285715
+Alameda,168540,2021-02-05,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,10253.695929914218,9142.0,6299.428571428572
+Alameda,176461,2021-02-06,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,10735.596520046236,7921.0,6401.285714285715
+Alameda,183755,2021-02-07,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,11179.351463162378,7294.0,6529.0
+Alameda,189359,2021-02-08,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,11520.289590557888,5604.0,6914.142857142857
+Alameda,197808,2021-02-09,001,1643700.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alameda-county/,12034.312830808542,8449.0,7435.428571428572
+Alpine,0,2021-01-28,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,0.0,,
+Alpine,0,2021-01-29,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,0.0,0.0,
+Alpine,0,2021-01-30,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,0.0,0.0,
+Alpine,0,2021-01-31,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,0.0,0.0,
+Alpine,0,2021-02-01,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,0.0,0.0,
+Alpine,221,2021-02-02,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,19250.87108013937,221.0,
+Alpine,221,2021-02-03,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,19250.87108013937,0.0,
+Alpine,242,2021-02-04,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,21080.139372822297,21.0,34.57142857142857
+Alpine,246,2021-02-05,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,21428.571428571428,4.0,35.142857142857146
+Alpine,271,2021-02-06,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,23606.271777003483,25.0,38.714285714285715
+Alpine,271,2021-02-07,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,23606.271777003483,0.0,38.714285714285715
+Alpine,290,2021-02-08,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,25261.324041811844,19.0,41.42857142857143
+Alpine,327,2021-02-09,003,1148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/alpine-county/,28484.32055749129,37.0,15.142857142857142
+Amador,2534,2021-01-28,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,6698.564593301436,,
+Amador,2727,2021-01-29,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,7208.755187818869,193.0,
+Amador,3051,2021-01-30,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,8065.24095270824,324.0,
+Amador,3237,2021-01-31,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,8556.927225144731,186.0,
+Amador,3275,2021-02-01,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,8657.379259298421,38.0,
+Amador,3346,2021-02-02,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,8845.065954690845,71.0,
+Amador,3436,2021-02-03,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,9082.978667160116,90.0,
+Amador,3633,2021-02-04,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,9603.743160009517,197.0,157.0
+Amador,3712,2021-02-05,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,9812.577652065875,79.0,140.71428571428572
+Amador,3980,2021-02-06,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,10521.0288403077,268.0,132.71428571428572
+Amador,4227,2021-02-07,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,11173.967062306696,247.0,141.42857142857142
+Amador,4292,2021-02-08,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,11345.79291020117,65.0,145.28571428571428
+Amador,4402,2021-02-09,005,37829.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/amador-county/,11636.575114330277,110.0,150.85714285714286
+Butte,19171,2021-01-28,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,8442.585048992623,,
+Butte,21224,2021-01-29,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,9346.691621710888,2053.0,
+Butte,22939,2021-01-30,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,10101.948695364968,1715.0,
+Butte,25071,2021-01-31,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,11040.845535615985,2132.0,
+Butte,25149,2021-02-01,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,11075.195420015412,78.0,
+Butte,26190,2021-02-02,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,11533.634261807772,1041.0,
+Butte,27758,2021-02-03,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,12224.15501486293,1568.0,
+Butte,30462,2021-02-04,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,13414.951007376416,2704.0,1613.0
+Butte,33298,2021-02-05,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,14663.877573488935,2836.0,1724.857142857143
+Butte,35037,2021-02-06,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,15429.703842342837,1739.0,1728.2857142857142
+Butte,35494,2021-02-07,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,15630.958934272818,457.0,1489.0
+Butte,35652,2021-02-08,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,15700.539469338324,158.0,1500.4285714285713
+Butte,36520,2021-02-09,007,227075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/butte-county/,16082.792029065287,868.0,1475.7142857142858
+Calaveras,2964,2021-01-28,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,6552.448325411739,,
+Calaveras,3145,2021-01-29,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,6952.580966066099,181.0,
+Calaveras,3549,2021-01-30,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,7845.694705427213,404.0,
+Calaveras,3577,2021-01-31,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,7907.593677462142,28.0,
+Calaveras,3600,2021-02-01,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,7958.43926163369,23.0,
+Calaveras,3777,2021-02-02,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,8349.729191997347,177.0,
+Calaveras,3834,2021-02-03,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,8475.73781363988,57.0,
+Calaveras,4171,2021-02-04,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,9220.736155631701,337.0,172.42857142857142
+Calaveras,4509,2021-02-05,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,9967.945175196199,338.0,194.85714285714286
+Calaveras,4620,2021-02-06,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,10213.330385763236,111.0,153.0
+Calaveras,4646,2021-02-07,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,10270.808002652813,26.0,152.71428571428572
+Calaveras,4659,2021-02-08,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,10299.546811097602,13.0,151.28571428571428
+Calaveras,4811,2021-02-09,009,45235.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/calaveras-county/,10635.569802144357,152.0,147.71428571428572
+Colusa,590,2021-01-28,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,2748.7886693999253,,
+Colusa,652,2021-01-29,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,3037.6444278792396,62.0,
+Colusa,757,2021-01-30,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,3526.8356317554976,105.0,
+Colusa,801,2021-01-31,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,3731.830040998882,44.0,
+Colusa,813,2021-02-01,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,3787.7376071561685,12.0,
+Colusa,897,2021-02-02,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,4179.0905702571745,84.0,
+Colusa,928,2021-02-03,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,4323.518449496832,31.0,
+Colusa,995,2021-02-04,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,4635.669027208349,67.0,57.857142857142854
+Colusa,1103,2021-02-05,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,5138.837122623929,108.0,64.42857142857143
+Colusa,1139,2021-02-06,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,5306.559821095788,36.0,54.57142857142857
+Colusa,1222,2021-02-07,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,5693.253820350354,83.0,60.142857142857146
+Colusa,1230,2021-02-08,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,5730.525531121879,8.0,59.57142857142857
+Colusa,1281,2021-02-09,011,21464.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/colusa-county/,5968.132687290346,51.0,54.857142857142854
+Contra Costa,106680,2021-01-28,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,9413.658275733356,,
+Contra Costa,114321,2021-01-29,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,10087.915520623483,7641.0,
+Contra Costa,121601,2021-01-30,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,10730.31739770765,7280.0,
+Contra Costa,127170,2021-01-31,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,11221.73718527382,5569.0,
+Contra Costa,128228,2021-02-01,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,11315.097238289623,1058.0,
+Contra Costa,132388,2021-02-02,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,11682.184025194862,4160.0,
+Contra Costa,138504,2021-02-03,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,12221.872195558426,6116.0,
+Contra Costa,146044,2021-02-04,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,12887.216996824169,7540.0,5623.428571428572
+Contra Costa,153446,2021-02-05,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,13540.384399870461,7402.0,5589.285714285715
+Contra Costa,160571,2021-02-06,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,14169.108764461764,7125.0,5567.142857142857
+Contra Costa,167808,2021-02-07,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,14807.716234854362,7237.0,5805.428571428572
+Contra Costa,169143,2021-02-08,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,14925.519326325151,1335.0,5845.0
+Contra Costa,174658,2021-02-09,013,1133247.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/contra-costa-county/,15412.174045022843,5515.0,6038.571428571428
+Del Norte,1108,2021-01-28,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,4040.256709451575,,
+Del Norte,1214,2021-01-29,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,4426.779463243874,106.0,
+Del Norte,1244,2021-01-30,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,4536.1726954492415,30.0,
+Del Norte,1247,2021-01-31,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,4547.112018669779,3.0,
+Del Norte,1248,2021-02-01,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,4550.758459743291,1.0,
+Del Norte,1413,2021-02-02,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,5152.421236872812,165.0,
+Del Norte,1528,2021-02-03,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,5571.761960326721,115.0,
+Del Norte,1640,2021-02-04,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,5980.163360560093,112.0,76.0
+Del Norte,1749,2021-02-05,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,6377.625437572929,109.0,76.42857142857143
+Del Norte,1879,2021-02-06,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,6851.662777129522,130.0,90.71428571428571
+Del Norte,1889,2021-02-07,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,6888.127187864644,10.0,91.71428571428571
+Del Norte,1893,2021-02-08,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,6902.712952158693,4.0,92.14285714285714
+Del Norte,2228,2021-02-09,015,27424.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/del-norte-county/,8124.270711785298,335.0,116.42857142857143
+El Dorado,11732,2021-01-28,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,6285.1908004350125,,
+El Dorado,13077,2021-01-29,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,7005.748388790374,1345.0,
+El Dorado,14950,2021-01-30,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,8009.171706998249,1873.0,
+El Dorado,15851,2021-01-31,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,8491.864931613996,901.0,
+El Dorado,16382,2021-02-01,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,8776.337853113399,531.0,
+El Dorado,16973,2021-02-02,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,9092.954607550586,591.0,
+El Dorado,17701,2021-02-03,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,9482.966447195719,728.0,
+El Dorado,18602,2021-02-04,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,9965.659671811465,901.0,981.4285714285714
+El Dorado,19611,2021-02-05,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,10506.211795715228,1009.0,933.4285714285714
+El Dorado,20833,2021-02-06,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,11160.874526548127,1222.0,840.4285714285714
+El Dorado,21459,2021-02-07,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,11496.241850199023,626.0,801.1428571428571
+El Dorado,21982,2021-02-08,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,11776.428927306722,523.0,800.0
+El Dorado,23100,2021-02-09,017,186661.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/el-dorado-county/,12375.37568104746,1118.0,875.2857142857143
+Fresno,63064,2021-01-28,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,6447.404741701001,,
+Fresno,68131,2021-01-29,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,6965.434042509687,5067.0,
+Fresno,70469,2021-01-30,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,7204.461574637317,2338.0,
+Fresno,72656,2021-01-31,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,7428.051485998793,2187.0,
+Fresno,73275,2021-02-01,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,7491.335507550121,619.0,
+Fresno,76763,2021-02-02,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,7847.934323658409,3488.0,
+Fresno,78052,2021-02-03,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,7979.716397615859,1289.0,
+Fresno,80997,2021-02-04,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,8280.801120505454,2945.0,2561.8571428571427
+Fresno,83884,2021-02-05,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,8575.95616124646,2887.0,2250.4285714285716
+Fresno,87023,2021-02-06,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,8896.874648564097,3139.0,2364.8571428571427
+Fresno,88306,2021-02-07,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,9028.043307126865,1283.0,2235.714285714286
+Fresno,89285,2021-02-08,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,9128.132252359093,979.0,2287.1428571428573
+Fresno,94008,2021-02-09,019,978130.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/fresno-county/,9610.992403872697,4723.0,2463.5714285714284
+Glenn,1783,2021-01-28,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,6391.368247481809,,
+Glenn,1870,2021-01-29,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,6703.229737964655,87.0,
+Glenn,2017,2021-01-30,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,7230.168118435675,147.0,
+Glenn,2226,2021-01-31,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,7979.3526185611345,209.0,
+Glenn,2230,2021-02-01,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,7993.691077893681,4.0,
+Glenn,2255,2021-02-02,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,8083.3064487220845,25.0,
+Glenn,2281,2021-02-03,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,8176.506434383625,26.0,
+Glenn,2435,2021-02-04,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,8728.537118686596,154.0,93.14285714285714
+Glenn,2556,2021-02-05,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,9162.275513496075,121.0,98.0
+Glenn,2652,2021-02-06,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,9506.398537477147,96.0,90.71428571428571
+Glenn,2910,2021-02-07,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,10431.229164426282,258.0,97.71428571428571
+Glenn,2947,2021-02-08,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,10563.859913252321,37.0,102.42857142857143
+Glenn,2979,2021-02-09,021,27897.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/glenn-county/,10678.567587912677,32.0,103.42857142857143
+Humboldt,9662,2021-01-28,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,7116.551764775204,,
+Humboldt,10984,2021-01-29,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,8090.271639856225,1322.0,
+Humboldt,12353,2021-01-30,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,9098.609392493076,1369.0,
+Humboldt,13422,2021-01-31,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,9885.981969241648,1069.0,
+Humboldt,13781,2021-02-01,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,10150.40362972129,359.0,
+Humboldt,14118,2021-02-02,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,10398.621177302457,337.0,
+Humboldt,14593,2021-02-03,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,10748.482705792234,475.0,
+Humboldt,15112,2021-02-04,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,11130.752460078958,519.0,778.5714285714286
+Humboldt,15944,2021-02-05,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,11743.562547875788,832.0,708.5714285714286
+Humboldt,16330,2021-02-06,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,12027.871074185376,386.0,568.1428571428571
+Humboldt,17531,2021-02-07,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,12912.468328324789,1201.0,587.0
+Humboldt,17929,2021-02-08,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,13205.615461669906,398.0,592.5714285714286
+Humboldt,18180,2021-02-09,023,135768.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/humboldt-county/,13390.489658829769,251.0,580.2857142857143
+Imperial,6733,2021-01-28,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,3736.072268832956,,
+Imperial,7285,2021-01-29,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,4042.3713765703374,552.0,
+Imperial,7690,2021-01-30,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,4267.101700182004,405.0,
+Imperial,7788,2021-01-31,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,4321.480889599147,98.0,
+Imperial,7808,2021-02-01,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,4332.578683357749,20.0,
+Imperial,8347,2021-02-02,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,4631.66422515204,539.0,
+Imperial,9001,2021-02-03,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,4994.562081058285,654.0,
+Imperial,9425,2021-02-04,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,5229.835308740623,424.0,384.57142857142856
+Imperial,10551,2021-02-05,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,5854.641097349847,1126.0,466.57142857142856
+Imperial,12057,2021-02-06,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,6690.304967372486,1506.0,623.8571428571429
+Imperial,13011,2021-02-07,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,7219.669729657745,954.0,746.1428571428571
+Imperial,13108,2021-02-08,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,7273.494029386958,97.0,757.1428571428571
+Imperial,13399,2021-02-09,025,180216.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/imperial-county/,7434.966928574599,291.0,721.7142857142857
+Inyo,0,2021-01-28,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,0.0,,
+Inyo,0,2021-01-29,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,0.0,0.0,
+Inyo,0,2021-01-30,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,0.0,0.0,
+Inyo,0,2021-01-31,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,0.0,0.0,
+Inyo,0,2021-02-01,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,0.0,0.0,
+Inyo,1776,2021-02-02,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,9820.293060547416,1776.0,
+Inyo,1879,2021-02-03,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,10389.825822504838,103.0,
+Inyo,1909,2021-02-04,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,10555.709151230301,30.0,272.7142857142857
+Inyo,2024,2021-02-05,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,11191.59524467791,115.0,289.14285714285717
+Inyo,2024,2021-02-06,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,11191.59524467791,0.0,289.14285714285717
+Inyo,2027,2021-02-07,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,11208.183577550457,3.0,289.57142857142856
+Inyo,2027,2021-02-08,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,11208.183577550457,0.0,289.57142857142856
+Inyo,2108,2021-02-09,027,18085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/inyo-county/,11656.068565109206,81.0,47.42857142857143
+Kern,34804,2021-01-28,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,3941.3262850587676,,
+Kern,37444,2021-01-29,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,4240.2890879709375,2640.0,
+Kern,40717,2021-01-30,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,4610.935017490457,3273.0,
+Kern,43257,2021-01-31,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,4898.573471807468,2540.0,
+Kern,43724,2021-02-01,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,4951.458179746855,467.0,
+Kern,46367,2021-02-02,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,5250.76071311688,2643.0,
+Kern,48808,2021-02-03,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,5527.188062324685,2441.0,
+Kern,52448,2021-02-04,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,5939.394351188434,3640.0,2520.5714285714284
+Kern,56580,2021-02-05,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,6407.31643514036,4132.0,2733.714285714286
+Kern,61768,2021-02-06,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,6994.823640257153,5188.0,3007.285714285714
+Kern,63829,2021-02-07,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,7228.218464803358,2061.0,2938.8571428571427
+Kern,64334,2021-02-08,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,7285.406425208906,505.0,2944.285714285714
+Kern,68113,2021-02-09,029,883053.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kern-county/,7713.353558619924,3779.0,3106.5714285714284
+Kings,4529,2021-01-28,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,3017.824421122772,,
+Kings,4975,2021-01-29,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,3315.009162085624,446.0,
+Kings,5093,2021-01-30,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,3393.6365150757956,118.0,
+Kings,5157,2021-01-31,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,3436.2818590704646,64.0,
+Kings,5184,2021-02-01,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,3454.272863568216,27.0,
+Kings,6069,2021-02-02,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,4043.9780109945027,885.0,
+Kings,6433,2021-02-03,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,4286.523404964185,364.0,
+Kings,6771,2021-02-04,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,4511.744127936032,338.0,320.2857142857143
+Kings,7187,2021-02-05,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,4788.938863901382,416.0,316.0
+Kings,7516,2021-02-06,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,5008.16258537398,329.0,346.14285714285717
+Kings,7619,2021-02-07,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,5076.7949358654005,103.0,351.7142857142857
+Kings,7655,2021-02-08,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,5100.782941862402,36.0,353.0
+Kings,7784,2021-02-09,031,150075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/kings-county/,5186.739963351657,129.0,245.0
+Lake,3737,2021-01-28,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,5825.590821225915,,
+Lake,4329,2021-01-29,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,6748.456693895368,592.0,
+Lake,4828,2021-01-30,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,7526.345326432625,499.0,
+Lake,5400,2021-01-31,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,8418.033297998378,572.0,
+Lake,5557,2021-02-01,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,8662.779821662405,157.0,
+Lake,5809,2021-02-02,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,9055.621375568997,252.0,
+Lake,6255,2021-02-03,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,9750.888570181456,446.0,
+Lake,6625,2021-02-04,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,10327.679740599862,370.0,412.57142857142856
+Lake,6687,2021-02-05,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,10424.331234021325,62.0,336.85714285714283
+Lake,7064,2021-02-06,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,11012.034669826027,377.0,319.42857142857144
+Lake,7124,2021-02-07,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,11105.568373137121,60.0,246.28571428571428
+Lake,7363,2021-02-08,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,11478.144291326307,239.0,258.0
+Lake,7596,2021-02-09,033,64148.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lake-county/,11841.366839184386,233.0,255.28571428571428
+Lassen,1472,2021-01-28,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,4720.218053551386,,
+Lassen,1557,2021-01-29,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,4992.784992784993,85.0,
+Lassen,1583,2021-01-30,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,5076.1584094917425,26.0,
+Lassen,1625,2021-01-31,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,5210.838544171877,42.0,
+Lassen,1627,2021-02-01,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,5217.25188391855,2.0,
+Lassen,1867,2021-02-02,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,5986.8526535193205,240.0,
+Lassen,2033,2021-02-03,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,6519.159852493185,166.0,
+Lassen,2109,2021-02-04,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,6762.866762866764,76.0,91.0
+Lassen,2237,2021-02-05,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,7173.320506653839,128.0,97.14285714285714
+Lassen,2321,2021-02-06,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,7442.680776014108,84.0,105.42857142857143
+Lassen,2328,2021-02-07,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,7465.127465127465,7.0,100.42857142857143
+Lassen,2328,2021-02-08,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,7465.127465127465,0.0,100.14285714285714
+Lassen,2409,2021-02-09,035,31185.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/lassen-county/,7724.867724867725,81.0,77.42857142857143
+Los Angeles,735353,2021-01-28,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,7282.127285539825,,
+Los Angeles,770478,2021-01-29,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,7629.966650993676,35125.0,
+Los Angeles,820118,2021-01-30,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,8121.5466111681735,49640.0,
+Los Angeles,864493,2021-01-31,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,8560.987802399908,44375.0,
+Los Angeles,886851,2021-02-01,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,8782.396842480113,22358.0,
+Los Angeles,917491,2021-02-02,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,9085.821701056799,30640.0,
+Los Angeles,952634,2021-02-03,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,9433.839318712164,35143.0,
+Los Angeles,992620,2021-02-04,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,9829.816681474804,39986.0,36752.42857142857
+Los Angeles,1031401,2021-02-05,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,10213.861049636109,38781.0,37274.71428571428
+Los Angeles,1103110,2021-02-06,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,10923.988111766506,71709.0,40427.42857142857
+Los Angeles,1155865,2021-02-07,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,11446.415605702961,52755.0,41624.57142857143
+Los Angeles,1175308,2021-02-08,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,11638.957692038028,19443.0,41208.142857142855
+Los Angeles,1221515,2021-02-09,037,10098052.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/los-angeles-county/,12096.540996223826,46207.0,43432.0
+Madera,7865,2021-01-28,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,5073.768006554289,,
+Madera,8521,2021-01-29,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,5496.958319624806,656.0,
+Madera,9003,2021-01-30,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,5807.8999825821065,482.0,
+Madera,9561,2021-01-31,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,6167.869791565869,558.0,
+Madera,9571,2021-02-01,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,6174.320863411456,10.0,
+Madera,10151,2021-02-02,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,6548.48303045551,580.0,
+Madera,10422,2021-02-03,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,6723.307077470922,271.0,
+Madera,10671,2021-02-04,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,6883.938766426041,249.0,400.85714285714283
+Madera,11420,2021-02-05,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,7367.124047660518,749.0,414.14285714285717
+Madera,12028,2021-02-06,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,7759.349215872217,608.0,432.14285714285717
+Madera,12497,2021-02-07,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,8061.904485430255,469.0,419.42857142857144
+Madera,12681,2021-02-08,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,8180.6042073890585,184.0,444.2857142857143
+Madera,13118,2021-02-09,039,155013.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/madera-county/,8462.516047041216,437.0,423.85714285714283
+Marin,27207,2021-01-28,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,10452.371347893737,,
+Marin,29199,2021-01-29,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,11217.65688929868,1992.0,
+Marin,31136,2021-01-30,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,11961.812558827483,1937.0,
+Marin,33968,2021-01-31,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,13049.808870704393,2832.0,
+Marin,34317,2021-02-01,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,13183.887512245721,349.0,
+Marin,35421,2021-02-02,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,13608.02166772316,1104.0,
+Marin,36202,2021-02-03,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,13908.065848364356,781.0,
+Marin,37968,2021-02-04,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,14586.526825332796,1766.0,1537.2857142857142
+Marin,39243,2021-02-05,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,15076.355673370597,1275.0,1434.857142857143
+Marin,41966,2021-02-06,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,16122.476420983883,2723.0,1547.142857142857
+Marin,42756,2021-02-07,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,16425.978217022992,790.0,1255.4285714285713
+Marin,43866,2021-02-08,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,16852.417449432374,1110.0,1364.142857142857
+Marin,46324,2021-02-09,041,260295.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/marin-county/,17796.730632551527,2458.0,1557.5714285714287
+Mariposa,0,2021-01-28,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,0.0,,
+Mariposa,0,2021-01-29,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,0.0,0.0,
+Mariposa,0,2021-01-30,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,0.0,0.0,
+Mariposa,0,2021-01-31,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,0.0,0.0,
+Mariposa,0,2021-02-01,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,0.0,0.0,
+Mariposa,435,2021-02-02,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,2480.0456100342076,435.0,
+Mariposa,495,2021-02-03,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,2822.1208665906497,60.0,
+Mariposa,515,2021-02-04,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,2936.145952109464,20.0,73.57142857142857
+Mariposa,712,2021-02-05,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,4059.293044469783,197.0,101.71428571428571
+Mariposa,814,2021-02-06,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,4640.820980615736,102.0,116.28571428571429
+Mariposa,872,2021-02-07,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,4971.493728620297,58.0,124.57142857142857
+Mariposa,893,2021-02-08,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,5091.220068415051,21.0,127.57142857142857
+Mariposa,1014,2021-02-09,043,17540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mariposa-county/,5781.071835803877,121.0,82.71428571428571
+Mendocino,7862,2021-01-28,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,8993.159616572488,,
+Mendocino,8540,2021-01-29,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,9768.708105511198,678.0,
+Mendocino,9022,2021-01-30,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,10320.056736290637,482.0,
+Mendocino,9205,2021-01-31,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,10529.386195694447,183.0,
+Mendocino,9479,2021-02-01,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,10842.808446386493,274.0,
+Mendocino,10533,2021-02-02,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,12048.45462240626,1054.0,
+Mendocino,10997,2021-02-03,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,12579.213470293518,464.0,
+Mendocino,11573,2021-02-04,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,13238.086522843221,576.0,530.1428571428571
+Mendocino,12177,2021-02-05,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,13928.98812655853,604.0,519.5714285714286
+Mendocino,13305,2021-02-06,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,15219.281187801698,1128.0,611.8571428571429
+Mendocino,13764,2021-02-07,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,15744.32065155224,459.0,651.2857142857143
+Mendocino,13853,2021-02-08,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,15846.125689185788,89.0,624.8571428571429
+Mendocino,14229,2021-02-09,045,87422.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mendocino-county/,16276.223376266844,376.0,528.0
+Merced,9872,2021-01-28,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,3668.8655579299448,,
+Merced,10456,2021-01-29,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,3885.90541670538,584.0,
+Merced,11657,2021-01-30,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,4332.2493728514355,1201.0,
+Merced,12046,2021-01-31,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,4476.818730837127,389.0,
+Merced,12206,2021-02-01,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,4536.281705844095,160.0,
+Merced,12898,2021-02-02,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,4793.459072749233,692.0,
+Merced,13325,2021-02-03,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,4952.150887299081,427.0,
+Merced,13859,2021-02-04,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,5150.608566384837,534.0,569.5714285714286
+Merced,14179,2021-02-05,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,5269.534516398774,320.0,531.8571428571429
+Merced,14695,2021-02-06,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,5461.302610796247,516.0,434.0
+Merced,14910,2021-02-07,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,5541.20598346186,215.0,409.14285714285717
+Merced,14953,2021-02-08,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,5557.186657994983,43.0,392.42857142857144
+Merced,15265,2021-02-09,047,269075.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/merced-county/,5673.139459258571,312.0,338.14285714285717
+Modoc,0,2021-01-28,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,0.0,,
+Modoc,0,2021-01-29,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,0.0,0.0,
+Modoc,0,2021-01-30,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,0.0,0.0,
+Modoc,0,2021-01-31,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,0.0,0.0,
+Modoc,0,2021-02-01,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,0.0,0.0,
+Modoc,901,2021-02-02,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,10080.554933989706,901.0,
+Modoc,1013,2021-02-03,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,11333.631684940703,112.0,
+Modoc,1046,2021-02-04,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,11702.841799060194,33.0,149.42857142857142
+Modoc,1180,2021-02-05,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,13202.058626090848,134.0,168.57142857142858
+Modoc,1190,2021-02-06,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,13313.94047885433,10.0,170.0
+Modoc,1190,2021-02-07,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,13313.94047885433,0.0,170.0
+Modoc,1190,2021-02-08,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,13313.94047885433,0.0,170.0
+Modoc,1190,2021-02-09,049,8938.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/modoc-county/,13313.94047885433,0.0,41.285714285714285
+Mono,0,2021-01-28,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,0.0,,
+Mono,0,2021-01-29,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,0.0,0.0,
+Mono,0,2021-01-30,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,0.0,0.0,
+Mono,0,2021-01-31,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,0.0,0.0,
+Mono,0,2021-02-01,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,0.0,0.0,
+Mono,3776,2021-02-02,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,26640.327359954845,3776.0,
+Mono,3776,2021-02-03,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,26640.327359954845,0.0,
+Mono,3776,2021-02-04,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,26640.327359954845,0.0,539.4285714285714
+Mono,3852,2021-02-05,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,27176.520389445464,76.0,550.2857142857143
+Mono,3996,2021-02-06,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,28192.465076901368,144.0,570.8571428571429
+Mono,4670,2021-02-07,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,32947.650627910254,674.0,667.1428571428571
+Mono,4809,2021-02-08,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,33928.319458162834,139.0,687.0
+Mono,4816,2021-02-09,051,14174.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/mono-county/,33977.7056582475,7.0,148.57142857142858
+Monterey,18399,2021-01-28,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,4247.112268358217,,
+Monterey,20242,2021-01-29,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,4672.539080173218,1843.0,
+Monterey,21469,2021-01-30,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,4955.772231609466,1227.0,
+Monterey,22275,2021-01-31,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,5141.824326195951,806.0,
+Monterey,22824,2021-02-01,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,5268.55211766987,549.0,
+Monterey,26037,2021-02-02,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,6010.221323509044,3213.0,
+Monterey,27930,2021-02-03,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,6447.189828536605,1893.0,
+Monterey,30473,2021-02-04,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,7034.200345327461,2543.0,1724.857142857143
+Monterey,32604,2021-02-05,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,7526.107310046813,2131.0,1766.0
+Monterey,34895,2021-02-06,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,8054.947693046361,2291.0,1918.0
+Monterey,37267,2021-02-07,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,8602.485619050256,2372.0,2141.714285714286
+Monterey,38002,2021-02-08,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,8772.148509274904,735.0,2168.285714285714
+Monterey,38899,2021-02-09,053,433212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/monterey-county/,8979.20648550825,897.0,1837.4285714285713
+Napa,17510,2021-01-28,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,12459.972959510425,,
+Napa,18264,2021-01-29,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,12996.513200028465,754.0,
+Napa,18929,2021-01-30,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,13469.721767594108,665.0,
+Napa,19641,2021-01-31,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,13976.375151213264,712.0,
+Napa,20363,2021-02-01,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,14490.144453141678,722.0,
+Napa,21959,2021-02-02,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,15625.845015299225,1596.0,
+Napa,22250,2021-02-03,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,15832.918238098626,291.0,
+Napa,22695,2021-02-04,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,16149.5766028606,445.0,740.7142857142857
+Napa,23491,2021-02-05,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,16716.00370027752,796.0,746.7142857142857
+Napa,24207,2021-02-06,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,17225.503451220382,716.0,754.0
+Napa,24665,2021-02-07,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,17551.412509784386,458.0,717.7142857142857
+Napa,24828,2021-02-08,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,17667.401978225287,163.0,637.8571428571429
+Napa,25505,2021-02-09,055,140530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/napa-county/,18149.149647762046,677.0,506.57142857142856
+Nevada,5754,2021-01-28,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,5806.725063577282,,
+Nevada,6105,2021-01-29,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,6160.941347434707,351.0,
+Nevada,6812,2021-01-30,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,6874.419731158923,707.0,
+Nevada,7248,2021-01-31,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,7314.414887175553,436.0,
+Nevada,7375,2021-02-01,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,7442.578613813426,127.0,
+Nevada,7922,2021-02-02,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,7994.590885237961,547.0,
+Nevada,8337,2021-02-03,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,8413.393614015258,415.0,
+Nevada,9150,2021-02-04,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,9233.843297138013,813.0,485.14285714285717
+Nevada,9688,2021-02-05,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,9776.773099745691,538.0,511.85714285714283
+Nevada,10478,2021-02-06,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,10574.012029225365,790.0,523.7142857142857
+Nevada,10757,2021-02-07,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,10855.568562547935,279.0,501.2857142857143
+Nevada,11057,2021-02-08,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,11158.317523109838,300.0,526.0
+Nevada,11576,2021-02-09,057,99092.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/nevada-county/,11682.073224881928,519.0,522.0
+Orange,220046,2021-01-28,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,6954.277598444085,,
+Orange,238094,2021-01-29,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,7524.66198214894,18048.0,
+Orange,251708,2021-01-30,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,7954.915362011414,13614.0,
+Orange,266845,2021-01-31,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,8433.301244997918,15137.0,
+Orange,278933,2021-02-01,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,8815.327310502367,12088.0,
+Orange,301433,2021-02-02,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,9526.411565453567,22500.0,
+Orange,312532,2021-02-03,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,9877.181527484829,11099.0,
+Orange,328874,2021-02-04,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,10393.649922792052,16342.0,15546.857142857143
+Orange,344818,2021-02-05,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,10897.540027722805,15944.0,15246.285714285714
+Orange,362070,2021-02-06,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,11442.767830674722,17252.0,15766.0
+Orange,379585,2021-02-07,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,11996.3074184734,17515.0,16105.714285714286
+Orange,393511,2021-02-08,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,12436.421166671196,13926.0,16368.285714285714
+Orange,408645,2021-02-09,059,3164182.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/orange-county/,12914.712238423706,15134.0,15316.0
+Placer,36304,2021-01-28,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,9551.74872460054,,
+Placer,38318,2021-01-29,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,10081.641351620856,2014.0,
+Placer,41366,2021-01-30,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,10883.584115850208,3048.0,
+Placer,43541,2021-01-31,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,11455.836580482375,2175.0,
+Placer,44430,2021-02-01,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,11689.736553382605,889.0,
+Placer,46254,2021-02-02,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,12169.639309929304,1824.0,
+Placer,48366,2021-02-03,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,12725.316185930746,2112.0,
+Placer,50924,2021-02-04,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,13398.337705254462,2558.0,2088.5714285714284
+Placer,53560,2021-02-05,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,14091.881381930505,2636.0,2177.4285714285716
+Placer,55897,2021-02-06,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,14706.756788755962,2337.0,2075.8571428571427
+Placer,57697,2021-02-07,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,15180.3450353481,1800.0,2022.2857142857142
+Placer,58919,2021-02-08,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,15501.858833867873,1222.0,2069.8571428571427
+Placer,62104,2021-02-09,061,380077.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/placer-county/,16339.846925754517,3185.0,2264.285714285714
+Plumas,0,2021-01-28,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,0.0,,
+Plumas,0,2021-01-29,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,0.0,0.0,
+Plumas,0,2021-01-30,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,0.0,0.0,
+Plumas,0,2021-01-31,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,0.0,0.0,
+Plumas,0,2021-02-01,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,0.0,0.0,
+Plumas,1169,2021-02-02,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,6251.671212364297,1169.0,
+Plumas,1169,2021-02-03,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,6251.671212364297,0.0,
+Plumas,1261,2021-02-04,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,6743.676132413498,92.0,180.14285714285714
+Plumas,1315,2021-02-05,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,7032.461628964115,54.0,187.85714285714286
+Plumas,1364,2021-02-06,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,7294.507727685973,49.0,194.85714285714286
+Plumas,1364,2021-02-07,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,7294.507727685973,0.0,194.85714285714286
+Plumas,1364,2021-02-08,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,7294.507727685973,0.0,194.85714285714286
+Plumas,1395,2021-02-09,063,18699.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/plumas-county/,7460.29199422429,31.0,32.285714285714285
+Riverside,122506,2021-01-28,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,5140.213973480313,,
+Riverside,133654,2021-01-29,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,5607.971514958759,11148.0,
+Riverside,144245,2021-01-30,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,6052.357962913389,10591.0,
+Riverside,154760,2021-01-31,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,6493.555536347714,10515.0,
+Riverside,159563,2021-02-01,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,6695.084014255947,4803.0,
+Riverside,168761,2021-02-02,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,7081.021748963406,9198.0,
+Riverside,177143,2021-02-03,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,7432.721041452852,8382.0,
+Riverside,186977,2021-02-04,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,7845.344620830231,9834.0,9210.142857142857
+Riverside,199215,2021-02-05,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,8358.837336349896,12238.0,9365.857142857143
+Riverside,210479,2021-02-06,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,8831.462107359335,11264.0,9462.0
+Riverside,221993,2021-02-07,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,9314.576597185567,11514.0,9604.714285714286
+Riverside,228071,2021-02-08,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,9569.602641059446,6078.0,9786.857142857143
+Riverside,235792,2021-02-09,065,2383286.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/riverside-county/,9893.567116997288,7721.0,9575.857142857143
+Sacramento,92571,2021-01-28,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,6130.436423816061,,
+Sacramento,98621,2021-01-29,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,6531.092572762137,6050.0,
+Sacramento,105749,2021-01-30,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,7003.13836279315,7128.0,
+Sacramento,112330,2021-01-31,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,7438.959539026889,6581.0,
+Sacramento,114964,2021-02-01,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,7613.393968171346,2634.0,
+Sacramento,119962,2021-02-02,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,7944.382304110599,4998.0,
+Sacramento,125529,2021-02-03,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,8313.05218529784,5567.0,
+Sacramento,132100,2021-02-04,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,8748.211119963073,6571.0,5647.0
+Sacramento,138839,2021-02-05,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,9194.495712979206,6739.0,5745.428571428572
+Sacramento,146709,2021-02-06,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,9715.679827393356,7870.0,5851.428571428572
+Sacramento,152294,2021-02-07,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,10085.541743403908,5585.0,5709.142857142857
+Sacramento,157052,2021-02-08,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,10400.63628169902,4758.0,6012.571428571428
+Sacramento,164234,2021-02-09,067,1510023.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sacramento-county/,10876.258176199966,7182.0,6324.571428571428
+San Benito,2620,2021-01-28,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,4409.586643328396,,
+San Benito,2828,2021-01-29,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,4759.660697455231,208.0,
+San Benito,3055,2021-01-30,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,5141.712669987882,227.0,
+San Benito,3125,2021-01-31,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,5259.526053588259,70.0,
+San Benito,3175,2021-02-01,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,5343.678470445671,50.0,
+San Benito,3532,2021-02-02,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,5944.526726807594,357.0,
+San Benito,3703,2021-02-03,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,6232.327992459944,171.0,
+San Benito,3916,2021-02-04,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,6590.817288272518,213.0,185.14285714285714
+San Benito,4156,2021-02-05,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,6994.748889188098,240.0,189.71428571428572
+San Benito,4464,2021-02-06,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,7513.127777029756,308.0,201.28571428571428
+San Benito,4565,2021-02-07,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,7683.115659081728,101.0,205.71428571428572
+San Benito,4591,2021-02-08,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,7726.874915847583,26.0,202.28571428571428
+San Benito,4684,2021-02-09,069,59416.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-benito-county/,7883.398411202369,93.0,164.57142857142858
+San Bernardino,119480,2021-01-28,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,5595.1705829270495,,
+San Bernardino,127927,2021-01-29,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,5990.738091413698,8447.0,
+San Bernardino,136850,2021-01-30,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,6408.596369882548,8923.0,
+San Bernardino,140524,2021-01-31,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,6580.647397014067,3674.0,
+San Bernardino,143488,2021-02-01,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,6719.449586567094,2964.0,
+San Bernardino,149834,2021-02-02,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,7016.628633430629,6346.0,
+San Bernardino,155714,2021-02-03,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,7291.985203798984,5880.0,
+San Bernardino,166507,2021-02-04,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,7797.414364340762,10793.0,6718.142857142857
+San Bernardino,175069,2021-02-05,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,8198.367247928152,8562.0,6734.571428571428
+San Bernardino,186239,2021-02-06,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,8721.451072930622,11170.0,7055.571428571428
+San Bernardino,192389,2021-02-07,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,9009.451567448545,6150.0,7409.285714285715
+San Bernardino,195902,2021-02-08,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,9173.963069439027,3513.0,7487.714285714285
+San Bernardino,202626,2021-02-09,071,2135413.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-bernardino-county/,9488.843610111955,6724.0,7541.714285714285
+San Diego,284197,2021-01-28,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,8604.64334709021,,
+San Diego,304926,2021-01-29,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,9232.256066231626,20729.0,
+San Diego,322811,2021-01-30,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,9773.760889515153,17885.0,
+San Diego,339769,2021-01-31,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,10287.19889864247,16958.0,
+San Diego,353036,2021-02-01,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,10688.884360789662,13267.0,
+San Diego,365205,2021-02-02,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,11057.325635295518,12169.0,
+San Diego,380217,2021-02-03,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,11511.84452862134,15012.0,
+San Diego,401463,2021-02-04,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,12155.110476369831,21246.0,16752.285714285714
+San Diego,441265,2021-02-05,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,13360.197139849337,39802.0,19477.0
+San Diego,471257,2021-02-06,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,14268.266061287386,29992.0,21206.571428571428
+San Diego,494365,2021-02-07,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,14967.907853651699,23108.0,22085.14285714286
+San Diego,503429,2021-02-08,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,15242.338925401313,9064.0,21484.714285714286
+San Diego,508287,2021-02-09,073,3302833.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-diego-county/,15389.42477563958,4858.0,20440.285714285714
+San Francisco,69212,2021-01-28,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,7954.999977012657,,
+San Francisco,73432,2021-01-29,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,8440.032917875418,4220.0,
+San Francisco,78029,2021-01-30,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,8968.397000611463,4597.0,
+San Francisco,81529,2021-01-31,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,9370.67550606636,3500.0,
+San Francisco,83631,2021-02-01,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,9612.272482770986,2102.0,
+San Francisco,87047,2021-02-02,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,10004.896304094966,3416.0,
+San Francisco,90265,2021-02-03,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,10374.762655681781,3218.0,
+San Francisco,95802,2021-02-04,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,11011.167251311428,5537.0,3798.5714285714284
+San Francisco,101328,2021-02-05,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,11646.307543066787,5526.0,3985.1428571428573
+San Francisco,106969,2021-02-06,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,12294.665557144237,5641.0,4134.285714285715
+San Francisco,112273,2021-02-07,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,12904.289897982171,5304.0,4392.0
+San Francisco,115986,2021-02-08,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,13331.049923911894,3713.0,4622.142857142857
+San Francisco,123433,2021-02-09,075,870044.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-francisco-county/,14186.983646804068,7447.0,5198.0
+San Joaquin,37393,2021-01-28,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,5106.85429902815,,
+San Joaquin,40556,2021-01-29,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,5538.833015574724,3163.0,
+San Joaquin,42840,2021-01-30,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,5850.764532676329,2284.0,
+San Joaquin,44715,2021-01-31,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,6106.83791033198,1875.0,
+San Joaquin,45944,2021-02-01,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,6274.685473606005,1229.0,
+San Joaquin,47437,2021-02-02,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,6478.588168453945,1493.0,
+San Joaquin,49702,2021-02-03,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,6787.924808661973,2265.0,
+San Joaquin,52662,2021-02-04,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,7192.179314187694,2960.0,2181.285714285714
+San Joaquin,55723,2021-02-05,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,7610.227638989802,3061.0,2166.714285714286
+San Joaquin,58582,2021-02-06,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,8000.688325239139,2859.0,2248.8571428571427
+San Joaquin,59466,2021-02-07,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,8121.418387024523,884.0,2107.285714285714
+San Joaquin,60974,2021-02-08,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,8327.369668893709,1508.0,2147.1428571428573
+San Joaquin,63877,2021-02-09,077,732212.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-joaquin-county/,8723.839543738699,2903.0,2348.5714285714284
+San Luis Obispo,21895,2021-01-28,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,7779.2187028121725,,
+San Luis Obispo,23461,2021-01-29,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,8335.613153079534,1566.0,
+San Luis Obispo,24901,2021-01-30,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,8847.24023378515,1440.0,
+San Luis Obispo,25267,2021-01-31,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,8977.278783464497,366.0,
+San Luis Obispo,25486,2021-02-01,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,9055.08873532181,219.0,
+San Luis Obispo,30047,2021-02-02,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,10675.596454140094,4561.0,
+San Luis Obispo,31513,2021-02-03,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,11196.46124602512,1466.0,
+San Luis Obispo,32909,2021-02-04,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,11692.45527704251,1396.0,1573.4285714285713
+San Luis Obispo,34453,2021-02-05,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,12241.033202465758,1544.0,1570.2857142857142
+San Luis Obispo,35700,2021-02-06,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,12684.088042493471,1247.0,1542.7142857142858
+San Luis Obispo,35911,2021-02-07,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,12759.055621680198,211.0,1520.5714285714287
+San Luis Obispo,36243,2021-02-08,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,12877.014087509548,332.0,1536.7142857142858
+San Luis Obispo,37037,2021-02-09,079,281455.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-luis-obispo-county/,13159.119575065286,794.0,998.5714285714286
+San Mateo,65222,2021-01-28,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,8515.343991330856,,
+San Mateo,68150,2021-01-29,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,8897.621860862868,2928.0,
+San Mateo,71574,2021-01-30,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,9344.657183703577,3424.0,
+San Mateo,74914,2021-01-31,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,9780.725518483945,3340.0,
+San Mateo,76767,2021-02-01,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,10022.652052719879,1853.0,
+San Mateo,79579,2021-02-02,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,10389.785033978078,2812.0,
+San Mateo,81993,2021-02-03,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,10704.955381331314,2414.0,
+San Mateo,86821,2021-02-04,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,11335.296076037783,4828.0,3085.5714285714284
+San Mateo,90456,2021-02-05,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,11809.879428411026,3635.0,3186.5714285714284
+San Mateo,98085,2021-02-06,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,12805.916951177318,7629.0,3787.285714285714
+San Mateo,102300,2021-02-07,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,13356.22474491961,4215.0,3912.285714285714
+San Mateo,104820,2021-02-08,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,13685.234386729944,2520.0,4007.5714285714284
+San Mateo,109517,2021-02-09,081,765935.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/san-mateo-county/,14298.471802437543,4697.0,4276.857142857143
+Santa Barbara,31933,2021-01-28,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,7196.3636199739485,,
+Santa Barbara,33361,2021-01-29,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,7518.17513938405,1428.0,
+Santa Barbara,34456,2021-01-30,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,7764.942375906503,1095.0,
+Santa Barbara,36664,2021-01-31,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,8262.533296675065,2208.0,
+Santa Barbara,38334,2021-02-01,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,8638.881502147664,1670.0,
+Santa Barbara,39400,2021-02-02,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,8879.113350670892,1066.0,
+Santa Barbara,40037,2021-02-03,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,9022.666528446967,637.0,
+Santa Barbara,42352,2021-02-04,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,9544.370777350598,2315.0,1488.4285714285713
+Santa Barbara,45469,2021-02-05,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,10246.812308163826,3117.0,1729.7142857142858
+Santa Barbara,48576,2021-02-06,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,10947.000256908355,3107.0,2017.142857142857
+Santa Barbara,49750,2021-02-07,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,11211.570791773524,1174.0,1869.4285714285713
+Santa Barbara,50034,2021-02-08,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,11275.572522524553,284.0,1671.4285714285713
+Santa Barbara,51650,2021-02-09,083,443738.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-barbara-county/,11639.751384826182,1616.0,1750.0
+Santa Clara,158853,2021-01-28,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,8264.12444074498,,
+Santa Clara,168380,2021-01-29,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,8759.754448028301,9527.0,
+Santa Clara,176442,2021-01-30,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,9179.169701383831,8062.0,
+Santa Clara,182444,2021-01-31,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,9491.416085735094,6002.0,
+Santa Clara,185323,2021-02-01,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,9641.192383726979,2879.0,
+Santa Clara,192511,2021-02-02,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,10015.138903339923,7188.0,
+Santa Clara,199441,2021-02-03,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,10375.663302465924,6930.0,
+Santa Clara,208713,2021-02-04,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,10858.027260430757,9272.0,7122.857142857143
+Santa Clara,218803,2021-02-05,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,11382.94662366039,10090.0,7203.285714285715
+Santa Clara,229491,2021-02-06,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,11938.97617313495,10688.0,7578.428571428572
+Santa Clara,235625,2021-02-07,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,12258.089688898137,6134.0,7597.285714285715
+Santa Clara,240314,2021-02-08,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,12502.028925189887,4689.0,7855.857142857143
+Santa Clara,250772,2021-02-09,085,1922200.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-clara-county/,13046.093018416399,10458.0,8323.0
+Santa Cruz,22184,2021-01-28,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,8103.300275783976,,
+Santa Cruz,24074,2021-01-29,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,8793.673406023414,1890.0,
+Santa Cruz,25713,2021-01-30,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,9392.362062352748,1639.0,
+Santa Cruz,27023,2021-01-31,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,9870.87465527003,1310.0,
+Santa Cruz,27549,2021-02-01,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,10063.010246013917,526.0,
+Santa Cruz,29782,2021-02-02,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,10878.673314704216,2233.0,
+Santa Cruz,30670,2021-02-03,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,11203.039102880208,888.0,
+Santa Cruz,32080,2021-02-04,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,11718.079374646139,1410.0,1413.7142857142858
+Santa Cruz,33998,2021-02-05,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,12418.680254963198,1918.0,1417.7142857142858
+Santa Cruz,36487,2021-02-06,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,13327.854181506036,2489.0,1539.142857142857
+Santa Cruz,39911,2021-02-07,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,14578.56190528373,3424.0,1841.142857142857
+Santa Cruz,40529,2021-02-08,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,14804.302960568371,618.0,1854.2857142857142
+Santa Cruz,41586,2021-02-09,087,273765.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/santa-cruz-county/,15190.400525998577,1057.0,1686.2857142857142
+Shasta,9648,2021-01-28,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,5387.385878214255,,
+Shasta,10725,2021-01-29,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,5988.776279420386,1077.0,
+Shasta,11959,2021-01-30,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,6677.834547840411,1234.0,
+Shasta,12837,2021-01-31,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,7168.104531367786,878.0,
+Shasta,12956,2021-02-01,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,7234.553424351566,119.0,
+Shasta,13601,2021-02-02,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,7594.717592204819,645.0,
+Shasta,14151,2021-02-03,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,7901.834324482787,550.0,
+Shasta,14831,2021-02-04,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,8281.542284390094,680.0,740.4285714285714
+Shasta,15526,2021-02-05,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,8669.62615517771,695.0,685.8571428571429
+Shasta,16562,2021-02-06,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,9248.122399977663,1036.0,657.5714285714286
+Shasta,17132,2021-02-07,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,9566.407013429378,570.0,613.5714285714286
+Shasta,17320,2021-02-08,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,9671.385096462573,188.0,623.4285714285714
+Shasta,17860,2021-02-09,089,179085.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/shasta-county/,9972.91788815367,540.0,608.4285714285714
+Sierra,0,2021-01-28,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,0.0,,
+Sierra,0,2021-01-29,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,0.0,0.0,
+Sierra,0,2021-01-30,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,0.0,0.0,
+Sierra,0,2021-01-31,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,0.0,0.0,
+Sierra,0,2021-02-01,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,0.0,0.0,
+Sierra,367,2021-02-02,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,12525.597269624572,367.0,
+Sierra,367,2021-02-03,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,12525.597269624572,0.0,
+Sierra,424,2021-02-04,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,14470.98976109215,57.0,60.57142857142857
+Sierra,518,2021-02-05,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,17679.180887372015,94.0,74.0
+Sierra,518,2021-02-06,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,17679.180887372015,0.0,74.0
+Sierra,518,2021-02-07,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,17679.180887372015,0.0,74.0
+Sierra,518,2021-02-08,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,17679.180887372015,0.0,74.0
+Sierra,518,2021-02-09,091,2930.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sierra-county/,17679.180887372015,0.0,21.571428571428573
+Siskiyou,3171,2021-01-28,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,7282.958199356914,,
+Siskiyou,3347,2021-01-29,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,7687.184198438218,176.0,
+Siskiyou,3582,2021-01-30,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,8226.917776757005,235.0,
+Siskiyou,3618,2021-01-31,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,8309.600367478182,36.0,
+Siskiyou,3678,2021-02-01,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,8447.404685346806,60.0,
+Siskiyou,4187,2021-02-02,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,9616.444648598988,509.0,
+Siskiyou,4418,2021-02-03,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,10146.991272393203,231.0,
+Siskiyou,4698,2021-02-04,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,10790.078089113458,280.0,218.14285714285714
+Siskiyou,5080,2021-02-05,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,11667.432246210381,382.0,247.57142857142858
+Siskiyou,5504,2021-02-06,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,12641.249425815344,424.0,274.57142857142856
+Siskiyou,5558,2021-02-07,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,12765.273311897108,54.0,277.14285714285717
+Siskiyou,5594,2021-02-08,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,12847.955902618283,36.0,273.7142857142857
+Siskiyou,5811,2021-02-09,093,43540.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/siskiyou-county/,13346.348185576482,217.0,232.0
+Solano,32967,2021-01-28,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,7517.615670535653,,
+Solano,34743,2021-01-29,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,7922.605066928147,1776.0,
+Solano,36434,2021-01-30,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,8308.211524867169,1691.0,
+Solano,37653,2021-01-31,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,8586.185665746927,1219.0,
+Solano,38192,2021-02-01,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,8709.096298998928,539.0,
+Solano,41233,2021-02-02,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,9402.549426493057,3041.0,
+Solano,43152,2021-02-03,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,9840.147766401386,1919.0,
+Solano,44997,2021-02-04,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,10260.871548126695,1845.0,1718.5714285714287
+Solano,46852,2021-02-05,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,10683.875675552414,1855.0,1729.857142857143
+Solano,49255,2021-02-06,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,11231.8427473605,2403.0,1831.5714285714287
+Solano,51810,2021-02-07,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,11814.47107381479,2555.0,2022.4285714285713
+Solano,53040,2021-02-08,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,12094.953594964996,1230.0,2121.1428571428573
+Solano,54788,2021-02-09,095,438530.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/solano-county/,12493.558023396346,1748.0,1936.4285714285713
+Sonoma,36167,2021-01-28,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,7214.397277570879,,
+Sonoma,39243,2021-01-29,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,7827.981097788425,3076.0,
+Sonoma,42526,2021-01-30,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,8482.85615688277,3283.0,
+Sonoma,43721,2021-01-31,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,8721.228284698105,1195.0,
+Sonoma,44673,2021-02-01,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,8911.128088614589,952.0,
+Sonoma,50790,2021-02-02,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,10131.314118611577,6117.0,
+Sonoma,53118,2021-02-03,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,10595.6909500376,2328.0,
+Sonoma,56527,2021-02-04,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,11275.699806709128,3409.0,2908.5714285714284
+Sonoma,59957,2021-02-05,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,11959.89762964352,3430.0,2959.1428571428573
+Sonoma,63886,2021-02-06,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,12743.633269966906,3929.0,3051.4285714285716
+Sonoma,68692,2021-02-07,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,13702.308120410838,4806.0,3567.285714285714
+Sonoma,70731,2021-02-08,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,14109.036797076502,2039.0,3722.5714285714284
+Sonoma,73528,2021-02-09,097,501317.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sonoma-county/,14666.967208373144,2797.0,3248.285714285714
+Stanislaus,34614,2021-01-28,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,6418.308143318852,,
+Stanislaus,36768,2021-01-29,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,6817.714040953011,2154.0,
+Stanislaus,38589,2021-01-30,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,7155.373344384676,1821.0,
+Stanislaus,41064,2021-01-31,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,7614.300733727547,2475.0,
+Stanislaus,41216,2021-02-01,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,7642.485365315472,152.0,
+Stanislaus,42680,2021-02-02,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,7913.947869557075,1464.0,
+Stanislaus,43804,2021-02-03,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,8122.365803141473,1124.0,
+Stanislaus,45646,2021-02-04,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,8463.919035937259,1842.0,1576.0
+Stanislaus,47737,2021-02-05,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,8851.643145479056,2091.0,1567.0
+Stanislaus,49479,2021-02-06,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,9174.653857493311,1742.0,1555.7142857142858
+Stanislaus,50178,2021-02-07,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,9304.266077756207,699.0,1302.0
+Stanislaus,50871,2021-02-08,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,9432.765746772211,693.0,1379.2857142857142
+Stanislaus,52476,2021-02-09,099,539301.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/stanislaus-county/,9730.373205315771,1605.0,1399.4285714285713
+Sutter,6011,2021-01-28,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,6269.818090787717,,
+Sutter,6423,2021-01-29,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,6699.557743658211,412.0,
+Sutter,6973,2021-01-30,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,7273.239319092123,550.0,
+Sutter,7317,2021-01-31,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,7632.051068090788,344.0,
+Sutter,7985,2021-02-01,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,8328.81341789052,668.0,
+Sutter,8120,2021-02-02,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,8469.626168224298,135.0,
+Sutter,8318,2021-02-03,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,8676.151535380508,198.0,
+Sutter,8803,2021-02-04,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,9182.03437917223,485.0,398.85714285714283
+Sutter,9441,2021-02-05,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,9847.505006675568,638.0,431.14285714285717
+Sutter,9676,2021-02-06,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,10092.62349799733,235.0,386.14285714285717
+Sutter,9978,2021-02-07,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,10407.626835781042,302.0,380.14285714285717
+Sutter,10547,2021-02-08,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,11001.12650200267,569.0,366.0
+Sutter,10679,2021-02-09,101,95872.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/sutter-county/,11138.810080106809,132.0,365.57142857142856
+Tehama,1713,2021-01-28,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,2703.043883041674,,
+Tehama,1781,2021-01-29,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,2810.345099648115,68.0,
+Tehama,1864,2021-01-30,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,2941.3157022706832,83.0,
+Tehama,1995,2021-01-31,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,3148.028340144857,131.0,
+Tehama,2034,2021-02-01,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,3209.5687437867864,39.0,
+Tehama,2108,2021-02-02,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,3326.337714799678,74.0,
+Tehama,2229,2021-02-03,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,3517.270761996434,121.0,
+Tehama,2372,2021-02-04,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,3742.918908683509,143.0,94.14285714285714
+Tehama,2737,2021-02-05,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,4318.873968409259,365.0,136.57142857142858
+Tehama,3075,2021-02-06,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,4852.224133305982,338.0,173.0
+Tehama,3742,2021-02-07,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,5904.722831489751,667.0,249.57142857142858
+Tehama,4056,2021-02-08,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,6400.2019787606705,314.0,288.85714285714283
+Tehama,4355,2021-02-09,103,63373.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tehama-county/,6872.011740015464,299.0,321.0
+Trinity,0,2021-01-28,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,0.0,,
+Trinity,0,2021-01-29,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,0.0,0.0,
+Trinity,0,2021-01-30,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,0.0,0.0,
+Trinity,0,2021-01-31,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,0.0,0.0,
+Trinity,0,2021-02-01,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,0.0,0.0,
+Trinity,251,2021-02-02,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,1951.4849945576116,251.0,
+Trinity,252,2021-02-03,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,1959.259835173379,1.0,
+Trinity,252,2021-02-04,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,1959.259835173379,0.0,36.0
+Trinity,252,2021-02-05,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,1959.259835173379,0.0,36.0
+Trinity,566,2021-02-06,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,4400.559788524335,314.0,80.85714285714286
+Trinity,780,2021-02-07,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,6064.375680298554,214.0,111.42857142857143
+Trinity,780,2021-02-08,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,6064.375680298554,0.0,111.42857142857143
+Trinity,799,2021-02-09,105,12862.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/trinity-county/,6212.097651998134,19.0,78.28571428571429
+Tulare,22964,2021-01-28,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,4987.002608165011,,
+Tulare,24527,2021-01-29,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,5326.433242051177,1563.0,
+Tulare,25831,2021-01-30,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,5609.617852791779,1304.0,
+Tulare,26518,2021-01-31,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,5758.8109721006695,687.0,
+Tulare,28111,2021-02-01,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,6104.75658936277,1593.0,
+Tulare,28563,2021-02-02,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,6202.915672226843,452.0,
+Tulare,29403,2021-02-03,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,6385.335206752997,840.0,
+Tulare,30266,2021-02-04,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,6572.749561867367,863.0,1043.142857142857
+Tulare,31037,2021-02-05,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,6740.184634628874,771.0,930.0
+Tulare,31533,2021-02-06,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,6847.899026444318,496.0,814.5714285714286
+Tulare,32247,2021-02-07,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,7002.955630791549,714.0,818.4285714285714
+Tulare,32962,2021-02-08,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,7158.22940125131,715.0,693.0
+Tulare,33552,2021-02-09,107,460477.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tulare-county/,7286.357407644682,590.0,712.7142857142857
+Tuolumne,4490,2021-01-28,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,8325.298524067344,,
+Tuolumne,4528,2021-01-29,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,8395.757620707556,38.0,
+Tuolumne,4609,2021-01-30,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,8545.946747756434,81.0,
+Tuolumne,5326,2021-01-31,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,9875.398650152043,717.0,
+Tuolumne,5334,2021-02-01,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,9890.232144181562,8.0,
+Tuolumne,5406,2021-02-02,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,10023.73359044723,72.0,
+Tuolumne,5734,2021-02-03,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,10631.906845657495,328.0,
+Tuolumne,6104,2021-02-04,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,11317.955944522733,370.0,230.57142857142858
+Tuolumne,6400,2021-02-05,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,11866.795223614921,296.0,267.42857142857144
+Tuolumne,6468,2021-02-06,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,11992.879922865832,68.0,265.57142857142856
+Tuolumne,7155,2021-02-07,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,13266.706222650746,687.0,261.2857142857143
+Tuolumne,7159,2021-02-08,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,13274.122969665506,4.0,260.7142857142857
+Tuolumne,7436,2021-02-09,109,53932.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/tuolumne-county/,13787.732700437587,277.0,290.0
+Ventura,60015,2021-01-28,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,7076.305959590243,,
+Ventura,64461,2021-01-29,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,7600.529175391929,4446.0,
+Ventura,68247,2021-01-30,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,8046.932480615767,3786.0,
+Ventura,72458,2021-01-31,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,8543.447091893524,4211.0,
+Ventura,73480,2021-02-01,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,8663.950044333767,1022.0,
+Ventura,76245,2021-02-02,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,8989.968306072784,2765.0,
+Ventura,79689,2021-02-03,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,9396.046748542645,3444.0,
+Ventura,83819,2021-02-04,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,9883.0107344313,4130.0,3400.5714285714284
+Ventura,88072,2021-02-05,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,10384.477521836738,4253.0,3373.0
+Ventura,92730,2021-02-06,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,10933.697436187673,4658.0,3497.5714285714284
+Ventura,96981,2021-02-07,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,11434.928405682269,4251.0,3503.285714285714
+Ventura,98467,2021-02-08,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,11610.141113437849,1486.0,3569.5714285714284
+Ventura,100638,2021-02-09,111,848112.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/ventura-county/,11866.1214556568,2171.0,3484.714285714286
+Yolo,15634,2021-01-28,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,7272.405885280751,,
+Yolo,16458,2021-01-29,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,7655.7027030798645,824.0,
+Yolo,17210,2021-01-30,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,8005.507565925657,752.0,
+Yolo,18434,2021-01-31,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,8574.870800132108,1224.0,
+Yolo,18694,2021-02-01,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,8695.813970796875,260.0,
+Yolo,19326,2021-02-02,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,8989.798908720468,632.0,
+Yolo,19944,2021-02-03,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,9277.271522069803,618.0,
+Yolo,20905,2021-02-04,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,9724.29608748843,961.0,753.0
+Yolo,23950,2021-02-05,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,11140.726682389279,3045.0,1070.2857142857142
+Yolo,25867,2021-02-06,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,12032.449983021439,1917.0,1236.7142857142858
+Yolo,26609,2021-02-07,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,12377.60318545705,742.0,1167.857142857143
+Yolo,27189,2021-02-08,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,12647.399489247688,580.0,1213.5714285714287
+Yolo,28227,2021-02-09,113,214977.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yolo-county/,13130.241839824725,1038.0,1271.5714285714287
+Yuba,2844,2021-01-28,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,3767.2366974421475,,
+Yuba,2986,2021-01-29,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,3955.3336070893993,142.0,
+Yuba,3226,2021-01-30,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,4273.243876915741,240.0,
+Yuba,3388,2021-01-31,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,4487.833309048521,162.0,
+Yuba,3756,2021-02-01,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,4975.295722782245,368.0,
+Yuba,3841,2021-02-02,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,5087.888943345741,85.0,
+Yuba,3947,2021-02-03,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,5228.299312519041,106.0,
+Yuba,4238,2021-02-04,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,5613.76551468348,291.0,199.14285714285714
+Yuba,4510,2021-02-05,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,5974.063820486668,272.0,217.71428571428572
+Yuba,4653,2021-02-06,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,6163.485356258197,143.0,203.85714285714286
+Yuba,4800,2021-02-07,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,6358.205396526831,147.0,201.71428571428572
+Yuba,5133,2021-02-08,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,6799.3058959108785,333.0,196.71428571428572
+Yuba,5229,2021-02-09,115,75493.0,https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/yuba-county/,6926.470003841416,96.0,198.28571428571428
