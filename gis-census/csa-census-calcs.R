@@ -173,3 +173,89 @@ area = csa %>%
 area
 
 area %>% write_csv('gis-census/area.csv')
+
+
+# age ---------------------------------------------------------------------
+
+age.raw = get.acs.custom(
+  variables = c(
+    "total" = 'B01001_001',
+    "male" = 'B01001_002',
+    "male_0_4" = 'B01001_003',
+    "male_5_9" = 'B01001_004',
+    "male_10_14" = 'B01001_005',
+    "male_15_17" = 'B01001_006',
+    "male_18_19" = 'B01001_007',
+    "male_20" = 'B01001_008',
+    "male_21" = 'B01001_009',
+    "male_22_24" = 'B01001_010',
+    "male_25_29" = 'B01001_011',
+    "male_30_34" = 'B01001_012',
+    "male_35_39" = 'B01001_013',
+    "male_40_44" = 'B01001_014',
+    "male_45_49" = 'B01001_015',
+    "male_50_54" = 'B01001_016',
+    "male_55_59" = 'B01001_017',
+    "male_60_61" = 'B01001_018',
+    "male_62_64" = 'B01001_019',
+    "male_65_66" = 'B01001_020',
+    "male_67_69" = 'B01001_021',
+    "male_70_74" = 'B01001_022',
+    "male_75_79" = 'B01001_023',
+    "male_80_84" = 'B01001_024',
+    "male_85_over" = 'B01001_025',
+    "female" = 'B01001_026',
+    "female_0_4" = 'B01001_027',
+    "female_5_9" = 'B01001_028',
+    "female_10_14" = 'B01001_029',
+    "female_15_17" = 'B01001_030',
+    "female_18_19" = 'B01001_031',
+    "female_20" = 'B01001_032',
+    "female_21" = 'B01001_033',
+    "female_22_24" = 'B01001_034',
+    "female_25_29" = 'B01001_035',
+    "female_30_34" = 'B01001_036',
+    "female_35_39" = 'B01001_037',
+    "female_40_44" = 'B01001_038',
+    "female_45_49" = 'B01001_039',
+    "female_50_54" = 'B01001_040',
+    "female_55_59" = 'B01001_041',
+    "female_60_61" = 'B01001_042',
+    "female_62_64" = 'B01001_043',
+    "female_65_66" = 'B01001_044',
+    "female_67_69" = 'B01001_045',
+    "female_70_74" = 'B01001_046',
+    "female_75_79" = 'B01001_047',
+    "female_80_84" = 'B01001_048',
+    "female_85_over" = 'B01001_049'
+  )
+)
+
+age.raw
+
+age.65 = age.raw %>% 
+  select(-NAME, -moe) %>% 
+  filter(!variable %in% c('total', 'male', 'female')) %>% 
+  separate(variable, into = c('gender', 'lo', 'hi')) %>% 
+  mutate(hi = coalesce(hi, lo)) %>% 
+  mutate(lo = as.numeric(lo)) %>% 
+  mutate(group = if_else(lo >= 65, 'gte65', 'lt65')) %>% 
+  group_by(tract.fips = GEOID, group) %>% 
+  summarise(pop = sum(estimate)) %>% 
+  pivot_wider(names_from = group, values_from = pop) %>% 
+  mutate(total = gte65 + lt65) %>% 
+  left_join(xwalk) %>% 
+  mutate(
+    prop.gte65 = pct.of.tract * gte65,
+    prop.total = pct.of.tract * total
+  ) %>% 
+  group_by(hood.name) %>% 
+  summarise(
+    gte65 = sum(prop.gte65),
+    total = sum(prop.total),
+  ) %>% 
+  mutate(pct.gte65 = gte65 / total)
+
+age.65
+
+age.65 %>% write_csv('gis-census/csa-age-65.csv')

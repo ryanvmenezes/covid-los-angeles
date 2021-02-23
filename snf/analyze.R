@@ -124,7 +124,18 @@ all.snf.monthly %>%
   # filter(month == '2020-12-01') %>% 
   arrange(-new.deaths)
 
-# checking kai-ai 
+# checking kai-ai
+
+all.snf %>% 
+  filter(id == '970000111') %>% 
+  arrange(date) %>% 
+  filter(month(date) == 12) %>% 
+  select(date, patients_confirmed_cases, patients_deaths, new_cases, new_deaths) %>% 
+  mutate(
+    cum.cases = cumsum(new_cases),
+    cum.deaths = cumsum(new_deaths)
+  ) %>% 
+  view()
 
 all.snf.monthly %>% 
   filter(id == '970000111') %>% 
@@ -132,6 +143,16 @@ all.snf.monthly %>%
     cum.cases = cumsum(new.cases),
     cum.deaths = cumsum(new.deaths)
   )
+
+all.snf.monthly %>% 
+  group_by(id) %>% 
+  arrange(month) %>% 
+  mutate(
+    cum.cases = cumsum(new.cases),
+    cum.deaths = cumsum(new.deaths)
+  ) %>% 
+  filter(month == '2020-12-01') %>% 
+  arrange(-cum.deaths)
 
 all.snf %>% 
   filter(id == '970000111') %>% 
