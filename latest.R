@@ -3,7 +3,7 @@ library(lubridate)
 
 data = read_csv('latdata/latimes-county-totals.csv')
 
-counts.21 = data %>% 
+counts.by.week = data %>% 
   mutate(week = floor_date(date, 'weeks', week_start = 1)) %>% 
   group_by(week) %>% 
   summarise(
@@ -12,8 +12,12 @@ counts.21 = data %>%
   ) %>% 
   arrange(desc(week)) %>% 
   mutate(week = lag(week) - 1) %>%
-  filter(year(week) == 2021) %>% 
   drop_na(week)
+
+counts.by.week
+
+counts.21 = counts.by.week %>% 
+  filter(year(week) == 2021)
 
 counts.21
 
@@ -23,7 +27,7 @@ icu = read_csv('latdata/cdph-hospital-patient-county-totals.csv')
 
 icu
 
-icu.21 = icu %>% 
+icu.by.week = icu %>% 
   group_by(date) %>% 
   summarise(
     hosp = sum(positive_patients) + sum(icu_positive_patients)
@@ -32,8 +36,14 @@ icu.21 = icu %>%
   arrange(date) %>% 
   group_by(week) %>% 
   summarise(hosp = last(hosp)) %>% 
-  arrange(desc(week)) %>% 
+  arrange(desc(week))
+
+icu.by.week
+
+icu.21 = icu.by.week %>% 
   filter(year(week) == 2021)
+
+icu.21
 
 icu.21 %>% write_csv('latest-hospitalizations.csv',  na = '')  
 
@@ -43,3 +53,18 @@ counts.21 %>%
   ggplot(aes(week, value)) +
   geom_bar(stat = 'identity') +
   facet_wrap(. ~ name, scale = 'free_y')
+
+counts.by.week %>% 
+  left_join(icu.by.week) %>% 
+  pivot_longer(-week) %>% 
+  ggplot(aes(week, value)) +
+  geom_line() +
+  geom_vline(xintercept = ymd('2020-11-01'), color = 'red') +
+  facet_wrap(. ~ name, scale = 'free_y')
+
+counts.by.week %>% 
+  left_join(icu.by.week) %>% 
+  pivot_longer(-week) %>% 
+  filter(week > ymd('2020-09-01')) %>% 
+  group_by(name) %>% 
+  filter(value == min(value))
