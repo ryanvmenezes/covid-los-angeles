@@ -134,8 +134,7 @@ all.snf %>%
   mutate(
     cum.cases = cumsum(new_cases),
     cum.deaths = cumsum(new_deaths)
-  ) %>% 
-  view()
+  )
 
 all.snf.monthly %>% 
   filter(id == '970000111') %>% 
@@ -304,7 +303,26 @@ la.snf %>%
 
 kei.ai = la.snf %>% 
   filter(id == '970000111') %>% 
-  select(date, cases = patients_confirmed_cases, deaths = patients_deaths)
+  select(date, cases = patients_confirmed_cases, deaths = patients_deaths) %>% 
+  arrange(date) %>% 
+  mutate(
+    new.cases = cases - lag(cases),
+    new.deaths = deaths - lag(deaths),
+    december.cum.cases = case_when(
+      month(date) == 12 ~ new.cases,
+    ),
+    december.cum.cases = cumsum(replace_na(december.cum.cases, 0)),
+    december.cum.cases = case_when(
+      month(date) == 12 ~ december.cum.cases,
+    ),
+    december.cum.deaths = case_when(
+      month(date) == 12 ~ new.deaths,
+    ),
+    december.cum.deaths = cumsum(replace_na(december.cum.deaths, 0)),
+    december.cum.deaths = case_when(
+      month(date) == 12 ~ december.cum.deaths,
+    )
+  )
 
 kei.ai
 
